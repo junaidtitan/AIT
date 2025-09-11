@@ -1,0 +1,358 @@
+<html><head><title>JunaidQ Docs Index</title></head><body>
+<h1>📚 JunaidQ AI News — Documentation Index</h1>
+<p>This page compiles all markdown documents in the <code>docs/</code> folder.</p>
+<hr>
+<h2 id='CHECKLISTS.md'>CHECKLISTS.md</h2>
+<h1>Checklists</h1>
+
+<h2>Owner Checklist (Setup)</h2>
+<p>1. Enable YouTube Data API v3; create OAuth client (client ID/secret).</p><p>2. Generate API keys: OpenAI, ElevenLabs.</p><p>3. Create Slack webhook URL for approvals.</p><p>4. Provision Postgres (Cloud SQL/RDS), GCS/S3 bucket, Pub/Sub/SQS.</p><p>5. Create Prefect Cloud workspace + API key.</p>6. Provide brand kit (color <code>#0EA5E9</code><p>, Inter font, logo, intro animation).</p>
+<h2>First-Run Checklist</h2>
+<ul><li>[ ] Cloud project created and billing enabled.</li>
+<li>[ ] Service account created + IAM roles applied.</li>
+<li>[ ] Secrets stored in Secret Manager.</li>
+<li>[ ] DB initialized with schema.</li>
+<li>[ ] GCS/S3 bucket created.</li>
+<li>[ ] Prefect worker deployed and healthy.</li>
+<li>[ ] <code>.env</code> populated locally for testing.</li>
+<li>[ ] Dry run of Vid 1 (Daily Exec Summary) with topic + script approvals.</li>
+<li>[ ] Pictory/CapCut API test with placeholder video.</li>
+<li>[ ] YouTube upload test (Unlisted).</li>
+
+<h2>Content Review Checklist (QC Gate)</h2>
+<li>[ ] All claims sourced (≥2 sources where possible).</li>
+<li>[ ] No policy-violating content (hate, medical, financial advice).</li>
+<li>[ ] Stock assets licensed + IDs tracked.</li>
+<li>[ ] Synthetic content label applied.</li>
+<li>[ ] Captions auto-generated + synced.</li>
+<li>[ ] Thumbnail text ≤4 words, no clickbait, brand color applied.</li>
+<li>[ ] Final review by Junaid.</li>
+
+<h2>Next 48h Enhancements</h2>
+<li>[ ] Slack interactive approvals (buttons).</li>
+<li>[ ] Thumbnail A/B testing (v2).</li>
+<li>[ ] Title optimization (bandit) (v2).</li>
+<li>[ ] Daily analytics digest (v2).</li>
+<li>[ ] CapCut CLI fallback rendering.</li></ul>
+
+<hr>
+<h2 id='CONTRADICTIONS_RESOLVED.md'>CONTRADICTIONS_RESOLVED.md</h2>
+<h1>Contradictions & Resolutions — JunaidQ AI News v0.4</h1>
+
+<p>This document tracks contradictions, gaps, and missing elements identified in v0.1 and their resolutions up to v0.4.</p>
+<hr>
+
+<h2>Audience</h2>
+<ul><li><b>Contradiction (v0.1)</b>: General tech-curious audience vs high-CPM executives.  </li>
+<li><b>Resolution (ADR-0002, v0.4)</b>: Dual-target model — execs + practitioners in the field, overlapping but unified.</li>
+
+<h2>Content Scope</h2>
+<li><b>Contradiction (v0.1)</b>: Daily news vs evergreen explainers.  </li>
+<li><b>Resolution (ADR-0002, v0.4)</b>: News only; no evergreen content.</li>
+
+<h2>Approvals</h2>
+<li><b>Contradiction (v0.1)</b>: Optional automation toggle vs strict manual approval gates.  </li>
+<li><b>Resolution (ADR-0003, v0.4)</b>: Approvals are mandatory for topic, script, QC.</li>
+
+<h2>Video Formats</h2>
+<li><b>Contradiction (v0.1)</b>: Daily-only vs Shorts + case studies + tutorials.  </li>
+<li><b>Resolution (ADR-0004, v0.4)</b>: 3 daily (Exec Summary, Topic of the Day, Paper/Tool Review) + 1 weekly roundup.</li>
+
+<h2>Monetization</h2>
+<li><b>Gap (v0.1)</b>: Goals stated ($30K/mo) but no staged roadmap.  </li>
+<li><b>Resolution (v0.2)</b>: Product roadmap sets monetization in v3 (sponsorships, affiliates, courses).</li>
+
+<h2>Analytics & Reporting</h2>
+<li><b>Gap (v0.1)</b>: Feedback loop missing.  </li>
+<li><b>Resolution (v0.2)</b>: Added to roadmap for v2 (A/B testing, Slack digest).</li>
+
+<h2>Unique Positioning</h2>
+<li><b>Gap (v0.1)</b>: No clarity on voice, visual identity.  </li>
+<li><b>Resolution (v0.2)</b>: Deferred to v2 for definition once baseline pipeline works.</li>
+
+<h2>Evergreen Content Library</h2>
+<li><b>Contradiction (v0.1)</b>: Mentioned as V3 feature.  </li>
+<li><b>Resolution (ADR-0002, v0.4)</b>: Dropped; evergreen not part of scope.</li>
+
+<h2>Community/Audience Building</h2>
+<li><b>Gap (v0.1)</b>: LinkedIn, email, Discord strategies suggested.  </li>
+<li><b>Resolution (ADR-0005, v0.4)</b>: Focus on YouTube only in v1; others deferred.</li>
+
+<h2>Costs</h2>
+<li><b>Contradiction (v0.1)</b>: Explicit costs vs “ignore cost” stance.  </li>
+<li><b>Resolution (ADR-0006, v0.4)</b>: Costs ignored; unlimited but optimized budget.</li>
+
+<h2>Compliance</h2>
+<li><b>Gap (v0.1)</b>: Missing checklist for strikes/policy compliance.  </li>
+<li><b>Resolution (v0.3)</b>: Content Review Checklist added to CHECKLISTS.md.</li>
+
+<h2>Roadmap Horizon</h2>
+<li><b>Gap (v0.1)</b>: Only 5-week plan existed.  </li>
+<li><b>Resolution (v0.2)</b>: Product roadmap created covering 12 months.</li>
+
+<hr>
+
+<h2>Summary</h2>
+<p>By v0.4, contradictions and gaps have been resolved into a consistent strategy:  </p><li><b>AI News only</b>  </li>
+<li><b>3 daily + 1 weekly videos</b>  </li>
+<li><b>Mandatory approvals</b>  </li>
+<li><b>YouTube-first focus</b>  </li>
+<li><b>Unlimited budget assumption</b>  </li>
+<li><b>12-month roadmap defined</b></li></ul>
+
+<hr>
+<h2 id='DECISION_LOG.md'>DECISION_LOG.md</h2>
+
+<hr>
+
+<ul><li><b>ADR-0002 (2025-09-10)</b>: Channel will produce <b>AI News only</b> — no evergreen content.</li>
+  - <i>Status:</i><p> Accepted</p>  - <i>Consequences:</i><p> Keeps pipeline focused on timeliness and relevance; avoids diluting brand with evergreen explainers.</p>
+<li><b>ADR-0003 (2025-09-10)</b>: Approvals are <b>mandatory</b> at topic, script, and QC stages.</li>
+  - <i>Status:</i><p> Accepted</p>  - <i>Consequences:</i><p> Ensures editorial control by Junaid; slower throughput but higher trustworthiness.</p>
+<li><b>ADR-0004 (2025-09-10)</b>: Editorial model is <b>3 daily videos + 1 weekly roundup</b>.</li>
+  - <i>Status:</i><p> Accepted</p>  - <i>Consequences:</i><p> Provides consistent output rhythm; balances exec summaries, deep dives, and weekly context.</p>
+<li><b>ADR-0005 (2025-09-10)</b>: <b>Focus on YouTube only</b> in v1 (LinkedIn, newsletter, community expansion deferred).</li>
+  - <i>Status:</i><p> Accepted</p>  - <i>Consequences:</i><p> Reduces scope; enables faster product delivery and channel growth focus.</p>
+<li><b>ADR-0006 (2025-09-10)</b>: <b>Ignore cost constraints</b> — build a production-grade system with optimized unlimited budget.</li></ul>
+  - <i>Status:</i><p> Accepted</p>  - <i>Consequences:</i><p> Maximizes reliability and quality at launch; requires later efficiency review if scaling costs rise.</p>
+<hr>
+<h2 id='DOCS_INDEX.md'>DOCS_INDEX.md</h2>
+<h1>Documentation Index — JunaidQ AI News Monorepo</h1>
+
+This index lists all key documents in the <code>docs/</code><p> folder with descriptions for quick navigation.</p>
+<hr>
+
+<h2>Core Canvases</h2>
+<ul><li><b>PROJECT_CANVAS.md</b> — High-level goals, objectives, architecture, KPIs, and open questions.</li>
+<li><b>CHANNEL_CANVAS.md</b> — Audience, promise, editorial standards, SEO, publishing format.</li>
+<li><b>CHECKLISTS.md</b> — Setup, first-run, QC content review checklist, enhancements.</li>
+<li><b>DECISION_LOG.md</b> — Architecture Decision Records (ADRs), now includes v0.4–v0.5 strategic decisions.</li>
+<li><b>RISKS.md</b> — Identified risks and mitigations.</li>
+<li><b>backlog.csv</b> — Prioritized task list with owners, sizes, and due dates.</li>
+
+<h2>Updated & Expanded Docs</h2>
+<li><b>UPDATED_PLAN.md</b> — Revised scope and goals (Vid1–4, news-only, approvals mandatory).</li>
+<li><b>UPDATED_ARCHITECTURE.md</b> — System pipeline, components, infra, ingestion, editorial flow.</li>
+<li><b>UPDATED_MILESTONES.md</b> — Timeline extended to 12 months, phased build plan.</li>
+<li><b>PRODUCT_ROADMAP.md</b> — v1 → v3 roadmap (features, outputs, scaling plan).</li>
+
+<h2>Strategy Docs</h2>
+<li><b>HIGH_VALUE_STRATEGY.md</b> — Business-oriented content strategy targeting execs, monetization models, content calendar.</li>
+<li><b>CONTRADICTIONS_RESOLVED.md</b> — Tracks contradictions/gaps from v0.1 and resolutions up to v0.4.</li>
+<li><b>VERSION_HISTORY.md</b> — History of repository evolution (v0.1 to v0.6).</li></ul>
+
+<hr>
+
+<h2>How to Use</h2>
+1. <b>Start with UPDATED_PLAN.md</b><p> for the big picture.</p>2. <b>Check PRODUCT_ROADMAP.md</b><p> for staged features and goals.</p>3. <b>Use CHECKLISTS.md</b><p> during setup and daily QC.</p>4. <b>Log all new strategic choices</b><p> in DECISION_LOG.md (ADR format).</p>5. <b>Review CONTRADICTIONS_RESOLVED.md</b><p> for context on past decisions.</p>6. <b>Follow VERSION_HISTORY.md</b><p> to understand repo evolution.</p>
+<hr>
+
+<hr>
+<h2 id='PRODUCT_ROADMAP.md'>PRODUCT_ROADMAP.md</h2>
+<h1>Product Roadmap — JunaidQ AI News Channel</h1>
+
+This roadmap reflects the clarified strategy: <b>AI News only</b><p>, 4 video formats, approvals required, no evergreen content. It is structured into 3 major versions across 12 months.</p>
+<hr>
+
+<h2>🎬 Video Formats</h2>
+<ul><li><b>Vid 1 (Daily Exec Summary)</b>: What happened yesterday in AI — fast, concise, benchmark/news focus.</li>
+<li><b>Vid 2 (Topic of the Day)</b>: e.g. “5 astonishing achievements in AI in the last 30 days” with visual references.</li>
+<li><b>Vid 3 (Paper/Tool Review)</b>: Research paper summaries or tool comparisons.</li>
+<li><b>Vid 4 (Weekly Roundup)</b>: Drama, comments, interviews, funding, acquisitions, breakthroughs.</li>
+
+<hr>
+
+<h2>v1 (Months 0–3) — MVP: Daily Exec Summary</h2>
+<li>Build Vid 1 end-to-end (ingest → approvals → script → TTS → video → upload).</li>
+<li>Approvals: <b>mandatory</b> (topic, script, QC before publish).</li>
+<li>Infra: Prefect Cloud, GCP/AWS serverless stack, Postgres, GCS/S3.</li>
+<li>Outputs: 1 daily video (Vid 1 only).</li>
+<li>Costs: ignored, assume optimized unlimited budget.</li>
+<li>Deliverable: <b>First automated daily exec summary video.</b></li>
+
+<hr>
+
+<h2>v2 (Months 3–6) — Expanded Formats + Analytics</h2>
+<li>Add <b>Vid 2 (Topic of the Day)</b>.</li>
+<li>Add <b>Vid 3 (Paper/Tool Review)</b>.</li>
+<li>Features:</li>
+<p>  - Title + thumbnail A/B testing.</p><p>  - Daily Slack/Email reporting digest.</p><p>  - Define unique positioning (voice, branding, visual identity).</p><li>Add <b>GitHub Actions CI/CD</b>:</li>
+<p>  - Lint + test on PRs.</p><p>  - Auto-deploy Prefect flows.</p><p>  - Sync docs if needed.</p><li>Outputs: 2–3 videos/day.</li>
+
+<hr>
+
+<h2>v3 (Months 6–12) — Scale & Weekly Format</h2>
+<li>Add <b>Vid 4 (Weekly Roundup)</b>.</li>
+<li>Full analytics optimization loop:</li>
+<p>  - Hook retention tuning.</p><p>  - Thumbnail/title CTR optimization.</p><li>Monetization focus:</li>
+<p>  - Sponsorships, affiliates, courses planning.</p><li>Governance:</li>
+<p>  - Optional automation of approvals as fallback.</p><li>Multi-format scaling (optionally Shorts).</li>
+<li>Outputs: 3 daily + 1 weekly (~22–25 vids/week).</li>
+
+<hr>
+
+<h2>🧩 Key Principles</h2>
+<li><b>No evergreen content</b> — current AI news only.</li>
+<li><b>Approvals mandatory</b> — Junaid reviews and can replace content.</li>
+<li><b>Focus on YouTube</b> only in v1; other platforms later.</li>
+<li><b>Ignore costs</b> (build production-grade with optimized unlimited budget).</li>
+
+<hr>
+
+<h2>📅 Milestone Summary</h2>
+<li><b>Month 1–3</b>: Daily Exec Summary automated.</li>
+<li><b>Month 3–6</b>: Add Topic of the Day + Paper/Tool Review; analytics + CI/CD.</li>
+<li><b>Month 6–12</b>: Add Weekly Roundup; monetize + scale.</li></ul>
+
+<hr>
+<h2 id='README.md'>README.md</h2>
+<h1>JunaidQ AI News — Documentation</h1>
+
+<p>Welcome to the documentation hub for the JunaidQ AI News channel project.  </p><p>This folder contains all strategic, operational, and technical planning documents.</p>
+<hr>
+
+<h2>📂 Contents</h2>
+
+<h3>Core Canvases</h3>
+<ul><li><b>PROJECT_CANVAS.md</b> — Overall objectives, scope, architecture, KPIs.</li>
+<li><b>CHANNEL_CANVAS.md</b> — Audience, brand voice, editorial standards, SEO.</li>
+<li><b>CHECKLISTS.md</b> — Setup + operational checklists (incl. QC review).</li>
+<li><b>DECISION_LOG.md</b> — Architecture Decision Records (ADRs).</li>
+<li><b>RISKS.md</b> — Risks and mitigations.</li>
+<li><b>backlog.csv</b> — Task backlog with priorities.</li>
+
+<h3>Updated & Expanded Docs</h3>
+<li><b>UPDATED_PLAN.md</b> — Revised scope (Vid1–4, news-only, approvals mandatory).</li>
+<li><b>UPDATED_ARCHITECTURE.md</b> — Technical design, infra, ingestion, editorial flow.</li>
+<li><b>UPDATED_MILESTONES.md</b> — Timeline extended to 12 months.</li>
+<li><b>PRODUCT_ROADMAP.md</b> — v1 → v3 rollout roadmap.</li>
+
+<h3>Strategy & Alignment</h3>
+<li><b>HIGH_VALUE_STRATEGY.md</b> — Monetization strategy, B2B exec focus, content calendar.</li>
+<li><b>CONTRADICTIONS_RESOLVED.md</b> — Resolved gaps/contradictions from earlier versions.</li>
+<li><b>VERSION_HISTORY.md</b> — Evolution log (v0.1 → v0.7).</li>
+<li><b>DOCS_INDEX.md</b> — Quick reference index for all docs.</li>
+
+<hr>
+
+<h2>🧭 How to Navigate</h2>
+1. <b>Start with UPDATED_PLAN.md</b><p> — high-level plan.</p>2. <b>Check PRODUCT_ROADMAP.md</b><p> — roadmap of features & phases.</p>3. <b>Use CHECKLISTS.md</b><p> — for setup and content QC before publishing.</p>4. <b>Log decisions</b><p> in DECISION_LOG.md (ADR format).</p>5. <b>Review CONTRADICTIONS_RESOLVED.md</b><p> — context on past decisions.</p>6. <b>Track evolution</b><p> in VERSION_HISTORY.md.</p>
+<hr>
+
+<h2>✨ Best Practices</h2>
+<li>Always update <b>DECISION_LOG.md</b> when making a strategic/technical decision.</li>
+<li>Keep <b>CHECKLISTS.md</b> current with operational needs (QC, compliance).</li>
+<li>Treat this folder as the <b>source of truth</b> for the project direction.</li></ul>
+
+<hr>
+<h2 id='UPDATED_MILESTONES.md'>UPDATED_MILESTONES.md</h2>
+<h1>Updated Milestones — JunaidQ YouTube 2.0</h1>
+
+<h2>Phase 1 — Foundations (Weeks 1–4)</h2>
+<ul><li>Repo + infra setup (Cloud Run/ECS, Postgres, GCS/S3).</li>
+<li>Prefect Cloud orchestration.</li>
+<li>Accounts: YouTube, OpenAI, ElevenLabs.</li>
+<li>Build Vid 1 pipeline (Daily Exec Summary).</li>
+<li>Approvals: topic, script, QC required.</li>
+
+<h2>Phase 2 — Ingestion & Topic Approval (Month 2)</h2>
+<li>RSS + arXiv ingestion into Postgres.</li>
+<li>Dedupe + ranking algorithm.</li>
+<li>Daily approval workflow (Slack/CLI/Email).</li>
+
+<h2>Phase 3 — Script & Assembly (Month 3)</h2>
+<li>Draft scripts with GPT-4o.</li>
+<li>Manual script approval (Google Docs/Notion).</li>
+<li>ElevenLabs TTS → WAVs per segment.</li>
+<li>CapCut/Pictory assembly (placeholder animation for intro/outro).</li>
+
+<h2>Phase 4 — Expansion (Months 3–6)</h2>
+<li>Add Vid 2 (Topic of the Day).</li>
+<li>Add Vid 3 (Paper/Tool Review).</li>
+<li>Features: title/thumbnail A/B testing, daily reporting digest.</li>
+<li>Add GitHub Actions CI/CD (lint, test, deploy flows).</li>
+
+<h2>Phase 5 — Scaling (Months 6–12)</h2>
+<li>Add Vid 4 (Weekly Roundup).</li>
+<li>Full analytics optimization loop (CTR, retention tuning).</li>
+<li>Monetization: sponsorships, affiliates, courses.</li>
+<li>Optional automation of approvals as fallback.</li>
+<li>Output target: 3 daily videos + 1 weekly roundup.</li>
+
+<hr>
+
+<h2>Principles</h2>
+<li>No evergreen content.</li>
+<li>Manual approvals mandatory.</li>
+<li>Focus: news speed + accuracy.</li></ul>
+
+<hr>
+<h2 id='UPDATED_PLAN.md'>UPDATED_PLAN.md</h2>
+<h1>Updated Plan — JunaidQ YouTube 2.0 (Aligned v0.2)</h1>
+
+<h2>Channel Focus</h2>
+<ul><li><b>AI News only</b> (no evergreen content).</li>
+<li><b>Target Audience</b>: High-CPM executives + people in the field (overlap).</li>
+
+<h2>Video Formats (v1 → v3)</h2>
+1. <b>Vid 1 (Daily Exec Summary)</b><p> — Fast recap of yesterday’s AI news for executives and practitioners.</p>2. <b>Vid 2 (Topic of the Day)</b><p> — Deep dive into a single major theme (e.g., “5 achievements in AI this month”).</p>3. <b>Vid 3 (Paper/Tool Review)</b><p> — Research paper breakdown or AI tool comparison.</p>4. <b>Vid 4 (Weekly Roundup)</b><p> — The drama, funding, spats, interviews, breakthroughs.</p>
+<h2>Goals</h2>
+<li><b>12 months</b>: $30K/month revenue.</li>
+<li><b>Effort</b>: 1–2 hours/day of manual approvals and reviews.</li>
+<li><b>Consistency</b>: 3 daily videos + 1 weekly roundup by v3.</li>
+
+<h2>Roadmap</h2>
+<li><b>v1 (0–3 months)</b>: Build Vid 1 (Daily Exec Summary).</li>
+<li><b>v2 (3–6 months)</b>: Add Vid 2 (Topic of the Day) + Vid 3 (Paper/Tool Review); analytics + A/B testing.</li>
+<li><b>v3 (6–12 months)</b>: Add Vid 4 (Weekly Roundup); monetization + scaling.</li>
+
+<h2>Unfair Advantage</h2>
+<li>Leverage best APIs (OpenAI, ElevenLabs, Pictory/CapCut).</li>
+<li>Manual approvals for editorial control (Junaid in the loop).</li>
+
+<h2>Costs</h2>
+<li>Assume optimized unlimited budget (production-grade build).</li>
+
+<h2>Scope Notes</h2>
+<li><b>No evergreen content.</b></li>
+<li><b>Focus on YouTube only</b> in v1 (LinkedIn, email, community come later).</li>
+<li><b>Approvals mandatory</b>: topic, script, QC.</li></ul>
+
+<hr>
+<h2 id='VERSION_HISTORY.md'>VERSION_HISTORY.md</h2>
+<h1>Version History — JunaidQ AI News Monorepo</h1>
+
+<p>This document summarizes the evolution of the repository from v0.1 to v0.5.</p>
+<hr>
+
+<h2>v0.1 — Initial Import</h2>
+<ul><li>Imported original canvas documents (Project, Channel, Checklists, Decision Log, Risks, Backlog).</li>
+<li>Added existing project codebase from canvas export.</li>
+<li>Created repo structure with <code>docs/</code> and <code>projects/</code> folders.</li>
+
+<h2>v0.2 — Product Roadmap Added</h2>
+<li>Clarified editorial strategy: 4 video formats (Vid 1–4).</li>
+<li>Added <b>PRODUCT_ROADMAP.md</b> with v1–v3 features and timeline.</li>
+<li>Established principles: news-only, approvals mandatory, YouTube focus.</li>
+
+<h2>v0.3 — Docs Aligned with Clarified Plan</h2>
+<li>Updated <b>UPDATED_PLAN.md</b> to reflect Vid1–4 scope, no evergreen content.</li>
+<li>Extended <b>UPDATED_MILESTONES.md</b> to cover 12 months.</li>
+<li>Expanded <b>CHECKLISTS.md</b> with a Content Review Checklist (QC gate).</li>
+<li>Updated <b>README.md</b> to describe v0.2 strategy.</li>
+
+<h2>v0.4 — ADRs in Decision Log</h2>
+<li>Added ADR entries to <b>DECISION_LOG.md</b>:</li>
+<p>  - ADR-0002: News only (no evergreen).</p><p>  - ADR-0003: Approvals mandatory.</p><p>  - ADR-0004: 3 daily + 1 weekly model.</p><p>  - ADR-0005: YouTube focus only in v1.</p><p>  - ADR-0006: Ignore costs, unlimited optimized budget.</p>
+<h2>v0.5 — Contradictions Resolved</h2>
+<li>Added <b>CONTRADICTIONS_RESOLVED.md</b> documenting all contradictions/gaps from v0.1 and their resolutions by v0.4.</li>
+<li>Summarized outcomes: consistent editorial model, approvals mandatory, YouTube-first, roadmap defined.</li>
+
+<hr>
+
+<h2>Next Steps (v0.6 →)</h2>
+<li>Add <b>VERSION_HISTORY.md</b> (this doc) to repo (done).</li>
+<li>Continue evolving with CI/CD integration, analytics (v2), monetization strategies (v3).</li></ul>
+
+<hr>
+</body></html>

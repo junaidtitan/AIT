@@ -1,0 +1,39 @@
+# Version History — JunaidQ AI News Monorepo
+
+This document summarizes the evolution of the repository from v0.1 to v0.5.
+
+---
+
+## v0.1 — Initial Import
+- Imported original canvas documents (Project, Channel, Checklists, Decision Log, Risks, Backlog).
+- Added existing project codebase from canvas export.
+- Created repo structure with `docs/` and `projects/` folders.
+
+## v0.2 — Product Roadmap Added
+- Clarified editorial strategy: 4 video formats (Vid 1–4).
+- Added **PRODUCT_ROADMAP.md** with v1–v3 features and timeline.
+- Established principles: news-only, approvals mandatory, YouTube focus.
+
+## v0.3 — Docs Aligned with Clarified Plan
+- Updated **UPDATED_PLAN.md** to reflect Vid1–4 scope, no evergreen content.
+- Extended **UPDATED_MILESTONES.md** to cover 12 months.
+- Expanded **CHECKLISTS.md** with a Content Review Checklist (QC gate).
+- Updated **README.md** to describe v0.2 strategy.
+
+## v0.4 — ADRs in Decision Log
+- Added ADR entries to **DECISION_LOG.md**:
+  - ADR-0002: News only (no evergreen).
+  - ADR-0003: Approvals mandatory.
+  - ADR-0004: 3 daily + 1 weekly model.
+  - ADR-0005: YouTube focus only in v1.
+  - ADR-0006: Ignore costs, unlimited optimized budget.
+
+## v0.5 — Contradictions Resolved
+- Added **CONTRADICTIONS_RESOLVED.md** documenting all contradictions/gaps from v0.1 and their resolutions by v0.4.
+- Summarized outcomes: consistent editorial model, approvals mandatory, YouTube-first, roadmap defined.
+
+---
+
+## Next Steps (v0.6 →)
+- Add **VERSION_HISTORY.md** (this doc) to repo (done).
+- Continue evolving with CI/CD integration, analytics (v2), monetization strategies (v3).

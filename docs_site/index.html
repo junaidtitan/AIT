@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JunaidQ Docs Viewer</title>
+  <style>
+    :root {
+      --bg: #0b1220; --panel:#11182a; --text:#e6edf3; --muted:#9fb0c9; --accent:#0EA5E9;
+      --border:#1f2a44;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.5 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial; }
+    header { padding: 14px 18px; border-bottom: 1px solid var(--border); background: #0c1528; display:flex; align-items:center; gap:12px; }
+    header h1 { margin:0; font-size: 16px; letter-spacing: .3px; }
+    header input { flex:1; max-width: 520px; background: #0b1427; border: 1px solid var(--border); color: var(--text); padding: 8px 10px; border-radius: 10px; }
+    .wrap { display: grid; grid-template-columns: 280px 1fr; height: calc(100vh - 58px); }
+    nav { border-right: 1px solid var(--border); background: var(--panel); overflow: auto; }
+    nav .item { padding: 10px 14px; border-bottom: 1px solid rgba(255,255,255,.04); cursor: pointer; color: var(--muted); display:flex; justify-content:space-between; align-items:center; gap:8px; }
+    nav .item:hover { background: rgba(255,255,255,.04); color: var(--text); }
+    nav .item.active { background: rgba(14,165,233,.12); color: var(--text); border-left: 3px solid var(--accent); padding-left: 11px; }
+    main { overflow: auto; padding: 24px; }
+    main .doc { max-width: 980px; margin: 0 auto; }
+    /* markdown styles */
+    main .doc h1, h2, h3 { color: #f3f6fb; }
+    main .doc a { color: var(--accent); text-decoration: none; }
+    main .doc a:hover { text-decoration: underline; }
+    main .doc code { background: #0d1a2e; border: 1px solid var(--border); padding: 2px 4px; border-radius: 6px; }
+    pre { background: #0d1a2e; border: 1px solid var(--border); padding: 12px; overflow:auto; border-radius: 12px; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+    th, td { border: 1px solid var(--border); padding: 8px; }
+    blockquote { border-left: 3px solid var(--accent); margin: 0; padding: 8px 12px; background: rgba(14,165,233,.06); }
+    .footer { color: var(--muted); font-size: 12px; padding: 8px; text-align:center; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📚 JunaidQ Documentation Viewer</h1>
+    <input id="search" placeholder="Search document titles…" />
+  </header>
+  <div class="wrap">
+    <nav id="sidebar"></nav>
+    <main>
+      <div class="doc" id="content">Select a document from the left.</div>
+    </main>
+  </div>
+  <div class="footer">Docs live in <code>/docs</code>. This viewer reads and renders Markdown client-side.</div>
+
+  <!-- Marked.js for Markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    const files = ["CHECKLISTS.md", "CONTRADICTIONS_RESOLVED.md", "DECISION_LOG.md", "DOCS_INDEX.md", "PRODUCT_ROADMAP.md", "README.md", "UPDATED_MILESTONES.md", "UPDATED_PLAN.md", "VERSION_HISTORY.md"];
+    const sidebar = document.getElementById('sidebar');
+    const content = document.getElementById('content');
+    const search = document.getElementById('search');
+
+    function renderList(filter='') {
+      sidebar.innerHTML = '';
+      const q = filter.toLowerCase();
+      files
+        .filter(f => f.toLowerCase().includes(q))
+        .forEach((f, i) => {
+          const el = document.createElement('div');
+          el.className = 'item';
+          el.innerHTML = `<span>${f}</span><span>›</span>`;
+          el.onclick = () => loadDoc(f, el);
+          sidebar.appendChild(el);
+        });
+    }
+
+    async function loadDoc(name, el) {
+      [...sidebar.children].forEach(c => c.classList.remove('active'));
+      if (el) el.classList.add('active');
+      content.innerHTML = 'Loading…';
+      try {
+        const res = await fetch('./docs/' + name);
+        const md = await res.text();
+        const html = marked.parse(md);
+        content.innerHTML = html;
+        window.history.replaceState(null, '', '#'+encodeURIComponent(name));
+      } catch (e) {
+        content.innerHTML = '<p style="color:#f88">Failed to load '+name+'</p>';
+      }
+    }
+
+    search.addEventListener('input', (e) => renderList(e.target.value));
+
+    // boot
+    renderList();
+    // open from hash if present
+    const initial = decodeURIComponent((location.hash||'').replace('#',''));
+    if (initial && files.includes(initial)) loadDoc(initial);
+  </script>
+</body>
+</html>
