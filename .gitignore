@@ -1,3 +1,44 @@
-/.env
-/.env.*
-!/\.env.example
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+ENV/
+.env
+*.env.*
+
+# Virtual environments
+starter/venv/
+starter/.venv/
+
+# Data and media files
+data/
+*.mp3
+*.mp4
+*.wav
+
+# Mac
+.DS_Store
+
+# Secrets
+*service-account*.json
+*client_secret*.json
+oauth_*.json
+
+# Archives
+*.zip
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+tmp/
+temp/
