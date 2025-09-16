@@ -1,0 +1,3496 @@
+{
+  "total_assets": 210,
+  "segments_with_assets": 35,
+  "asset_summary": [
+    {
+      "keywords": [
+        "flash",
+        "briefing",
+        "wide angle",
+        "AI",
+        "establishing shot"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "flash",
+        "briefing",
+        "today's",
+        "technology",
+        "future"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "technology",
+        "data visualization",
+        "innovation",
+        "future",
+        "particle effects"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "innovation",
+        "future",
+        "technology",
+        "future"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "build",
+        "trying",
+        "technology workspace",
+        "companies",
+        "office environment"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "trying",
+        "build",
+        "technology",
+        "future"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "close-up technology",
+        "server room",
+        "guide",
+        "here\u2019s"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "guide",
+        "technology",
+        "future"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "times,",
+        "neural network",
+        "artificial intelligence",
+        "understanding",
+        "AI brain"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "times,",
+        "understanding",
+        "legal",
+        "technology",
+        "future"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    }
+  ],
+  "enhanced_shot_list": [
+    {
+      "timestamp": "0:00-0:05",
+      "voiceover": "ACT I \u2014 FLASH BRIEFING\nToday's AI pulse: How to combat AI in college classrooms - WHYY, AI\u2019s winner-...",
+      "shots": [
+        {
+          "visual": "establishing shot, AI",
+          "keywords": [
+            "flash",
+            "briefing",
+            "wide angle",
+            "AI",
+            "establishing shot"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/5116864/5116864-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 25,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "flash briefing wide angle",
+              "id": "5116864",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/4600354/4600354-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 33,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "flash briefing wide angle",
+              "id": "4600354",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6138426/6138426-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 23,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "flash briefing wide angle",
+              "id": "6138426",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "flash",
+            "briefing",
+            "today's",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2657691/2657691-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 5,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "flash briefing today's",
+              "id": "2657691",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5908584/5908584-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 6,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "flash briefing today's",
+              "id": "5908584",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6877513/6877513-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "flash briefing today's",
+              "id": "6877513",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "0:05-0:10",
+      "voiceover": "I",
+      "shots": [
+        {
+          "visual": "particle effects, technology",
+          "keywords": [
+            "technology",
+            "data visualization",
+            "innovation",
+            "future",
+            "particle effects"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/3141210/3141210-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology data visualization innovation",
+              "id": "3141210",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129977/3129977-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology data visualization innovation",
+              "id": "3129977",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129902/3129902-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology data visualization innovation",
+              "id": "3129902",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "6153453",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783697/9783697-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783697",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783698/9783698-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783698",
+              "relevance_score": 115
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "0:10-0:15",
+      "voiceover": "Companies Trying to Build",
+      "shots": [
+        {
+          "visual": "modern city, companies",
+          "keywords": [
+            "build",
+            "trying",
+            "technology workspace",
+            "companies",
+            "office environment"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/4491910/pexels-photo-4491910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6240,
+              "height": 4160,
+              "source": "pexels",
+              "query": "build trying technology workspace",
+              "id": "4491910",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/4491881/pexels-photo-4491881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6240,
+              "height": 4160,
+              "source": "pexels",
+              "query": "build trying technology workspace",
+              "id": "4491881",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/4491919/pexels-photo-4491919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6240,
+              "height": 4160,
+              "source": "pexels",
+              "query": "build trying technology workspace",
+              "id": "4491919",
+              "relevance_score": 65
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "trying",
+            "build",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/4708372/4708372-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 21,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "trying build technology",
+              "id": "4708372",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5342014/5342014-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 5,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "trying build technology",
+              "id": "5342014",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7314035/7314035-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 12,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "trying build technology",
+              "id": "7314035",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "0:15-0:20",
+      "voiceover": "Here\u2019s a Guide",
+      "shots": [
+        {
+          "visual": "close-up technology, here\u2019s",
+          "keywords": [
+            "close-up technology",
+            "server room",
+            "guide",
+            "here\u2019s"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/5095066/5095066-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 25,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "close-up technology server room guide",
+              "id": "5095066",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7140928/7140928-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "close-up technology server room guide",
+              "id": "7140928",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7140931/7140931-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "close-up technology server room guide",
+              "id": "7140931",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "guide",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/7431684/7431684-hd_2048_1080_30fps.mp4",
+              "type": "video",
+              "duration": 29,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "guide technology future",
+              "id": "7431684",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8174474/8174474-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 11,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "guide technology future",
+              "id": "8174474",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "guide technology future",
+              "id": "8088611",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "0:20-0:25",
+      "voiceover": "- The New York Times, and Understanding the Legal Hurdles of Artificial Intelligence: Questions to A...",
+      "shots": [
+        {
+          "visual": "AI brain, artificial intelligence",
+          "keywords": [
+            "times,",
+            "neural network",
+            "artificial intelligence",
+            "understanding",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/18333010/18333010-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 63,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "times, neural network artificial intelligence",
+              "id": "18333010",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "times, neural network artificial intelligence",
+              "id": "2792370",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7547021/7547021-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "times, neural network artificial intelligence",
+              "id": "7547021",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "times,",
+            "understanding",
+            "legal",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/7981943/7981943-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "times, understanding legal",
+              "id": "7981943",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7841587/7841587-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "times, understanding legal",
+              "id": "7841587",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7841607/7841607-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 7,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "times, understanding legal",
+              "id": "7841607",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "0:25-0:30",
+      "voiceover": "com",
+      "shots": [
+        {
+          "visual": "innovation hub, technology",
+          "keywords": [
+            "scientists working",
+            "technology",
+            "innovation",
+            "future",
+            "research lab"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/4031322/pexels-photo-4031322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "scientists working technology innovation",
+              "id": "4031322",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/5726790/pexels-photo-5726790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6144,
+              "height": 3456,
+              "source": "pexels",
+              "query": "scientists working technology innovation",
+              "id": "5726790",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/8514627/pexels-photo-8514627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 5557,
+              "height": 3705,
+              "source": "pexels",
+              "query": "scientists working technology innovation",
+              "id": "8514627",
+              "relevance_score": 65
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "6153453",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783697/9783697-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783697",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783698/9783698-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783698",
+              "relevance_score": 115
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "0:30-0:35",
+      "voiceover": "HEADLINE BLITZ\n\u2022 How to combat AI in college classrooms - WHYY\n\u2022 AI\u2019s winner-take-all effect, \u2018Insti...",
+      "shots": [
+        {
+          "visual": "establishing shot, AI",
+          "keywords": [
+            "headline",
+            "blitz",
+            "wide angle",
+            "AI",
+            "establishing shot"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/4464663/4464663-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 7,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "headline blitz wide angle",
+              "id": "4464663",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7444719/7444719-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 18,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "headline blitz wide angle",
+              "id": "7444719",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6167204/6167204-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "headline blitz wide angle",
+              "id": "6167204",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "headline",
+            "blitz",
+            "edge,\u2019",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/10802584/10802584-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "headline blitz edge,\u2019",
+              "id": "10802584",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/4061801/4061801-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "headline blitz edge,\u2019",
+              "id": "4061801",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3945146/3945146-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 19,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "headline blitz edge,\u2019",
+              "id": "3945146",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "0:35-0:40",
+      "voiceover": "I",
+      "shots": [
+        {
+          "visual": "particle effects, technology",
+          "keywords": [
+            "technology",
+            "data visualization",
+            "innovation",
+            "future",
+            "particle effects"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/3141210/3141210-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology data visualization innovation",
+              "id": "3141210",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129977/3129977-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology data visualization innovation",
+              "id": "3129977",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129902/3129902-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology data visualization innovation",
+              "id": "3129902",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "6153453",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783697/9783697-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783697",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783698/9783698-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783698",
+              "relevance_score": 115
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "0:40-0:45",
+      "voiceover": "Companies Trying to Build",
+      "shots": [
+        {
+          "visual": "modern city, companies",
+          "keywords": [
+            "build",
+            "trying",
+            "technology workspace",
+            "companies",
+            "office environment"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/4491910/pexels-photo-4491910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6240,
+              "height": 4160,
+              "source": "pexels",
+              "query": "build trying technology workspace",
+              "id": "4491910",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/4491881/pexels-photo-4491881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6240,
+              "height": 4160,
+              "source": "pexels",
+              "query": "build trying technology workspace",
+              "id": "4491881",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/4491919/pexels-photo-4491919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6240,
+              "height": 4160,
+              "source": "pexels",
+              "query": "build trying technology workspace",
+              "id": "4491919",
+              "relevance_score": 65
+            }
+          ]
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "trying",
+            "build",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/4708372/4708372-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 21,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "trying build technology",
+              "id": "4708372",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5342014/5342014-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 5,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "trying build technology",
+              "id": "5342014",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7314035/7314035-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 12,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "trying build technology",
+              "id": "7314035",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "0:45-0:50",
+      "voiceover": "Here\u2019s a Guide",
+      "shots": [
+        {
+          "visual": "close-up technology, here\u2019s",
+          "keywords": [
+            "close-up technology",
+            "server room",
+            "guide",
+            "here\u2019s"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/5095066/5095066-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 25,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "close-up technology server room guide",
+              "id": "5095066",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7140928/7140928-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "close-up technology server room guide",
+              "id": "7140928",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7140931/7140931-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "close-up technology server room guide",
+              "id": "7140931",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "guide",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/7431684/7431684-hd_2048_1080_30fps.mp4",
+              "type": "video",
+              "duration": 29,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "guide technology future",
+              "id": "7431684",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8174474/8174474-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 11,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "guide technology future",
+              "id": "8174474",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "guide technology future",
+              "id": "8088611",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "0:50-0:56",
+      "voiceover": "- The New York Times\n\u2022 Understanding the Legal Hurdles of Artificial Intelligence: Questions to Ask ...",
+      "shots": [
+        {
+          "visual": "AI brain, artificial intelligence",
+          "keywords": [
+            "neural network",
+            "times",
+            "artificial intelligence",
+            "understanding",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/18333010/18333010-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 63,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "neural network times artificial intelligence",
+              "id": "18333010",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "neural network times artificial intelligence",
+              "id": "2792370",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7547021/7547021-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "neural network times artificial intelligence",
+              "id": "7547021",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "times",
+            "understanding",
+            "legal",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/7981943/7981943-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "times understanding legal",
+              "id": "7981943",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7841587/7841587-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "times understanding legal",
+              "id": "7841587",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7841607/7841607-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 7,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "times understanding legal",
+              "id": "7841607",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "0:56-1:01",
+      "voiceover": "com\n\nBRIDGE\nClassrooms, Investments, and Exactly signal the same thing: operators need a plan before...",
+      "shots": [
+        {
+          "visual": "innovation hub, bridge",
+          "keywords": [
+            "scientists working",
+            "investments,",
+            "bridge",
+            "classrooms,",
+            "research lab"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/3735757/pexels-photo-3735757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 3500,
+              "height": 2333,
+              "source": "pexels",
+              "query": "scientists working investments, bridge",
+              "id": "3735757",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/8514588/pexels-photo-8514588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "scientists working investments, bridge",
+              "id": "8514588",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/4031322/pexels-photo-4031322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "scientists working investments, bridge",
+              "id": "4031322",
+              "relevance_score": 65
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "classrooms,",
+            "investments,",
+            "exactly",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/33908513/14389826_640_360_30fps.mp4",
+              "type": "video",
+              "duration": 26,
+              "width": 640,
+              "height": 360,
+              "source": "pexels",
+              "query": "classrooms, investments, exactly",
+              "id": "33908513",
+              "relevance_score": 80
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/33917585/14393416_640_360_30fps.mp4",
+              "type": "video",
+              "duration": 15,
+              "width": 640,
+              "height": 360,
+              "source": "pexels",
+              "query": "classrooms, investments, exactly",
+              "id": "33917585",
+              "relevance_score": 80
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/33893659/14384178_640_360_30fps.mp4",
+              "type": "video",
+              "duration": 11,
+              "width": 640,
+              "height": 360,
+              "source": "pexels",
+              "query": "classrooms, investments, exactly",
+              "id": "33893659",
+              "relevance_score": 80
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "1:01-1:06",
+      "voiceover": "ACT II \u2014 FORWARD MOMENTUM\n### How to combat AI in college classrooms - WHYY\nWHAT: How to combat AI i...",
+      "shots": [
+        {
+          "visual": "establishing shot, AI",
+          "keywords": [
+            "momentum",
+            "wide angle",
+            "forward",
+            "AI",
+            "establishing shot"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/19453544/19453544-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "momentum wide angle forward",
+              "id": "19453544",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/19453966/19453966-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 22,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "momentum wide angle forward",
+              "id": "19453966",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5607650/5607650-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 12,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "momentum wide angle forward",
+              "id": "5607650",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "forward",
+            "momentum",
+            "what:",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/19453544/19453544-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "forward momentum what:",
+              "id": "19453544",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/19453966/19453966-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 22,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "forward momentum what:",
+              "id": "19453966",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5607650/5607650-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 12,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "forward momentum what:",
+              "id": "5607650",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "1:06-1:11",
+      "voiceover": "NOW WHAT: Next move: brief your go-to-market team on how to position around classrooms",
+      "shots": [
+        {
+          "visual": "particle effects, what:",
+          "keywords": [
+            "particle effects",
+            "what:",
+            "data visualization"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/10469564/10469564-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 15,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "particle effects what: data visualization",
+              "id": "10469564",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/32446624/13838161_640_360_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 640,
+              "height": 360,
+              "source": "pexels",
+              "query": "particle effects what: data visualization",
+              "id": "32446624",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/29306492/12637572_640_360_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 640,
+              "height": 360,
+              "source": "pexels",
+              "query": "particle effects what: data visualization",
+              "id": "29306492",
+              "relevance_score": 50
+            }
+          ]
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "1:11-1:16",
+      "voiceover": "ANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they mov...",
+      "shots": [
+        {
+          "visual": "modern city, analogy:",
+          "keywords": [
+            "technology workspace",
+            "analogy:",
+            "office environment"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/27195921/pexels-photo-27195921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 3462,
+              "height": 2308,
+              "source": "pexels",
+              "query": "technology workspace analogy: office environment",
+              "id": "27195921",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/17621769/pexels-photo-17621769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 5610,
+              "height": 3740,
+              "source": "pexels",
+              "query": "technology workspace analogy: office environment",
+              "id": "17621769",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/2678468/pexels-photo-2678468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 4032,
+              "height": 3024,
+              "source": "pexels",
+              "query": "technology workspace analogy: office environment",
+              "id": "2678468",
+              "relevance_score": 50
+            }
+          ]
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "1:16-1:21",
+      "voiceover": "WOW FACTOR: Wow metric: 0% heat on this move",
+      "shots": [
+        {
+          "visual": "close-up technology, factor:",
+          "keywords": [
+            "factor:",
+            "server room",
+            "close-up technology"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/7140928/7140928-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "factor: server room close-up technology",
+              "id": "7140928",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7140931/7140931-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "factor: server room close-up technology",
+              "id": "7140931",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/1085656/1085656-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 24,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "factor: server room close-up technology",
+              "id": "1085656",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "1:21-1:26",
+      "voiceover": "TRANSITION: Here's the signal executives should note next:\n\n\n### AI\u2019s winner-take-all effect, \u2018Insti...",
+      "shots": [
+        {
+          "visual": "AI brain, AI",
+          "keywords": [
+            "transition:",
+            "neural network",
+            "AI",
+            "here's",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/18069232/18069232-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 29,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "transition: neural network AI",
+              "id": "18069232",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/18069235/18069235-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 19,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "transition: neural network AI",
+              "id": "18069235",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/18069701/18069701-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "transition: neural network AI",
+              "id": "18069701",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "transition:",
+            "here's",
+            "edge,\u2019",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/854037/854037-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "transition: here's edge,\u2019",
+              "id": "854037",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7252274/7252274-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "transition: here's edge,\u2019",
+              "id": "7252274",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5593088/5593088-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 25,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "transition: here's edge,\u2019",
+              "id": "5593088",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "1:26-1:31",
+      "voiceover": "NOW WHAT (Next Moves): Next move: brief your go-to-market team on how to position around Investments",
+      "shots": [
+        {
+          "visual": "innovation hub, moves):",
+          "keywords": [
+            "moves):",
+            "scientists working",
+            "research lab",
+            "investments"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/3735757/pexels-photo-3735757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 3500,
+              "height": 2333,
+              "source": "pexels",
+              "query": "moves): scientists working research lab",
+              "id": "3735757",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/8514588/pexels-photo-8514588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "moves): scientists working research lab",
+              "id": "8514588",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/4031322/pexels-photo-4031322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "moves): scientists working research lab",
+              "id": "4031322",
+              "relevance_score": 50
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "investments",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8369965/8369965-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 13,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "investments technology future",
+              "id": "8369965",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8467239/8467239-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 31,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "investments technology future",
+              "id": "8467239",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8369914/8369914-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 11,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "investments technology future",
+              "id": "8369914",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "1:31-1:36",
+      "voiceover": "ANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they mov...",
+      "shots": [
+        {
+          "visual": "establishing shot, analogy:",
+          "keywords": [
+            "wide angle",
+            "establishing shot",
+            "analogy:"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/5608241/5608241-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 46,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "wide angle establishing shot analogy:",
+              "id": "5608241",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5280134/5280134-hd_2048_1080_30fps.mp4",
+              "type": "video",
+              "duration": 11,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "wide angle establishing shot analogy:",
+              "id": "5280134",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/2951209/2951209-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 24,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "wide angle establishing shot analogy:",
+              "id": "2951209",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "1:36-1:41",
+      "voiceover": "WOW FACTOR: That 6 stat drives the tell executives should brief on",
+      "shots": [
+        {
+          "visual": "particle effects, factor:",
+          "keywords": [
+            "factor:",
+            "particle effects",
+            "data visualization"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/10469564/10469564-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 15,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "factor: particle effects data visualization",
+              "id": "10469564",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/32446624/13838161_640_360_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 640,
+              "height": 360,
+              "source": "pexels",
+              "query": "factor: particle effects data visualization",
+              "id": "32446624",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/29306492/12637572_640_360_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 640,
+              "height": 360,
+              "source": "pexels",
+              "query": "factor: particle effects data visualization",
+              "id": "29306492",
+              "relevance_score": 50
+            }
+          ]
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "1:41-1:47",
+      "voiceover": "TRANSITION: Here's the signal executives should note next:\n\n\n### What Exactly Are A",
+      "shots": [
+        {
+          "visual": "modern city, transition:",
+          "keywords": [
+            "transition:",
+            "technology workspace",
+            "here's",
+            "exactly",
+            "office environment"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/6170399/pexels-photo-6170399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "transition: technology workspace here's",
+              "id": "6170399",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/4559748/pexels-photo-4559748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "transition: technology workspace here's",
+              "id": "4559748",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/9830812/pexels-photo-9830812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 8688,
+              "height": 5792,
+              "source": "pexels",
+              "query": "transition: technology workspace here's",
+              "id": "9830812",
+              "relevance_score": 65
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "here's",
+            "exactly",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6529446/6529446-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 12,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "here's exactly technology",
+              "id": "6529446",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7622764/7622764-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "here's exactly technology",
+              "id": "7622764",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10914940/10914940-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 2,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "here's exactly technology",
+              "id": "10914940",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "1:47-1:52",
+      "voiceover": "I",
+      "shots": [
+        {
+          "visual": "close-up technology, technology",
+          "keywords": [
+            "technology",
+            "innovation",
+            "future",
+            "server room",
+            "close-up technology"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology innovation future",
+              "id": "6153453",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783697/9783697-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology innovation future",
+              "id": "9783697",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783698/9783698-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology innovation future",
+              "id": "9783698",
+              "relevance_score": 100
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "6153453",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783697/9783697-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783697",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783698/9783698-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783698",
+              "relevance_score": 115
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "1:52-1:57",
+      "voiceover": "Companies Trying to Build",
+      "shots": [
+        {
+          "visual": "AI brain, companies",
+          "keywords": [
+            "build",
+            "trying",
+            "neural network",
+            "companies",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/3129595/3129595-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "build trying neural network",
+              "id": "3129595",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/18333010/18333010-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 63,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "build trying neural network",
+              "id": "18333010",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/18069235/18069235-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 19,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "build trying neural network",
+              "id": "18069235",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "trying",
+            "build",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/4708372/4708372-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 21,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "trying build technology",
+              "id": "4708372",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5342014/5342014-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 5,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "trying build technology",
+              "id": "5342014",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7314035/7314035-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 12,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "trying build technology",
+              "id": "7314035",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "1:57-2:02",
+      "voiceover": "Here\u2019s a Guide",
+      "shots": [
+        {
+          "visual": "innovation hub, here\u2019s",
+          "keywords": [
+            "scientists working",
+            "guide",
+            "research lab",
+            "here\u2019s"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/3735757/pexels-photo-3735757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 3500,
+              "height": 2333,
+              "source": "pexels",
+              "query": "scientists working guide research lab",
+              "id": "3735757",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/8514588/pexels-photo-8514588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "scientists working guide research lab",
+              "id": "8514588",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/4031322/pexels-photo-4031322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "scientists working guide research lab",
+              "id": "4031322",
+              "relevance_score": 50
+            }
+          ]
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "guide",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/7431684/7431684-hd_2048_1080_30fps.mp4",
+              "type": "video",
+              "duration": 29,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "guide technology future",
+              "id": "7431684",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8174474/8174474-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 11,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "guide technology future",
+              "id": "8174474",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "guide technology future",
+              "id": "8088611",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "2:02-2:07",
+      "voiceover": "- The New York Times\nWHAT: What Exactly Are A",
+      "shots": [
+        {
+          "visual": "establishing shot, times",
+          "keywords": [
+            "establishing shot",
+            "what:",
+            "wide angle",
+            "times",
+            "exactly"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/5608241/5608241-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 46,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "establishing shot what: wide angle",
+              "id": "5608241",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5280134/5280134-hd_2048_1080_30fps.mp4",
+              "type": "video",
+              "duration": 11,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "establishing shot what: wide angle",
+              "id": "5280134",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/2951209/2951209-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 24,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "establishing shot what: wide angle",
+              "id": "2951209",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "what:",
+            "exactly",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/3032996/3032996-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 21,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "what: exactly technology",
+              "id": "3032996",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7622764/7622764-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "what: exactly technology",
+              "id": "7622764",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/30014172/12877466_640_360_25fps.mp4",
+              "type": "video",
+              "duration": 13,
+              "width": 640,
+              "height": 360,
+              "source": "pexels",
+              "query": "what: exactly technology",
+              "id": "30014172",
+              "relevance_score": 80
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "2:07-2:12",
+      "voiceover": "I",
+      "shots": [
+        {
+          "visual": "particle effects, technology",
+          "keywords": [
+            "technology",
+            "data visualization",
+            "innovation",
+            "future",
+            "particle effects"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/3141210/3141210-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology data visualization innovation",
+              "id": "3141210",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129977/3129977-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology data visualization innovation",
+              "id": "3129977",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129902/3129902-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology data visualization innovation",
+              "id": "3129902",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "6153453",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783697/9783697-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783697",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783698/9783698-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783698",
+              "relevance_score": 115
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "2:12-2:17",
+      "voiceover": "Companies Trying to Build",
+      "shots": [
+        {
+          "visual": "modern city, companies",
+          "keywords": [
+            "build",
+            "trying",
+            "technology workspace",
+            "companies",
+            "office environment"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/4491910/pexels-photo-4491910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6240,
+              "height": 4160,
+              "source": "pexels",
+              "query": "build trying technology workspace",
+              "id": "4491910",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/4491881/pexels-photo-4491881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6240,
+              "height": 4160,
+              "source": "pexels",
+              "query": "build trying technology workspace",
+              "id": "4491881",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/4491919/pexels-photo-4491919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6240,
+              "height": 4160,
+              "source": "pexels",
+              "query": "build trying technology workspace",
+              "id": "4491919",
+              "relevance_score": 65
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "trying",
+            "build",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/4708372/4708372-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 21,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "trying build technology",
+              "id": "4708372",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5342014/5342014-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 5,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "trying build technology",
+              "id": "5342014",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7314035/7314035-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 12,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "trying build technology",
+              "id": "7314035",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "2:17-2:22",
+      "voiceover": "Here\u2019s a Guide",
+      "shots": [
+        {
+          "visual": "close-up technology, here\u2019s",
+          "keywords": [
+            "close-up technology",
+            "server room",
+            "guide",
+            "here\u2019s"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/5095066/5095066-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 25,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "close-up technology server room guide",
+              "id": "5095066",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7140928/7140928-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "close-up technology server room guide",
+              "id": "7140928",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7140931/7140931-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "close-up technology server room guide",
+              "id": "7140931",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "guide",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/7431684/7431684-hd_2048_1080_30fps.mp4",
+              "type": "video",
+              "duration": 29,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "guide technology future",
+              "id": "7431684",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8174474/8174474-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 11,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "guide technology future",
+              "id": "8174474",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "guide technology future",
+              "id": "8088611",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "2:22-2:27",
+      "voiceover": "- The New York Times\nSO WHAT: Why it matters: Exactly just graduated into the main revenue conversat...",
+      "shots": [
+        {
+          "visual": "AI brain, AI",
+          "keywords": [
+            "neural network",
+            "what:",
+            "times",
+            "AI",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/3129595/3129595-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "neural network what: times",
+              "id": "3129595",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/18333010/18333010-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 63,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "neural network what: times",
+              "id": "18333010",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "neural network what: times",
+              "id": "2792370",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "times",
+            "what:",
+            "exactly",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6429369/6429369-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 3,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "times what: exactly",
+              "id": "6429369",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5211963/5211963-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "times what: exactly",
+              "id": "5211963",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/30573585/13092382_640_360_25fps.mp4",
+              "type": "video",
+              "duration": 14,
+              "width": 640,
+              "height": 360,
+              "source": "pexels",
+              "query": "times what: exactly",
+              "id": "30573585",
+              "relevance_score": 80
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "2:27-2:32",
+      "voiceover": "NOW WHAT: Next move: brief your go-to-market team on how to position around Exactly",
+      "shots": [
+        {
+          "visual": "innovation hub, what:",
+          "keywords": [
+            "scientists working",
+            "what:",
+            "research lab",
+            "exactly"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/3735757/pexels-photo-3735757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 3500,
+              "height": 2333,
+              "source": "pexels",
+              "query": "scientists working what: research lab",
+              "id": "3735757",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/8514588/pexels-photo-8514588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "scientists working what: research lab",
+              "id": "8514588",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/4031322/pexels-photo-4031322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "scientists working what: research lab",
+              "id": "4031322",
+              "relevance_score": 50
+            }
+          ]
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "exactly",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "exactly technology future",
+              "id": "8088611",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "exactly technology future",
+              "id": "6153453",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "exactly technology future",
+              "id": "10915129",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "2:32-2:38",
+      "voiceover": "ANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they mov...",
+      "shots": [
+        {
+          "visual": "establishing shot, analogy:",
+          "keywords": [
+            "wide angle",
+            "establishing shot",
+            "analogy:"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/5608241/5608241-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 46,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "wide angle establishing shot analogy:",
+              "id": "5608241",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5280134/5280134-hd_2048_1080_30fps.mp4",
+              "type": "video",
+              "duration": 11,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "wide angle establishing shot analogy:",
+              "id": "5280134",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/2951209/2951209-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 24,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "wide angle establishing shot analogy:",
+              "id": "2951209",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "2:38-2:43",
+      "voiceover": "WOW FACTOR: Wow metric: 0% heat on this move",
+      "shots": [
+        {
+          "visual": "particle effects, factor:",
+          "keywords": [
+            "factor:",
+            "particle effects",
+            "data visualization"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/10469564/10469564-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 15,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "factor: particle effects data visualization",
+              "id": "10469564",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3163534/3163534-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "factor: abstract",
+              "id": "3163534",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3141208/3141208-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "factor: abstract",
+              "id": "3141208",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "2:43-2:48",
+      "voiceover": "TRANSITION: Let's keep the momentum\u2014\n\n\nACT III \u2014 MOMENTUM CHECK\nFinal pulse: That 6 stat drives the ...",
+      "shots": [
+        {
+          "visual": "modern city, transition:",
+          "keywords": [
+            "transition:",
+            "let's",
+            "momentum",
+            "technology workspace",
+            "office environment"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/12585936/pexels-photo-12585936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 5142,
+              "height": 3428,
+              "source": "pexels",
+              "query": "transition: let's momentum",
+              "id": "12585936",
+              "relevance_score": 80
+            },
+            {
+              "url": "https://images.pexels.com/photos/10323218/pexels-photo-10323218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6048,
+              "height": 4024,
+              "source": "pexels",
+              "query": "transition: let's momentum",
+              "id": "10323218",
+              "relevance_score": 80
+            },
+            {
+              "url": "https://images.pexels.com/photos/60582/newton-s-cradle-balls-sphere-action-60582.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6111,
+              "height": 4285,
+              "source": "pexels",
+              "query": "transition: let's momentum",
+              "id": "60582",
+              "relevance_score": 80
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "let's",
+            "momentum",
+            "check",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/5849608/5849608-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 16,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "let's momentum check",
+              "id": "5849608",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/15341118/15341118-hd_2048_864_24fps.mp4",
+              "type": "video",
+              "duration": 71,
+              "width": 2048,
+              "height": 864,
+              "source": "pexels",
+              "query": "let's momentum check",
+              "id": "15341118",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/32082737/13675718_640_360_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 640,
+              "height": 360,
+              "source": "pexels",
+              "query": "let's momentum check",
+              "id": "32082737",
+              "relevance_score": 80
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "2:48-2:53",
+      "voiceover": "CTA\nHow is set to you explain classrooms to customers who expect trustworthy AI",
+      "shots": [
+        {
+          "visual": "close-up technology, AI",
+          "keywords": [
+            "close-up technology",
+            "AI",
+            "server room"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8086698/8086698-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "close-up technology AI server room",
+              "id": "8086698",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7140928/7140928-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "close-up technology AI server room",
+              "id": "7140928",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8090411/8090411-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 59,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "close-up technology AI server room",
+              "id": "8090411",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    },
+    {
+      "timestamp": "2:53-2:58",
+      "voiceover": "SIGN-OFF\nStay sharp \u2014 JunaidQ AI News",
+      "shots": [
+        {
+          "visual": "AI brain, AI",
+          "keywords": [
+            "sign-off",
+            "neural network",
+            "junaidq",
+            "AI",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/3129595/3129595-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "sign-off neural network junaidq",
+              "id": "3129595",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/18333010/18333010-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 63,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "sign-off neural network junaidq",
+              "id": "18333010",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/18069235/18069235-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 19,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "sign-off neural network junaidq",
+              "id": "18069235",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "sign-off",
+            "junaidq",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6955102/6955102-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 13,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "sign-off junaidq technology",
+              "id": "6955102",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/853772/853772-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 13,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "sign-off junaidq technology",
+              "id": "853772",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/33812576/14351107_640_360_60fps.mp4",
+              "type": "video",
+              "duration": 12,
+              "width": 640,
+              "height": 360,
+              "source": "pexels",
+              "query": "sign-off junaidq technology",
+              "id": "33812576",
+              "relevance_score": 80
+            }
+          ]
+        }
+      ],
+      "duration": 5.097142857142856
+    }
+  ],
+  "generated_at": "20250916_205322"
+}

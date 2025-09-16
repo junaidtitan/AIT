@@ -1,7 +1,1 @@
-### {{headline}}
-WHAT (Deal): {{what}}
-SO WHAT (Strategic Impact): {{so_what}}
-NOW WHAT (Next Moves): {{now_what}}
-ANALOGY: {{analogy}}
-WOW FACTOR: {{wow_factor}}
-TRANSITION: {{transition}}
+{{headline}}. Deal snapshot: {{what}}. Strategic impact: {{so_what}}. Next move: {{now_what}}. Analogy: {{analogy}}. Impact pulse: {{wow_factor}}. {{transition}}

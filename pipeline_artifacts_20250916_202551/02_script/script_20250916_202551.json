@@ -1,0 +1,194 @@
+{
+  "script": {
+    "vo_script": "ACT I \u2014 FLASH BRIEFING\nToday's AI pulse: How to combat AI in college classrooms - WHYY, AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments, What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times, and Artificial Intelligence finds its way into police departments - WGCU. HEADLINE BLITZ\n\u2022 How to combat AI in college classrooms - WHYY\n\u2022 AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments\n\u2022 What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times\n\u2022 Artificial Intelligence finds its way into police departments - WGCU\n\nBRIDGE\nCombat, Investments, and Build signal the same thing: operators need a plan before the next earnings call. ACT II \u2014 FORWARD MOMENTUM\n### How to combat AI in college classrooms - WHYY\nWHAT: How to combat AI in college classrooms - WHYY\nSO WHAT: Why it matters: combat just graduated into the main revenue conversation. NOW WHAT: Next move: brief your go-to-market team on how to position around combat. ANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they move fast. WOW FACTOR: Wow metric: 0% heat on this move. TRANSITION: Let's keep the momentum\u2014\n\n\n### AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments\nWHAT (Deal): AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments\nSO WHAT (Strategic Impact): Why it matters: Investments just graduated into the main revenue conversation. NOW WHAT (Next Moves): Next move: brief your go-to-market team on how to position around Investments. ANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they move fast. WOW FACTOR: That 6 stat drives the tell executives should brief on. TRANSITION: Capital drives flowing exactly here:\n\n\n### What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times\nWHAT: What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times\nSO WHAT: Why it matters: Build just graduated into the main revenue conversation. NOW WHAT: Next move: brief your go-to-market team on how to position around Build. ANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they move fast. WOW FACTOR: Wow metric: 0% heat on this move. TRANSITION: One more move to lock in:\n\n\nACT III \u2014 MOMENTUM CHECK\nFinal pulse: That 6 stat drives the tell executives should brief on. CTA\nWho owns the red flag when combat collides with ethics or compliance? SIGN-OFF\nStay sharp \u2014 JunaidQ AI News",
+    "lower_thirds": [
+      "How to combat AI in college classrooms - WHYY",
+      "AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments",
+      "What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times"
+    ],
+    "broll_keywords": [
+      "combat",
+      "college",
+      "classrooms",
+      "Investments",
+      "episode",
+      "Institutional",
+      "Build",
+      "Times",
+      "Trying"
+    ],
+    "chapters": [],
+    "metadata": {
+      "validator": {
+        "passed": true,
+        "score": 1.0,
+        "missing": []
+      },
+      "structure": {
+        "acts": {
+          "act1": {
+            "hook": "Today's AI pulse: How to combat AI in college classrooms - WHYY, AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments, What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times, and Artificial Intelligence finds its way into police departments - WGCU.",
+            "bridge": "Combat, Investments, and Build signal the same thing: operators need a plan before the next earnings call."
+          },
+          "act2": {
+            "segments": [
+              {
+                "headline": "How to combat AI in college classrooms - WHYY",
+                "what": "How to combat AI in college classrooms - WHYY",
+                "so_what": "Why it matters: combat just graduated into the main revenue conversation.",
+                "now_what": "Next move: brief your go-to-market team on how to position around combat.",
+                "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+                "wow_factor": "Wow metric: 0% heat on this move.",
+                "transition": "Let's keep the momentum\u2014",
+                "keywords": [
+                  "combat",
+                  "college",
+                  "classrooms"
+                ],
+                "segment_type": "news",
+                "estimated_duration": 30.2,
+                "word_count": 78,
+                "rendered": "### How to combat AI in college classrooms - WHYY\nWHAT: How to combat AI in college classrooms - WHYY\nSO WHAT: Why it matters: combat just graduated into the main revenue conversation.\nNOW WHAT: Next move: brief your go-to-market team on how to position around combat.\nANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.\nWOW FACTOR: Wow metric: 0% heat on this move.\nTRANSITION: Let's keep the momentum\u2014\n"
+              },
+              {
+                "headline": "AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments",
+                "what": "AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments",
+                "so_what": "Why it matters: Investments just graduated into the main revenue conversation.",
+                "now_what": "Next move: brief your go-to-market team on how to position around Investments.",
+                "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+                "wow_factor": "That 6 stat is the tell executives should brief on.",
+                "transition": "Capital is flowing exactly here:",
+                "keywords": [
+                  "Investments",
+                  "episode",
+                  "Institutional"
+                ],
+                "segment_type": "funding",
+                "estimated_duration": 35.2,
+                "word_count": 91,
+                "rendered": "### AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments\nWHAT (Deal): AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments\nSO WHAT (Strategic Impact): Why it matters: Investments just graduated into the main revenue conversation.\nNOW WHAT (Next Moves): Next move: brief your go-to-market team on how to position around Investments.\nANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.\nWOW FACTOR: That 6 stat is the tell executives should brief on.\nTRANSITION: Capital is flowing exactly here:\n"
+              },
+              {
+                "headline": "What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times",
+                "what": "What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times",
+                "so_what": "Why it matters: Build just graduated into the main revenue conversation.",
+                "now_what": "Next move: brief your go-to-market team on how to position around Build.",
+                "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+                "wow_factor": "Wow metric: 0% heat on this move.",
+                "transition": "One more move to lock in:",
+                "keywords": [
+                  "Build",
+                  "Times",
+                  "Trying"
+                ],
+                "segment_type": "news",
+                "estimated_duration": 36.4,
+                "word_count": 94,
+                "rendered": "### What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times\nWHAT: What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times\nSO WHAT: Why it matters: Build just graduated into the main revenue conversation.\nNOW WHAT: Next move: brief your go-to-market team on how to position around Build.\nANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.\nWOW FACTOR: Wow metric: 0% heat on this move.\nTRANSITION: One more move to lock in:\n"
+              }
+            ],
+            "body": "ACT I \u2014 FLASH BRIEFING\nToday's AI pulse: How to combat AI in college classrooms - WHYY, AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments, What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times, and Artificial Intelligence finds its way into police departments - WGCU. HEADLINE BLITZ\n\u2022 How to combat AI in college classrooms - WHYY\n\u2022 AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments\n\u2022 What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times\n\u2022 Artificial Intelligence finds its way into police departments - WGCU\n\nBRIDGE\nCombat, Investments, and Build signal the same thing: operators need a plan before the next earnings call. ACT II \u2014 FORWARD MOMENTUM\n### How to combat AI in college classrooms - WHYY\nWHAT: How to combat AI in college classrooms - WHYY\nSO WHAT: Why it matters: combat just graduated into the main revenue conversation. NOW WHAT: Next move: brief your go-to-market team on how to position around combat. ANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they move fast. WOW FACTOR: Wow metric: 0% heat on this move. TRANSITION: Let's keep the momentum\u2014\n\n\n### AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments\nWHAT (Deal): AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments\nSO WHAT (Strategic Impact): Why it matters: Investments just graduated into the main revenue conversation. NOW WHAT (Next Moves): Next move: brief your go-to-market team on how to position around Investments. ANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they move fast. WOW FACTOR: That 6 stat drives the tell executives should brief on. TRANSITION: Capital drives flowing exactly here:\n\n\n### What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times\nWHAT: What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times\nSO WHAT: Why it matters: Build just graduated into the main revenue conversation. NOW WHAT: Next move: brief your go-to-market team on how to position around Build. ANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they move fast. WOW FACTOR: Wow metric: 0% heat on this move. TRANSITION: One more move to lock in:\n\n\nACT III \u2014 MOMENTUM CHECK\nFinal pulse: That 6 stat drives the tell executives should brief on. CTA\nWho owns the red flag when combat collides with ethics or compliance? SIGN-OFF\nStay sharp \u2014 JunaidQ AI News",
+            "duration_estimate": 101.8,
+            "word_count": 263
+          },
+          "act3": {
+            "closing": "Final pulse: That 6 stat is the tell executives should brief on.",
+            "cta": {
+              "id": "ethics_signal",
+              "question": "Who owns the red flag when combat collides with ethics or compliance?"
+            },
+            "sign_off": "Stay sharp \u2014 JunaidQ AI News"
+          }
+        },
+        "segments": [
+          {
+            "headline": "How to combat AI in college classrooms - WHYY",
+            "what": "How to combat AI in college classrooms - WHYY",
+            "so_what": "Why it matters: combat just graduated into the main revenue conversation.",
+            "now_what": "Next move: brief your go-to-market team on how to position around combat.",
+            "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+            "wow_factor": "Wow metric: 0% heat on this move.",
+            "transition": "Let's keep the momentum\u2014",
+            "keywords": [
+              "combat",
+              "college",
+              "classrooms"
+            ],
+            "segment_type": "news",
+            "estimated_duration": 30.2,
+            "word_count": 78
+          },
+          {
+            "headline": "AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments",
+            "what": "AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments",
+            "so_what": "Why it matters: Investments just graduated into the main revenue conversation.",
+            "now_what": "Next move: brief your go-to-market team on how to position around Investments.",
+            "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+            "wow_factor": "That 6 stat is the tell executives should brief on.",
+            "transition": "Capital is flowing exactly here:",
+            "keywords": [
+              "Investments",
+              "episode",
+              "Institutional"
+            ],
+            "segment_type": "funding",
+            "estimated_duration": 35.2,
+            "word_count": 91
+          },
+          {
+            "headline": "What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times",
+            "what": "What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times",
+            "so_what": "Why it matters: Build just graduated into the main revenue conversation.",
+            "now_what": "Next move: brief your go-to-market team on how to position around Build.",
+            "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+            "wow_factor": "Wow metric: 0% heat on this move.",
+            "transition": "One more move to lock in:",
+            "keywords": [
+              "Build",
+              "Times",
+              "Trying"
+            ],
+            "segment_type": "news",
+            "estimated_duration": 36.4,
+            "word_count": 94
+          }
+        ],
+        "headline_blitz": [
+          "How to combat AI in college classrooms - WHYY",
+          "AI\u2019s winner-take-all effect, \u2018Institutional Edge,\u2019 episode 6 - Pensions & Investments",
+          "What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times",
+          "Artificial Intelligence finds its way into police departments - WGCU"
+        ],
+        "bridge_sentence": "Combat, Investments, and Build signal the same thing: operators need a plan before the next earnings call.",
+        "cta": {
+          "id": "ethics_signal",
+          "question": "Who owns the red flag when combat collides with ethics or compliance?"
+        }
+      },
+      "pacing": {
+        "total_seconds": 101.8,
+        "average_segment_seconds": 33.9,
+        "segment_estimates": [
+          30.2,
+          35.2,
+          36.4
+        ]
+      },
+      "tone": {
+        "llm_used": false
+      }
+    }
+  },
+  "word_count": 430,
+  "estimated_duration": 172.0,
+  "generated_at": "20250916_202551",
+  "pacing": {
+    "total_seconds": 101.8,
+    "average_segment_seconds": 33.9,
+    "segment_estimates": [
+      30.2,
+      35.2,
+      36.4
+    ]
+  }
+}

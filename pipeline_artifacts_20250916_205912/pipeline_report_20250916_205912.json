@@ -1,0 +1,23 @@
+{
+  "pipeline_run": "20250916_205912",
+  "output_directory": "pipeline_artifacts_20250916_205912",
+  "stages_completed": [
+    "shot_list",
+    "voiceover",
+    "assets",
+    "timeline",
+    "render",
+    "final"
+  ],
+  "summary": {
+    "research_articles": 0,
+    "script_words": 0,
+    "script_duration_seconds": 0,
+    "avg_segment_seconds": null,
+    "shot_segments": 5,
+    "total_assets": 15,
+    "timeline_clips": 5,
+    "render_id": "f6c07fe0-c860-4450-9706-83c96c7df773",
+    "final_video": "pipeline_artifacts_20250916_205912/08_final/final_video_20250916_205912.mp4"
+  }
+}

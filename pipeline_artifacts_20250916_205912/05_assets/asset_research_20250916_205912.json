@@ -1,0 +1,284 @@
+{
+  "total_assets": 15,
+  "segments_with_assets": 5,
+  "asset_summary": [
+    {
+      "keywords": [
+        "technology"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "technology"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "technology"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "technology"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "technology"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    }
+  ],
+  "enhanced_shot_list": [
+    {
+      "timestamp": "00:00-00:04",
+      "voiceover": "Welcome to Today in AI.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 4288,
+              "height": 2848,
+              "source": "pexels",
+              "query": "technology",
+              "id": "546819",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 4288,
+              "height": 2848,
+              "source": "pexels",
+              "query": "technology",
+              "id": "356056",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6016,
+              "height": 4016,
+              "source": "pexels",
+              "query": "technology",
+              "id": "1148820",
+              "relevance_score": 50
+            }
+          ]
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "00:04-00:10",
+      "voiceover": "OpenAI releases GPT-5 with 60% error reduction.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 4288,
+              "height": 2848,
+              "source": "pexels",
+              "query": "technology",
+              "id": "546819",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 4288,
+              "height": 2848,
+              "source": "pexels",
+              "query": "technology",
+              "id": "356056",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6016,
+              "height": 4016,
+              "source": "pexels",
+              "query": "technology",
+              "id": "1148820",
+              "relevance_score": 50
+            }
+          ]
+        }
+      ],
+      "duration": 6
+    },
+    {
+      "timestamp": "00:10-00:16",
+      "voiceover": "Google DeepMind achieves 99% accuracy in protein prediction.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 4288,
+              "height": 2848,
+              "source": "pexels",
+              "query": "technology",
+              "id": "546819",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 4288,
+              "height": 2848,
+              "source": "pexels",
+              "query": "technology",
+              "id": "356056",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6016,
+              "height": 4016,
+              "source": "pexels",
+              "query": "technology",
+              "id": "1148820",
+              "relevance_score": 50
+            }
+          ]
+        }
+      ],
+      "duration": 6
+    },
+    {
+      "timestamp": "00:16-00:22",
+      "voiceover": "Meta launches open-source model rivaling GPT-4.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 4288,
+              "height": 2848,
+              "source": "pexels",
+              "query": "technology",
+              "id": "546819",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 4288,
+              "height": 2848,
+              "source": "pexels",
+              "query": "technology",
+              "id": "356056",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6016,
+              "height": 4016,
+              "source": "pexels",
+              "query": "technology",
+              "id": "1148820",
+              "relevance_score": 50
+            }
+          ]
+        }
+      ],
+      "duration": 6
+    },
+    {
+      "timestamp": "00:22-00:28",
+      "voiceover": "These advances signal a new era in AI adoption.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 4288,
+              "height": 2848,
+              "source": "pexels",
+              "query": "technology",
+              "id": "546819",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 4288,
+              "height": 2848,
+              "source": "pexels",
+              "query": "technology",
+              "id": "356056",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6016,
+              "height": 4016,
+              "source": "pexels",
+              "query": "technology",
+              "id": "1148820",
+              "relevance_score": 50
+            }
+          ]
+        }
+      ],
+      "duration": 6
+    }
+  ],
+  "generated_at": "20250916_205912"
+}

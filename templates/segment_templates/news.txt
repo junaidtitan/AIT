@@ -1,7 +1,1 @@
-### {{headline}}
-WHAT: {{what}}
-SO WHAT: {{so_what}}
-NOW WHAT: {{now_what}}
-ANALOGY: {{analogy}}
-WOW FACTOR: {{wow_factor}}
-TRANSITION: {{transition}}
+{{headline}}. Here's what happened: {{what}}. Why it matters: {{so_what}}. Next move: {{now_what}}. Analogy: {{analogy}}. Impact pulse: {{wow_factor}}. {{transition}}

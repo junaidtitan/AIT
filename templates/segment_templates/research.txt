@@ -1,7 +1,1 @@
-### {{headline}}
-WHAT (Breakthrough): {{what}}
-SO WHAT (Why It Matters): {{so_what}}
-NOW WHAT (Path Forward): {{now_what}}
-ANALOGY: {{analogy}}
-WOW FACTOR: {{wow_factor}}
-TRANSITION: {{transition}}
+{{headline}}. Breakthrough: {{what}}. Why it matters: {{so_what}}. Path forward: {{now_what}}. Analogy: {{analogy}}. Impact pulse: {{wow_factor}}. {{transition}}

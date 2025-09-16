@@ -1,0 +1,78 @@
+{
+  "segments": [
+    {
+      "timestamp": "00:00-00:04",
+      "voiceover": "Welcome to Today in AI.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "00:04-00:10",
+      "voiceover": "OpenAI releases GPT-5 with 60% error reduction.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 6
+    },
+    {
+      "timestamp": "00:10-00:16",
+      "voiceover": "Google DeepMind achieves 99% accuracy in protein prediction.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 6
+    },
+    {
+      "timestamp": "00:16-00:22",
+      "voiceover": "Meta launches open-source model rivaling GPT-4.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 6
+    },
+    {
+      "timestamp": "00:22-00:28",
+      "voiceover": "These advances signal a new era in AI adoption.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 6
+    }
+  ],
+  "total_segments": 5,
+  "total_shots": 5,
+  "duration": 14.0,
+  "generated_at": "20250916_205912"
+}
