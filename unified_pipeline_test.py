@@ -219,6 +219,8 @@ class UnifiedPipelineTest:
             'generated_at': self.timestamp
         }
 
+        script_data['pacing'] = script_package.get('metadata', {}).get('pacing', {})
+
         self.save_artifact('02_script', 'script', script_data)
         self.save_artifact('02_script', 'script_text', script_package['vo_script'], extension='txt')
 
@@ -231,7 +233,7 @@ class UnifiedPipelineTest:
         print(preview[:300] + "..." if len(preview) > 300 else preview)
         print("-" * 40)
 
-        self.artifacts['script'] = script_package
+        self.artifacts['script'] = script_data
         return script_package
     
     def stage_3_shot_list(self, script):

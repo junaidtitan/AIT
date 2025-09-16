@@ -104,8 +104,9 @@ class ScriptGenerator:
                     "headline_blitz": package["headline_blitz"],
                     "bridge_sentence": package["bridge_sentence"],
                     "cta": package["cta"],
-                    "tone": {"llm_used": tone_result["llm_used"]},
                 },
+                "pacing": package.get("pacing", {}),
+                "tone": {"llm_used": tone_result["llm_used"]},
             },
         }
         return output
@@ -205,15 +206,19 @@ class ScriptGenerator:
             "keywords": top["analysis"].get("keywords", []),
             "segment_type": "news",
             "rendered": "",
+            "estimated_duration": 0.0,
+            "word_count": 0,
         }
         template = SEGMENT_TEMPLATES["news"]
         basic_segment["rendered"] = _render_template(template, basic_segment)
+        basic_segment["word_count"] = len(basic_segment["rendered"].split())
+        basic_segment["estimated_duration"] = round(basic_segment["word_count"] / 155 * 60, 1) if basic_segment["word_count"] else 0.0
         headline_blitz = [basic_segment["headline"]]
         bridge = "Every signal points to AI budgets accelerating despite governance anxiety."
         cta_payload = self.cta.generate(basic_segment["keywords"][0] if basic_segment["keywords"] else "AI strategy")
         acts = {
             "act1": {"hook": f"Today in AI: {basic_segment['headline']}", "bridge": bridge},
-            "act2": {"segments": [basic_segment], "body": ""},
+            "act2": {"segments": [basic_segment], "body": "", "duration_estimate": basic_segment["estimated_duration"], "word_count": basic_segment["word_count"]},
             "act3": {"closing": "Keep this on the exec agenda all week.", "cta": cta_payload, "sign_off": "Stay sharp — JunaidQ AI News"},
         }
         return {
@@ -222,6 +227,11 @@ class ScriptGenerator:
             "headline_blitz": headline_blitz,
             "bridge_sentence": bridge,
             "cta": cta_payload,
+            "pacing": {
+                "total_seconds": basic_segment["estimated_duration"],
+                "average_segment_seconds": basic_segment["estimated_duration"],
+                "segment_estimates": [basic_segment["estimated_duration"]],
+            },
         }
 
     def _compose_opening(self, headlines: List[str]) -> str:
