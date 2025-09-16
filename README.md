@@ -24,7 +24,7 @@ This repository contains **all code, documents, and strategies** for building th
 ## Getting Started
 1. Install dependencies from `projects/` or `starter/`.
 2. Copy `.env.example` to `.env` and add keys.
-3. Run Prefect flows (local or Prefect Cloud).
+3. Run `python3 unified_pipeline_test.py --sample-script` to exercise the unified pipeline locally.
 
 ## Git Setup
 ```bash

@@ -71,9 +71,10 @@ python3 src/utils/artifact_cleanup.py --strategy aggressive --force
 ### Automated Cleanup
 
 #### After Pipeline Runs
-Add `--cleanup` flag to pipeline scripts:
+Run the cleanup utility after executing the unified pipeline:
 ```bash
-python3 run_video_pipeline.py --script "Your script here" --cleanup
+python3 unified_pipeline_test.py --sample-script
+python3 src/utils/artifact_cleanup.py --strategy moderate
 ```
 
 #### Via Shell Script
