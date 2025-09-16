@@ -1,0 +1,6 @@
+{
+  "script": "\n            Welcome to Today in AI, your executive briefing on the latest artificial intelligence developments.\n            \n            OpenAI has unveiled GPT-5, featuring revolutionary reasoning capabilities that reduce errors \n            by 60 percent while supporting massive context windows. Enterprise adopters report triple \n            productivity gains in code generation and document analysis.\n            \n            Google DeepMind achieves a breakthrough with 99 percent accuracy in protein prediction, \n            potentially accelerating drug discovery from years to months. Pharmaceutical giants are \n            investing billions to leverage this technology.\n            \n            Meta democratizes AI with Llama 3.5, an open-source model rivaling proprietary alternatives. \n            With over 100,000 downloads in the first week, developers worldwide are building specialized \n            applications across industries.\n            \n            These advances signal a transformative era in enterprise AI adoption.\n            ",
+  "word_count": 112,
+  "estimated_duration": 44.800000000000004,
+  "generated_at": "20250916_061242"
+}

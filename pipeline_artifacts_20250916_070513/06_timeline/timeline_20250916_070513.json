@@ -1,0 +1,247 @@
+{
+  "timeline": {
+    "timeline": {
+      "soundtrack": {
+        "src": "https://storage.googleapis.com/yta-main-assets/voiceovers/vo_20250916_070513.mp3",
+        "effect": "fadeInFadeOut"
+      },
+      "background": "#000000",
+      "tracks": [
+        {
+          "clips": [
+            {
+              "asset": {
+                "type": "video",
+                "src": "https://videos.pexels.com/video-files/11393424/11393424-hd_1920_1080_24fps.mp4"
+              },
+              "start": 0,
+              "length": 4.977777777777778,
+              "fit": "crop",
+              "scale": 1,
+              "position": "center",
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "transition": {
+                "in": "fade",
+                "out": "wipeLeft"
+              },
+              "filter": "darken"
+            },
+            {
+              "asset": {
+                "type": "video",
+                "src": "https://videos.pexels.com/video-files/15940565/15940565-hd_1920_1080_60fps.mp4"
+              },
+              "start": 4.977777777777778,
+              "length": 4.977777777777778,
+              "fit": "crop",
+              "scale": 1,
+              "position": "center",
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "transition": {
+                "in": "fade",
+                "out": "carouselLeft"
+              },
+              "filter": "boost",
+              "opacity": 0.9
+            },
+            {
+              "asset": {
+                "type": "image",
+                "src": "https://images.pexels.com/photos/8875496/pexels-photo-8875496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              },
+              "start": 9.955555555555556,
+              "length": 4.977777777777778,
+              "fit": "crop",
+              "scale": 1,
+              "position": "center",
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "transition": {
+                "in": "fade",
+                "out": "fadeSlow"
+              },
+              "effect": "zoomInSlow"
+            },
+            {
+              "asset": {
+                "type": "video",
+                "src": "https://videos.pexels.com/video-files/18069232/18069232-hd_1920_1080_24fps.mp4"
+              },
+              "start": 14.933333333333334,
+              "length": 4.977777777777778,
+              "fit": "crop",
+              "scale": 1,
+              "position": "center",
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "transition": {
+                "in": "fade",
+                "out": "wipeRight"
+              },
+              "filter": "darken"
+            },
+            {
+              "asset": {
+                "type": "video",
+                "src": "https://videos.pexels.com/video-files/3141210/3141210-hd_1920_1080_25fps.mp4"
+              },
+              "start": 19.91111111111111,
+              "length": 4.977777777777778,
+              "fit": "crop",
+              "scale": 1,
+              "position": "center",
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "transition": {
+                "in": "fade",
+                "out": "carouselRight"
+              },
+              "filter": "boost",
+              "opacity": 0.9
+            },
+            {
+              "asset": {
+                "type": "image",
+                "src": "https://images.pexels.com/photos/15940000/pexels-photo-15940000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              },
+              "start": 24.88888888888889,
+              "length": 4.977777777777778,
+              "fit": "crop",
+              "scale": 1,
+              "position": "center",
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "transition": {
+                "in": "fade",
+                "out": "fade"
+              },
+              "effect": "zoomInSlow"
+            },
+            {
+              "asset": {
+                "type": "video",
+                "src": "https://videos.pexels.com/video-files/9511838/9511838-hd_2048_1080_25fps.mp4"
+              },
+              "start": 29.866666666666667,
+              "length": 4.977777777777778,
+              "fit": "crop",
+              "scale": 1,
+              "position": "center",
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "transition": {
+                "in": "fade",
+                "out": "wipeRight"
+              },
+              "filter": "darken"
+            },
+            {
+              "asset": {
+                "type": "video",
+                "src": "https://videos.pexels.com/video-files/10469564/10469564-hd_1920_1080_25fps.mp4"
+              },
+              "start": 34.84444444444445,
+              "length": 4.977777777777778,
+              "fit": "crop",
+              "scale": 1,
+              "position": "center",
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "transition": {
+                "in": "fade",
+                "out": "zoom"
+              },
+              "filter": "boost",
+              "opacity": 0.9
+            },
+            {
+              "asset": {
+                "type": "image",
+                "src": "https://images.pexels.com/photos/8875496/pexels-photo-8875496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              },
+              "start": 39.82222222222222,
+              "length": 4.977777777777778,
+              "fit": "crop",
+              "scale": 1,
+              "position": "center",
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "transition": {
+                "in": "fade",
+                "out": "slideDown"
+              },
+              "effect": "zoomInSlow"
+            }
+          ]
+        },
+        {
+          "clips": [
+            {
+              "asset": {
+                "type": "html",
+                "html": "\n                <div style=\"\n                    display: flex;\n                    flex-direction: column;\n                    justify-content: center;\n                    align-items: center;\n                    height: 100%;\n                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n                \">\n                    <h1 style=\"\n                        font-family: 'Montserrat', sans-serif;\n                        font-size: 120px;\n                        font-weight: 800;\n                        color: white;\n                        margin: 0;\n                        text-shadow: 4px 4px 8px rgba(0,0,0,0.3);\n                        letter-spacing: 8px;\n                    \">TODAY IN AI</h1>\n                    <p style=\"\n                        font-family: 'Open Sans', sans-serif;\n                        font-size: 36px;\n                        color: white;\n                        margin-top: 20px;\n                        opacity: 0.9;\n                        letter-spacing: 4px;\n                    \">September 16, 2025</p>\n                </div>\n                ",
+                "width": 1920,
+                "height": 1080
+              },
+              "start": 0,
+              "length": 3,
+              "transition": {
+                "in": "fade",
+                "out": "fade"
+              }
+            },
+            {
+              "asset": {
+                "type": "html",
+                "html": "\n                <div style=\"\n                    display: flex;\n                    flex-direction: column;\n                    justify-content: center;\n                    align-items: center;\n                    height: 100%;\n                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n                \">\n                    <h2 style=\"\n                        font-family: 'Montserrat', sans-serif;\n                        font-size: 72px;\n                        font-weight: 700;\n                        color: white;\n                        margin: 0;\n                        text-shadow: 3px 3px 6px rgba(0,0,0,0.3);\n                    \">Thanks for Watching</h2>\n                    <p style=\"\n                        font-family: 'Open Sans', sans-serif;\n                        font-size: 36px;\n                        color: white;\n                        margin-top: 30px;\n                        opacity: 0.9;\n                    \">Subscribe for Daily AI Updates</p>\n                    <div style=\"\n                        margin-top: 40px;\n                        padding: 15px 40px;\n                        background: white;\n                        border-radius: 50px;\n                    \">\n                        <p style=\"\n                            font-family: 'Open Sans', sans-serif;\n                            font-size: 28px;\n                            color: #764ba2;\n                            margin: 0;\n                            font-weight: 600;\n                        \">SUBSCRIBE NOW</p>\n                    </div>\n                </div>\n                ",
+                "width": 1920,
+                "height": 1080
+              },
+              "start": 44.8,
+              "length": 3,
+              "transition": {
+                "in": "fade"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "output": {
+      "format": "mp4",
+      "resolution": "hd",
+      "aspectRatio": "16:9",
+      "fps": 30,
+      "scaleTo": "preview",
+      "quality": "high"
+    }
+  },
+  "statistics": {
+    "total_clips": 9,
+    "tracks": 2,
+    "duration": 44.800000000000004,
+    "output_format": "mp4",
+    "resolution": "hd"
+  },
+  "generated_at": "20250916_070513"
+}

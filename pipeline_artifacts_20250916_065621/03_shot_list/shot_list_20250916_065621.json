@@ -1,0 +1,120 @@
+{
+  "segments": [
+    {
+      "timestamp": "0:00-0:05",
+      "voiceover": "Welcome to Today in AI, your executive briefing on the latest artificial intelligence developments.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 5
+    },
+    {
+      "timestamp": "0:05-0:15",
+      "voiceover": "OpenAI has unveiled GPT-5, featuring revolutionary reasoning capabilities that reduce errors by 60 percent while supporting massive context windows.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 10
+    },
+    {
+      "timestamp": "0:15-0:25",
+      "voiceover": "Enterprise adopters report triple productivity gains in code generation and document analysis.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 10
+    },
+    {
+      "timestamp": "0:25-0:35",
+      "voiceover": "Google DeepMind achieves a breakthrough with 99 percent accuracy in protein prediction, potentially accelerating drug discovery from years to months.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 10
+    },
+    {
+      "timestamp": "0:35-0:45",
+      "voiceover": "Pharmaceutical giants are investing billions to leverage this technology.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 10
+    },
+    {
+      "timestamp": "0:45-0:55",
+      "voiceover": "Meta democratizes AI with Llama 3.5, an open-source model rivaling proprietary alternatives.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 10
+    },
+    {
+      "timestamp": "0:55-1:05",
+      "voiceover": "With over 100,000 downloads in the first week, developers worldwide are building specialized applications across industries.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 10
+    },
+    {
+      "timestamp": "1:05-1:15",
+      "voiceover": "These advances signal a transformative era in enterprise AI adoption.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 10
+    }
+  ],
+  "total_segments": 8,
+  "total_shots": 8,
+  "duration": 44.800000000000004,
+  "generated_at": "20250916_065621"
+}

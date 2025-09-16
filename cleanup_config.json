@@ -1,0 +1,10 @@
+{
+  "strategy": "moderate",
+  "max_age_days": 7,
+  "max_runs_to_keep": 5,
+  "archive_before_delete": true,
+  "archive_location": "archived_pipeline_runs",
+  "dry_run": false,
+  "exclude_patterns": [],
+  "min_free_space_gb": 5.0
+}

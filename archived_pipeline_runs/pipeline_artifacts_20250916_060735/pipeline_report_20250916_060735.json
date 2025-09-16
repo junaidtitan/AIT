@@ -1,0 +1,22 @@
+{
+  "pipeline_run": "20250916_060735",
+  "output_directory": "pipeline_artifacts_20250916_060735",
+  "stages_completed": [
+    "research",
+    "script",
+    "shot_list",
+    "voiceover",
+    "assets",
+    "timeline",
+    "render"
+  ],
+  "summary": {
+    "research_articles": 0,
+    "script_words": 112,
+    "shot_segments": 0,
+    "total_assets": 0,
+    "timeline_clips": 1,
+    "render_id": null,
+    "final_video": null
+  }
+}

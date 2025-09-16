@@ -1,0 +1,166 @@
+{
+  "segments": [
+    {
+      "timestamp": "0:00-0:04",
+      "voiceover": "Welcome to Today in AI, your executive briefing on the latest artificial intelligence developments",
+      "shots": [
+        {
+          "visual": "establishing shot, AI",
+          "keywords": [
+            "wide angle",
+            "development",
+            "AI",
+            "establishing shot",
+            "artificial intelligence"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 4.977777777777778
+    },
+    {
+      "timestamp": "0:04-0:09",
+      "voiceover": "OpenAI has unveiled GPT-5, featuring revolutionary reasoning capabilities that reduce errors \n      ...",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "OpenAI",
+            "openai",
+            "AI",
+            "tech company",
+            "artificial intelligence"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 4.977777777777778
+    },
+    {
+      "timestamp": "0:09-0:14",
+      "voiceover": "Enterprise adopters report triple \n            productivity gains in code generation and document an...",
+      "shots": [
+        {
+          "visual": "modern city, AI",
+          "keywords": [
+            "technology workspace",
+            "office environment",
+            "AI",
+            "enterprise"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 4.977777777777778
+    },
+    {
+      "timestamp": "0:14-0:19",
+      "voiceover": "Google DeepMind achieves a breakthrough with 99 percent accuracy in protein prediction, \n           ...",
+      "shots": [
+        {
+          "visual": "Google DeepMind research lab, quantum computing facility",
+          "keywords": [
+            "DeepMind",
+            "breakthrough",
+            "Google",
+            "quantum computing",
+            "google"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 4.977777777777778
+    },
+    {
+      "timestamp": "0:19-0:24",
+      "voiceover": "Pharmaceutical giants are \n            investing billions to leverage this technology",
+      "shots": [
+        {
+          "visual": "AI brain, technology",
+          "keywords": [
+            "pharmaceutical",
+            "AI brain",
+            "technology",
+            "neural network"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 4.977777777777778
+    },
+    {
+      "timestamp": "0:24-0:29",
+      "voiceover": "Meta democratizes AI with Llama 3",
+      "shots": [
+        {
+          "visual": "Meta AI research center, open source development",
+          "keywords": [
+            "open source",
+            "Meta",
+            "AI",
+            "AI democratization",
+            "llama"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 4.977777777777778
+    },
+    {
+      "timestamp": "0:29-0:34",
+      "voiceover": "5, an open-source model rivaling proprietary alternatives",
+      "shots": [
+        {
+          "visual": "establishing shot, model",
+          "keywords": [
+            "establishing shot",
+            "wide angle",
+            "model"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 4.977777777777778
+    },
+    {
+      "timestamp": "0:34-0:39",
+      "voiceover": "With over 100,000 downloads in the first week, developers worldwide are building specialized \n      ...",
+      "shots": [
+        {
+          "visual": "particle effects, technology",
+          "keywords": [
+            "data visualization",
+            "particle effects",
+            "future",
+            "innovation",
+            "technology"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 4.977777777777778
+    },
+    {
+      "timestamp": "0:39-0:44",
+      "voiceover": "These advances signal a transformative era in enterprise AI adoption",
+      "shots": [
+        {
+          "visual": "modern city, AI",
+          "keywords": [
+            "office environment",
+            "these",
+            "AI",
+            "enterprise",
+            "technology workspace"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 4.977777777777778
+    }
+  ],
+  "total_segments": 9,
+  "total_shots": 9,
+  "duration": 44.800000000000004,
+  "generated_at": "20250916_070513"
+}
