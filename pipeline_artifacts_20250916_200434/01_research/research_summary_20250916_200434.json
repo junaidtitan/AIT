@@ -1,0 +1,215 @@
+{
+  "timestamp": "20250916_200434",
+  "total_articles": 32,
+  "sources_searched": [
+    "https://news.google.com/rss/search?q=artificial+intelligence&hl=en-US&gl=US&ceid=US:en",
+    "https://www.artificialintelligence-news.com/feed/"
+  ],
+  "top_stories": [
+    {
+      "title": "Stony Brook University Receives $13.77M NSF Grant to Deploy a National Supercomputer to Democratize Access to Artificial Intelligence and Research Computing - SBU News",
+      "summary": null,
+      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPYlBwUDBpdDhaelo5T09MdlNFb0czV0pXZHZ0MEw5bldicTMtVWVqenBsSVFGd3VrNDc5NVk2bkFaU2kwNWdkMERJU3RQZzJuZDV6ZWVCOHhMOHNiM0xteGdTc0lBYUU0Y2xJcVY5MjVKTGxMN2pzT3l5Q2x3TUcyejJuT0dMTUxicjd3eU90bWlSN3ROVjhKU25LYzdyaUVrRk42Q25kMG1zaFRXc2JONHl3dXVsZzREamx5dFQ2Y1BnYl8td3lFb2N6X1FxX1NzVnlOWHZhYzF6T1NveGxsUHdQb3YzZC1ka0dKLVNjcTBtUjhBaUlhYVpyTkJfVVVXTC1ocWk2QUoyemtQTjVlenRueDFGdTRzU0pPak1KRHN2QXFiMmUtY1d3T29KemMxRXRvYS1vU0xWY00?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-16T19:58:42",
+      "full_text": null
+    },
+    {
+      "title": "AI revolutionizes weather prediction to help farmers in India - Berkeley News",
+      "summary": null,
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ0Z1VGFVb1YwUmdyTWIzYml3bWJhTy1YTW40aDJLUURQVUhFbER5ZE83d0dua0wxdlJKQkFBYUhSWXRYOXBJNjBVREZRQVJKTWZ2WmI4NWw5RVhNQ3pGZGMtVmNPSDNta2RvTUxEbFZXQVNGSG80U1M3amFYRDQxanpKMjQtZks2Nm1GWnZoWGxjOTRMZlhHcmJPNHhCRzBI?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-16T19:26:04",
+      "full_text": ""
+    },
+    {
+      "title": "What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times",
+      "summary": null,
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY1lhR0dXV24wOXFXOUdGVklraWRFSGtENzNDcnFZaW5CcThManFzOTJ3TUktOURXNHBNR05BamhKRDNPdWl0M2J1QkVRUVl0M3FCd3Bkb2xvVzdfOVR1VmVmVlpwbmNKMU5fZVlpaXZjbDB6V3JxVDZab0szS2RYSi1CWDZOTXl0UG5TTnR6VGhfY2FYNC1UcHd0V0podGpnZEVpcUtIRlJXdXBKbG5r?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-16T19:19:57",
+      "full_text": null
+    },
+    {
+      "title": "Artificial Intelligence finds its way into police departments - WGCU",
+      "summary": null,
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNHU0a0ZENmRiU1VMdERDSV9zWDdkT0JUcmxBaExRWG1USDN0dlBGVmQ4Ynk2M1E0RUlUY0xLVFFRcFFyazNoOVhiaWQzMEJBZ0lzOXlXdXNlSEhSWVhiMEdOOFo2N0ZlS3hYZHBEeXpRYThZd1ZueVR1N2kzcjQzNjVqY1llS1duN2dMR01JRGVLQmZjY3ZkbEpEWVV2bEhlVzlNSno2ZHV3T3RK?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-16T18:36:00",
+      "full_text": null
+    }
+  ],
+  "analysis": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPYlBwUDBpdDhaelo5T09MdlNFb0czV0pXZHZ0MEw5bldicTMtVWVqenBsSVFGd3VrNDc5NVk2bkFaU2kwNWdkMERJU3RQZzJuZDV6ZWVCOHhMOHNiM0xteGdTc0lBYUU0Y2xJcVY5MjVKTGxMN2pzT3l5Q2x3TUcyejJuT0dMTUxicjd3eU90bWlSN3ROVjhKU25LYzdyaUVrRk42Q25kMG1zaFRXc2JONHl3dXVsZzREamx5dFQ2Y1BnYl8td3lFb2N6X1FxX1NzVnlOWHZhYzF6T1NveGxsUHdQb3YzZC1ka0dKLVNjcTBtUjhBaUlhYVpyTkJfVVVXTC1ocWk2QUoyemtQTjVlenRueDFGdTRzU0pPak1KRHN2QXFiMmUtY1d3T29KemMxRXRvYS1vU0xWY00?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-16T19:58:42",
+      "title": "Stony Brook University Receives $13.77M NSF Grant to Deploy a National Supercomputer to Democratize Access to Artificial Intelligence and Research Computing - SBU News",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.2,
+          "recency": 0.9995840937800926,
+          "authority": 0.5,
+          "wow": 0.09,
+          "technical_complexity": 0.0,
+          "composite": 0.24993761406701387
+        },
+        "keywords": [
+          "deploy"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": "That 13.77 stat is the tell executives should brief on.",
+        "wow_score": 0.45,
+        "technical_complexity": false
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ0Z1VGFVb1YwUmdyTWIzYml3bWJhTy1YTW40aDJLUURQVUhFbER5ZE83d0dua0wxdlJKQkFBYUhSWXRYOXBJNjBVREZRQVJKTWZ2WmI4NWw5RVhNQ3pGZGMtVmNPSDNta2RvTUxEbFZXQVNGSG80U1M3amFYRDQxanpKMjQtZks2Nm1GWnZoWGxjOTRMZlhHcmJPNHhCRzBI?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-16T19:26:04",
+      "title": "AI revolutionizes weather prediction to help farmers in India - Berkeley News",
+      "full_text": "",
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9973178899814815,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.19959768349722223
+        },
+        "keywords": [
+          "Berkeley",
+          "prediction",
+          "India"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": null,
+        "wow_score": 0.0,
+        "technical_complexity": false
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY1lhR0dXV24wOXFXOUdGVklraWRFSGtENzNDcnFZaW5CcThManFzOTJ3TUktOURXNHBNR05BamhKRDNPdWl0M2J1QkVRUVl0M3FCd3Bkb2xvVzdfOVR1VmVmVlpwbmNKMU5fZVlpaXZjbDB6V3JxVDZab0szS2RYSi1CWDZOTXl0UG5TTnR6VGhfY2FYNC1UcHd0V0podGpnZEVpcUtIRlJXdXBKbG5r?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-16T19:19:57",
+      "title": "What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9968931212789351,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.19953396819184027
+        },
+        "keywords": [
+          "Times",
+          "Trying",
+          "Exactly"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": null,
+        "wow_score": 0.0,
+        "technical_complexity": false
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNHU0a0ZENmRiU1VMdERDSV9zWDdkT0JUcmxBaExRWG1USDN0dlBGVmQ4Ynk2M1E0RUlUY0xLVFFRcFFyazNoOVhiaWQzMEJBZ0lzOXlXdXNlSEhSWVhiMEdOOFo2N0ZlS3hYZHBEeXpRYThZd1ZueVR1N2kzcjQzNjVqY1llS1duN2dMR01JRGVLQmZjY3ZkbEpEWVV2bEhlVzlNSno2ZHV3T3RK?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-16T18:36:00",
+      "title": "Artificial Intelligence finds its way into police departments - WGCU",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9938410378657407,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.1990761556798611
+        },
+        "keywords": [
+          "finds",
+          "police",
+          "departments"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": null,
+        "wow_score": 0.0,
+        "technical_complexity": false
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWG5zUVBpLTFSNHMyZ0Z5ZGY3VDdza18yN1ZqVDlFSEQzZkt4TkdiZVZ6RlI0UlVEVjdDZ3lfTVNpVFA1YkRTY1dTcEFLdnlObG84WXlTY2phQU1IWG13eEk3YUUxRFhuNE1PVUg2a3ptTURlXy1FN29mOW53aWx1Wlo3QllyUQ?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-16T18:10:45",
+      "title": "Remote Patient Monitoring and Artificial Intelligence - AJMC",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9920875655833333,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.19881313483750002
+        },
+        "keywords": [
+          "Intelligence",
+          "Patient",
+          "Artificial"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": null,
+        "wow_score": 0.0,
+        "technical_complexity": false
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE12YXFzel9EcHZfYy1sMTMwRy1HZHNwdVZvM3VSdkxaSWJ0dHBuc0Fya1c3NVhjdDF2dXg2eUwtYkFsMGhBSzBMcFhKN29BRm9QU3BaUlpkTS0yMmt5ZkVvUnV4ZWRXNkJYblVyQ2lYbmIwNzlvM3YzM1ZrYw?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-16T17:38:01",
+      "title": "COMMENTARY: Experiential learning is an antidote to artificial intelligence - EdSource",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9898144173796296,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.19847216260694445
+        },
+        "keywords": [
+          "intelligence",
+          "learning",
+          "artificial"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": null,
+        "wow_score": 0.0,
+        "technical_complexity": false
+      }
+    }
+  ],
+  "key_themes": [
+    "Stony Brook University Receives $13.77M NSF Grant to Deploy a National Supercomputer to Democratize Access to Artificial Intelligence and Research Computing - SBU News",
+    "AI revolutionizes weather prediction to help farmers in India - Berkeley News",
+    "What Exactly Are A.I. Companies Trying to Build? Here\u2019s a Guide. - The New York Times"
+  ]
+}

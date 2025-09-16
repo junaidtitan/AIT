@@ -1,0 +1,7 @@
+### {{headline}}
+WHAT: {{what}}
+SO WHAT: {{so_what}}
+NOW WHAT: {{now_what}}
+ANALOGY: {{analogy}}
+WOW FACTOR: {{wow_factor}}
+TRANSITION: {{transition}}

@@ -1,0 +1,334 @@
+{
+  "total_assets": 15,
+  "segments_with_assets": 5,
+  "asset_summary": [
+    {
+      "keywords": [
+        "AI",
+        "wide angle",
+        "welcome",
+        "today",
+        "establishing shot"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "AI",
+        "openai",
+        "OpenAI",
+        "tech company",
+        "artificial intelligence"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "deepmind",
+        "google",
+        "DeepMind",
+        "Google",
+        "quantum computing"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "OpenAI",
+        "tech company",
+        "artificial intelligence",
+        "gpt-4",
+        "model"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "these",
+        "AI",
+        "AI brain",
+        "neural network"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    }
+  ],
+  "enhanced_shot_list": [
+    {
+      "timestamp": "0:00-0:04",
+      "voiceover": "Welcome to Today in AI",
+      "shots": [
+        {
+          "visual": "establishing shot, AI",
+          "keywords": [
+            "AI",
+            "wide angle",
+            "welcome",
+            "today",
+            "establishing shot"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/4609533/4609533-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 22,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI wide angle welcome",
+              "id": "4609533",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5473970/5473970-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 12,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI wide angle welcome",
+              "id": "5473970",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/4354033/4354033-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 12,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI cinematic",
+              "id": "4354033",
+              "relevance_score": 70
+            }
+          ]
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "0:04-0:08",
+      "voiceover": "OpenAI releases GPT-5 with 60% error reduction",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "AI",
+            "openai",
+            "OpenAI",
+            "tech company",
+            "artificial intelligence"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/15940565/15940565-hd_1920_1080_60fps.mp4",
+              "type": "video",
+              "duration": 50,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI openai OpenAI",
+              "id": "15940565",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3141208/3141208-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI openai OpenAI",
+              "id": "3141208",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3141210/3141210-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI openai OpenAI",
+              "id": "3141210",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "0:08-0:12",
+      "voiceover": "Google DeepMind achieves 99% accuracy in protein prediction",
+      "shots": [
+        {
+          "visual": "Google DeepMind research lab, quantum computing facility",
+          "keywords": [
+            "deepmind",
+            "google",
+            "DeepMind",
+            "Google",
+            "quantum computing"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/30839680/pexels-photo-30839680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 3999,
+              "height": 2666,
+              "source": "pexels",
+              "query": "deepmind google DeepMind",
+              "id": "30839680",
+              "relevance_score": 95
+            },
+            {
+              "url": "https://images.pexels.com/photos/18548426/pexels-photo-18548426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 3999,
+              "height": 2667,
+              "source": "pexels",
+              "query": "deepmind google DeepMind",
+              "id": "18548426",
+              "relevance_score": 95
+            },
+            {
+              "url": "https://images.pexels.com/photos/30839685/pexels-photo-30839685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 3999,
+              "height": 2666,
+              "source": "pexels",
+              "query": "deepmind google DeepMind",
+              "id": "30839685",
+              "relevance_score": 95
+            }
+          ]
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "0:12-0:16",
+      "voiceover": "Meta launches open-source model rivaling GPT-4",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "OpenAI",
+            "tech company",
+            "artificial intelligence",
+            "gpt-4",
+            "model"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "OpenAI tech company artificial intelligence",
+              "id": "2792370",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7688609/7688609-hd_2048_1080_24fps.mp4",
+              "type": "video",
+              "duration": 14,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "OpenAI tech company artificial intelligence",
+              "id": "7688609",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9244547/9244547-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 16,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "OpenAI tech company artificial intelligence",
+              "id": "9244547",
+              "relevance_score": 70
+            }
+          ]
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "0:16-0:20",
+      "voiceover": "These advances signal a new era in AI adoption",
+      "shots": [
+        {
+          "visual": "AI brain, AI",
+          "keywords": [
+            "these",
+            "AI",
+            "AI brain",
+            "neural network"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/3141210/3141210-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "these AI AI brain",
+              "id": "3141210",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129671/3129671-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "these AI AI brain",
+              "id": "3129671",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129576/3129576-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "these AI AI brain",
+              "id": "3129576",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 4
+    }
+  ],
+  "generated_at": "20250916_191901"
+}

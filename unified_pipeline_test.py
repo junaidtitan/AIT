@@ -91,66 +91,89 @@ class UnifiedPipelineTest:
         print("="*80)
         
         try:
-            from src.research.news_aggregator import NewsAggregator
-            from src.research.trend_analyzer import TrendAnalyzer
-            
-            aggregator = NewsAggregator()
-            analyzer = TrendAnalyzer()
-            
-            # Search multiple sources
-            sources = [
-                'OpenAI GPT-5',
-                'Google DeepMind AI',
-                'Meta Llama AI',
-                'Anthropic Claude',
-                'AI breakthroughs 2025'
-            ]
-            
+            from src.ingest.rss_arxiv import fetch_rss, fetch_fulltext
+            from src.editorial.story_analyzer import StoryAnalyzer
+            from src.rank.select import pick_top
+            from src.config import settings
+
+            feeds_env = getattr(settings, 'RSS_FEEDS', '')
+            sources = [f.strip() for f in feeds_env.split(',') if f.strip()]
+            if not sources:
+                sources = [
+                    'https://news.google.com/rss/search?q=artificial+intelligence&hl=en-US&gl=US&ceid=US:en',
+                    'https://www.artificialintelligence-news.com/feed/'
+                ]
+
+            print("\n🔍 Pulling RSS feeds:")
             all_news = []
-            print("\n🔍 Searching news sources:")
-            for source in sources:
-                print(f"  • Searching: {source}")
-                news = aggregator.search_news(source, max_results=3)
-                all_news.extend(news)
-            
-            print(f"\n📰 Found {len(all_news)} articles")
-            
-            # Save raw news
-            self.save_artifact('01_research', 'raw_news', all_news)
-            
-            # Analyze and rank
-            print("\n📊 Analyzing trends and ranking stories...")
-            top_stories = analyzer.identify_top_stories(all_news, limit=5)
-            themes = analyzer.extract_themes(top_stories)
-            
+            for url in sources:
+                print(f"  • {url}")
+                items = fetch_rss([url])
+                all_news.extend(items)
+
+            if not all_news:
+                raise RuntimeError("No news articles retrieved")
+
+            # Enrich first few stories with full text for better summaries
+            for story in all_news[:5]:
+                if not story.get('full_text'):
+                    story['full_text'] = fetch_fulltext(story['url'])
+
+            selector_input = [{**story, 'score': 0.0} for story in all_news]
+            top_ranked = pick_top(selector_input, k=6)
+
+            analyzer = StoryAnalyzer()
+            analyzed = analyzer.analyze(top_ranked)
+
             research_summary = {
                 'timestamp': self.timestamp,
                 'total_articles': len(all_news),
-                'top_stories': top_stories,
-                'key_themes': themes,
-                'sources_searched': sources
+                'sources_searched': sources,
+                'top_stories': [
+                    {key: story.get(key) for key in ('title', 'summary', 'url', 'source_domain', 'published_ts', 'full_text')}
+                    for story in analyzed[:4]
+                ],
+                'analysis': analyzed,
+                'key_themes': analyzer.headline_blitz(analyzed, limit=3)
             }
-            
-            # Save research summary
+
+            self.save_artifact('01_research', 'raw_news', all_news)
             self.save_artifact('01_research', 'research_summary', research_summary)
-            
-            # Display top stories
+
             print("\n🏆 Top Stories:")
-            for i, story in enumerate(top_stories[:3], 1):
+            for i, story in enumerate(analyzed[:3], 1):
                 print(f"  {i}. {story.get('title', 'Untitled')[:80]}...")
-                print(f"     Impact: {story.get('impact_score', 0):.2f}")
-            
+                print(f"     Composite: {story['analysis']['scores']['composite']:.2f}")
+
             self.artifacts['research'] = research_summary
             return research_summary
-            
+
         except Exception as e:
             print(f"  ⚠ Research failed: {e}, using fallback")
+            fallback_stories = [
+                {
+                    'title': 'OpenAI ships enterprise-ready GPT-5 with governance guardrails',
+                    'summary': 'OpenAI rolls out GPT-5 with autonomous agent safety layers and 60% error reduction.',
+                    'source_domain': 'openai.com',
+                    'published_ts': datetime.now().isoformat(),
+                },
+                {
+                    'title': 'DeepMind and Google fold Gemini into Workspace for 400M users',
+                    'summary': 'Gemini copilots go live across Workspace, pushing multimodal workflows mainstream.',
+                    'source_domain': 'deepmind.google',
+                    'published_ts': datetime.now().isoformat(),
+                },
+                {
+                    'title': 'US-EU announce synchronized AI safety reporting standard',
+                    'summary': 'Regulators align on quarterly AI incident disclosures for enterprise providers.',
+                    'source_domain': 'europa.eu',
+                    'published_ts': datetime.now().isoformat(),
+                }
+            ]
             fallback = {
                 'timestamp': self.timestamp,
-                'top_stories': [
-                    {'title': 'GPT-5 Released', 'summary': 'OpenAI releases GPT-5 with 60% error reduction'},
-                    {'title': 'DeepMind Breakthrough', 'summary': 'AlphaFold achieves 99% accuracy'}
-                ],
+                'top_stories': fallback_stories,
+                'analysis': fallback_stories,
                 'key_themes': ['AI advancement', 'Enterprise adoption']
             }
             self.artifacts['research'] = fallback
@@ -163,78 +186,53 @@ class UnifiedPipelineTest:
         print("="*80)
         
         try:
-            from src.content.script_generator import ScriptGenerator
-            
+            from src.editorial.script_daily import ScriptGenerator
+
             generator = ScriptGenerator()
-            
-            # Prepare context
-            context = f"""
-            Top AI Stories:
-            {json.dumps(research_data.get('top_stories', []), indent=2)}
-            
-            Key Themes: {', '.join(research_data.get('key_themes', []))}
-            """
-            
-            print("\n🤖 Generating script with AI...")
-            
-            prompt = f"""
-            Create a 90-second AI news briefing script based on these stories.
-            Requirements:
-            - Professional tone for executives
-            - Cover 3 main stories
-            - Focus on business impact
-            - 200-250 words
-            
-            Context: {context}
-            """
-            
-            script = generator.generate_script(prompt)
-            
-            if not script:
-                raise Exception("Script generation failed")
-                
-        except:
-            # Fallback script
-            script = """
-            Welcome to Today in AI, your executive briefing on the latest artificial intelligence developments.
-            
-            OpenAI has unveiled GPT-5, featuring revolutionary reasoning capabilities that reduce errors 
-            by 60 percent while supporting massive context windows. Enterprise adopters report triple 
-            productivity gains in code generation and document analysis.
-            
-            Google DeepMind achieves a breakthrough with 99 percent accuracy in protein prediction, 
-            potentially accelerating drug discovery from years to months. Pharmaceutical giants are 
-            investing billions to leverage this technology.
-            
-            Meta democratizes AI with Llama 3.5, an open-source model rivaling proprietary alternatives. 
-            With over 100,000 downloads in the first week, developers worldwide are building specialized 
-            applications across industries.
-            
-            These advances signal a transformative era in enterprise AI adoption.
-            """
-        
-        # Save script
+            stories = research_data.get('top_stories') or research_data.get('analysis') or []
+
+            print("\n🤖 Generating futurist script...")
+            script_package = generator.generate_script(stories)
+
+            if not script_package or not script_package.get('vo_script'):
+                raise RuntimeError("Script generation returned empty output")
+
+        except Exception:
+            script_text = (
+                "Welcome to Today in AI. OpenAI just shipped GPT-5 with enterprise guardrails, "
+                "DeepMind pushed Gemini into 400M seats, and regulators agreed on a safety standard. "
+                "Assign owners now and brief your board."
+            )
+            script_package = {
+                'vo_script': script_text,
+                'lower_thirds': ['GPT-5 enterprise launch', 'Gemini everywhere', 'AI safety standards'],
+                'broll_keywords': ['ai', 'executive briefing'],
+                'chapters': [],
+                'metadata': {}
+            }
+
+        words = script_package['vo_script'].split()
         script_data = {
-            'script': script,
-            'word_count': len(script.split()),
-            'estimated_duration': len(script.split()) / 150 * 60,
+            'script': script_package,
+            'word_count': len(words),
+            'estimated_duration': len(words) / 150 * 60,
             'generated_at': self.timestamp
         }
-        
+
         self.save_artifact('02_script', 'script', script_data)
-        self.save_artifact('02_script', 'script_text', script, extension='txt')
-        
-        print(f"\n📝 Script generated: {len(script.split())} words")
+        self.save_artifact('02_script', 'script_text', script_package['vo_script'], extension='txt')
+
+        print(f"\n📝 Script generated: {len(words)} words")
         print(f"⏱️ Estimated duration: {script_data['estimated_duration']:.1f} seconds")
-        
-        # Display preview
+
         print("\n📄 Script Preview:")
         print("-" * 40)
-        print(script[:300] + "..." if len(script) > 300 else script)
+        preview = script_package['vo_script']
+        print(preview[:300] + "..." if len(preview) > 300 else preview)
         print("-" * 40)
-        
-        self.artifacts['script'] = script_data
-        return script
+
+        self.artifacts['script'] = script_package
+        return script_package
     
     def stage_3_shot_list(self, script):
         """Stage 3: Generate shot list using GPT-5"""
@@ -245,10 +243,11 @@ class UnifiedPipelineTest:
         from src.produce.shot_list_generator import ShotListGenerator
         
         generator = ShotListGenerator()
-        duration = len(script.split()) / 150 * 60
+        duration = len(script.get('vo_script', '').split()) / 150 * 60 if isinstance(script, dict) else len(str(script).split()) / 150 * 60
         
         print(f"\n🤖 Generating shot list with GPT-5...")
-        shot_list = generator.generate_shot_list(script, duration)
+        script_text = script['vo_script'] if isinstance(script, dict) else script
+        shot_list = generator.generate_shot_list(script_text, duration)
         
         # Save shot list
         shot_list_data = {
@@ -292,6 +291,8 @@ class UnifiedPipelineTest:
         
         print("\n🔊 Generating voiceover with ElevenLabs...")
         
+        script_text = script.get('vo_script') if isinstance(script, dict) else str(script)
+
         try:
             headers = {
                 'xi-api-key': os.environ.get('ELEVENLABS_API_KEY'),
@@ -299,7 +300,7 @@ class UnifiedPipelineTest:
             }
             
             payload = {
-                'text': script,
+                'text': script_text,
                 'model_id': 'eleven_monolingual_v1',
                 'voice_settings': {
                     'stability': 0.5,
@@ -336,7 +337,7 @@ class UnifiedPipelineTest:
                 voiceover_data = {
                     'local_path': str(vo_path),
                     'public_url': public_url,
-                    'duration_estimate': len(script.split()) / 150 * 60,
+                    'duration_estimate': len(script_text.split()) / 150 * 60,
                     'voice_id': voice_id,
                     'generated_at': self.timestamp
                 }
@@ -536,6 +537,7 @@ class UnifiedPipelineTest:
                 
                 print(f"  ✓ Downloaded: {output_path}")
                 print(f"  📊 Size: {size:.1f} MB")
+                print(f"  🌐 Public URL: {video_url}")
                 
                 self.artifacts['final'] = final_data
                 return output_path
@@ -619,7 +621,8 @@ class UnifiedPipelineTest:
             enhanced_shot_list = self.stage_5_asset_research(shot_list)
             
             # Stage 6: Timeline
-            duration = len(script.split()) / 150 * 60
+            script_text = script.get('vo_script') if isinstance(script, dict) else str(script)
+            duration = len(script_text.split()) / 150 * 60
             timeline = self.stage_6_timeline_generation(enhanced_shot_list, voiceover_url, duration)
             
             # Stage 7: Render

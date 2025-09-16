@@ -1,0 +1,7 @@
+### {{headline}}
+WHAT (Breakthrough): {{what}}
+SO WHAT (Why It Matters): {{so_what}}
+NOW WHAT (Path Forward): {{now_what}}
+ANALOGY: {{analogy}}
+WOW FACTOR: {{wow_factor}}
+TRANSITION: {{transition}}

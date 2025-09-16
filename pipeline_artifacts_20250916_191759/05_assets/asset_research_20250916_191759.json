@@ -1,0 +1,102 @@
+{
+  "total_assets": 0,
+  "segments_with_assets": 0,
+  "asset_summary": [],
+  "enhanced_shot_list": [
+    {
+      "timestamp": "0:00-0:04",
+      "voiceover": "Welcome to Today in AI",
+      "shots": [
+        {
+          "visual": "establishing shot, AI",
+          "keywords": [
+            "today",
+            "wide angle",
+            "welcome",
+            "AI",
+            "establishing shot"
+          ],
+          "style": "Cinematic",
+          "assets": []
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "0:04-0:08",
+      "voiceover": "OpenAI releases GPT-5 with 60% error reduction",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "artificial intelligence",
+            "OpenAI",
+            "openai",
+            "AI",
+            "tech company"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": []
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "0:08-0:12",
+      "voiceover": "Google DeepMind achieves 99% accuracy in protein prediction",
+      "shots": [
+        {
+          "visual": "Google DeepMind research lab, quantum computing facility",
+          "keywords": [
+            "quantum computing",
+            "Google",
+            "DeepMind",
+            "google",
+            "deepmind"
+          ],
+          "style": "Documentary/Stock",
+          "assets": []
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "0:12-0:16",
+      "voiceover": "Meta launches open-source model rivaling GPT-4",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "artificial intelligence",
+            "gpt-4",
+            "OpenAI",
+            "tech company",
+            "model"
+          ],
+          "style": "Cinematic",
+          "assets": []
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "0:16-0:20",
+      "voiceover": "These advances signal a new era in AI adoption",
+      "shots": [
+        {
+          "visual": "AI brain, AI",
+          "keywords": [
+            "neural network",
+            "these",
+            "AI",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": []
+        }
+      ],
+      "duration": 4
+    }
+  ],
+  "generated_at": "20250916_191759"
+}

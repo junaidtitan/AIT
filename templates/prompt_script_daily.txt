@@ -1,10 +1,2 @@
-System: You are a precise, neutral AI news writer. All claims must be sourced.
-
-User: Write a 6–8 minute news script (~900–1100 words) covering the following stories in order.
-For each story: what happened, why it matters, context, limitations.
-Close with one to watch. Insert cues: [LOWER_THIRD:], [BROLL:].
-
-Stories (JSON):
-{{stories_json}}
-
-Return JSON with keys: {"vo_script","lower_thirds","broll_keywords","chapters"}.
+# Legacy wrapper retained for compatibility.
+# The script generator now renders templates/futurist_briefing_main.txt.

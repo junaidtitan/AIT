@@ -1,0 +1,21 @@
+[
+  {"tag": "momentum", "phrase": "Let's keep the momentum—"},
+  {"tag": "signal_shift", "phrase": "Here's the signal executives should note next:"},
+  {"tag": "strategic", "phrase": "Strategically, that sets us up for this move:"},
+  {"tag": "warning", "phrase": "Before we get comfortable, flag this escalation:"},
+  {"tag": "opportunity", "phrase": "Opportunity knocks in the next story:"},
+  {"tag": "innovation", "phrase": "Innovation is compounding—"},
+  {"tag": "funding", "phrase": "Capital is flowing exactly here:"},
+  {"tag": "research", "phrase": "In the labs, the breakthrough to watch:"},
+  {"tag": "policy", "phrase": "Policy pressure is rising—"},
+  {"tag": "competition", "phrase": "Competitive stakes shift with this play:"},
+  {"tag": "urgency", "phrase": "Clock's ticking—"},
+  {"tag": "customer", "phrase": "Customer impact next:"},
+  {"tag": "market_move", "phrase": "Market readjustment incoming:"},
+  {"tag": "governance", "phrase": "Governance catches up here:"},
+  {"tag": "technical", "phrase": "Technically, it gets interesting:"},
+  {"tag": "talent", "phrase": "Talent wars heat up—"},
+  {"tag": "ecosystem", "phrase": "Ecosystem ripple effect next:"},
+  {"tag": "closing", "phrase": "One more move to lock in:"},
+  {"tag": "cta_bridge", "phrase": "Which brings us to the question facing leaders:"}
+]

@@ -1,0 +1,21 @@
+{
+  "pipeline_run": "20250916_192347",
+  "output_directory": "pipeline_artifacts_20250916_192347",
+  "stages_completed": [
+    "shot_list",
+    "voiceover",
+    "assets",
+    "timeline",
+    "render",
+    "final"
+  ],
+  "summary": {
+    "research_articles": 0,
+    "script_words": 0,
+    "shot_segments": 8,
+    "total_assets": 24,
+    "timeline_clips": 8,
+    "render_id": "52c2f2e8-6829-4ca0-822f-52444c6f9e38",
+    "final_video": "pipeline_artifacts_20250916_192347/08_final/final_video_20250916_192347.mp4"
+  }
+}

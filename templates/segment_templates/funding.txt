@@ -1,0 +1,7 @@
+### {{headline}}
+WHAT (Deal): {{what}}
+SO WHAT (Strategic Impact): {{so_what}}
+NOW WHAT (Next Moves): {{now_what}}
+ANALOGY: {{analogy}}
+WOW FACTOR: {{wow_factor}}
+TRANSITION: {{transition}}

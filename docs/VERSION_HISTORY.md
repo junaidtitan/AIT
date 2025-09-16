@@ -34,6 +34,14 @@ This document summarizes the evolution of the repository from v0.1 to v0.5.
 
 ---
 
+## v0.6 — Futurist Briefing Engine
+- Replaced the legacy prompt with **futurist_briefing_main.txt** (3-act + WSN template) and seeded transition/CTA libraries.
+- Added editorial modules (`story_analyzer.py`, `tone_enhancer.py`, `structure_validator.py`, `transition_generator.py`, `cta_generator.py`).
+- Updated `script_daily.py` for multi-stage orchestration with analogies, wow-factor boosts, and structured artifact output.
+- Refreshed `unified_pipeline_test.py` Stage 1–2 to use the new research + scripting engine and added editorial unit tests.
+
+---
+
 ## Next Steps (v0.6 →)
 - Add **VERSION_HISTORY.md** (this doc) to repo (done).
 - Continue evolving with CI/CD integration, analytics (v2), monetization strategies (v3).

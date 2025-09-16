@@ -1,0 +1,78 @@
+{
+  "segments": [
+    {
+      "timestamp": "0:00-0:04",
+      "voiceover": "Welcome to Today in AI.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "0:04-0:08",
+      "voiceover": "OpenAI just shipped GPT-5 with enterprise guardrails,",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "0:08-0:12",
+      "voiceover": "DeepMind pushed Gemini into 400M seats,",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "0:12-0:16",
+      "voiceover": "and regulators agreed on a safety standard.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "timestamp": "0:16-0:20",
+      "voiceover": "Assign owners now and brief your board.",
+      "shots": [
+        {
+          "visual": "Generic B-roll",
+          "keywords": [
+            "technology"
+          ],
+          "style": "Documentary/Stock"
+        }
+      ],
+      "duration": 4
+    }
+  ],
+  "total_segments": 5,
+  "total_shots": 5,
+  "duration": 12.8,
+  "generated_at": "20250916_195309"
+}

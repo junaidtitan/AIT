@@ -1,0 +1,1072 @@
+{
+  "segments": [
+    {
+      "timestamp": "0:00-0:05",
+      "voiceover": "ACT I \u2014 FLASH BRIEFING\nToday's AI pulse: Stony Brook University Receives $13",
+      "shots": [
+        {
+          "visual": "establishing shot, AI",
+          "keywords": [
+            "flash",
+            "wide angle",
+            "briefing",
+            "AI",
+            "establishing shot"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "flash",
+            "briefing",
+            "today's",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "0:05-0:10",
+      "voiceover": "77M NSF Grant to Deploy a National Supercomputer to Democratize Access to Artificial Intelligence an...",
+      "shots": [
+        {
+          "visual": "particle effects, AI",
+          "keywords": [
+            "data visualization",
+            "computing",
+            "AI",
+            "particle effects",
+            "artificial intelligence"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "artificial intelligence",
+            "computing",
+            "research",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "0:10-0:15",
+      "voiceover": "I",
+      "shots": [
+        {
+          "visual": "modern city, technology",
+          "keywords": [
+            "technology",
+            "future",
+            "office environment",
+            "innovation",
+            "technology workspace"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "0:15-0:20",
+      "voiceover": "Companies Trying to Build",
+      "shots": [
+        {
+          "visual": "close-up technology, companies",
+          "keywords": [
+            "close-up technology",
+            "server room",
+            "trying",
+            "companies",
+            "build"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "trying",
+            "build",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "0:20-0:25",
+      "voiceover": "Here\u2019s a Guide",
+      "shots": [
+        {
+          "visual": "AI brain, here\u2019s",
+          "keywords": [
+            "here\u2019s",
+            "guide",
+            "neural network",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "guide",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "0:25-0:30",
+      "voiceover": "- The New York Times, and Artificial Intelligence finds its way into police departments - WGCU",
+      "shots": [
+        {
+          "visual": "innovation hub, artificial intelligence",
+          "keywords": [
+            "research lab",
+            "artificial",
+            "scientists working",
+            "artificial intelligence",
+            "times,"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "times,",
+            "artificial",
+            "intelligence",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "0:30-0:35",
+      "voiceover": "HEADLINE BLITZ\n\u2022 Stony Brook University Receives $13",
+      "shots": [
+        {
+          "visual": "establishing shot, headline",
+          "keywords": [
+            "wide angle",
+            "blitz",
+            "headline",
+            "stony",
+            "establishing shot"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "blitz",
+            "stony",
+            "brook",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "0:35-0:40",
+      "voiceover": "77M NSF Grant to Deploy a National Supercomputer to Democratize Access to Artificial Intelligence an...",
+      "shots": [
+        {
+          "visual": "particle effects, AI",
+          "keywords": [
+            "data visualization",
+            "computing",
+            "AI",
+            "particle effects",
+            "artificial intelligence"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "artificial intelligence",
+            "computing",
+            "research",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "0:40-0:45",
+      "voiceover": "I",
+      "shots": [
+        {
+          "visual": "modern city, technology",
+          "keywords": [
+            "technology",
+            "future",
+            "office environment",
+            "innovation",
+            "technology workspace"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "0:45-0:50",
+      "voiceover": "Companies Trying to Build",
+      "shots": [
+        {
+          "visual": "close-up technology, companies",
+          "keywords": [
+            "close-up technology",
+            "server room",
+            "trying",
+            "companies",
+            "build"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "trying",
+            "build",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "0:50-0:55",
+      "voiceover": "Here\u2019s a Guide",
+      "shots": [
+        {
+          "visual": "AI brain, here\u2019s",
+          "keywords": [
+            "here\u2019s",
+            "guide",
+            "neural network",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "guide",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "0:55-1:00",
+      "voiceover": "- The New York Times\n\u2022 Artificial Intelligence finds its way into police departments - WGCU\n\nBRIDGE\n...",
+      "shots": [
+        {
+          "visual": "innovation hub, artificial intelligence",
+          "keywords": [
+            "research lab",
+            "times",
+            "artificial",
+            "scientists working",
+            "artificial intelligence"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "times",
+            "artificial",
+            "intelligence",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "1:00-1:05",
+      "voiceover": "ACT II \u2014 FORWARD MOMENTUM\n### Stony Brook University Receives $13",
+      "shots": [
+        {
+          "visual": "establishing shot, forward",
+          "keywords": [
+            "momentum",
+            "wide angle",
+            "forward",
+            "stony",
+            "establishing shot"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "momentum",
+            "stony",
+            "brook",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "1:05-1:10",
+      "voiceover": "77M NSF Grant to Deploy a National Supercomputer to Democratize Access to Artificial Intelligence an...",
+      "shots": [
+        {
+          "visual": "particle effects, artificial intelligence",
+          "keywords": [
+            "data visualization",
+            "computing",
+            "breakthrough",
+            "particle effects",
+            "artificial intelligence"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "computing",
+            "breakthrough",
+            "research",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "1:10-1:15",
+      "voiceover": "77M NSF Grant to Deploy a National Supercomputer to Democratize Access to Artificial Intelligence an...",
+      "shots": [
+        {
+          "visual": "modern city, AI",
+          "keywords": [
+            "computing",
+            "office environment",
+            "technology workspace",
+            "AI",
+            "artificial intelligence"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "artificial intelligence",
+            "computing",
+            "research",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "1:15-1:20",
+      "voiceover": "NOW WHAT (Path Forward): Next move: brief your go-to-market team on how to position around deploy",
+      "shots": [
+        {
+          "visual": "close-up technology, forward):",
+          "keywords": [
+            "close-up technology",
+            "server room",
+            "forward):"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "1:20-1:25",
+      "voiceover": "ANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they mov...",
+      "shots": [
+        {
+          "visual": "AI brain, analogy:",
+          "keywords": [
+            "analogy:",
+            "neural network",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "1:25-1:30",
+      "voiceover": "WOW FACTOR: That 13",
+      "shots": [
+        {
+          "visual": "innovation hub, factor:",
+          "keywords": [
+            "factor:",
+            "research lab",
+            "scientists working"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "1:30-1:35",
+      "voiceover": "77 stat drives the tell executives should brief on",
+      "shots": [
+        {
+          "visual": "establishing shot, technology",
+          "keywords": [
+            "technology",
+            "future",
+            "wide angle",
+            "innovation",
+            "establishing shot"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "1:35-1:40",
+      "voiceover": "TRANSITION: Let's keep the momentum\u2014\n\n\n### AI revolutionizes weather prediction to help farmers in I...",
+      "shots": [
+        {
+          "visual": "particle effects, AI",
+          "keywords": [
+            "data visualization",
+            "transition:",
+            "let's",
+            "AI",
+            "particle effects"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "transition:",
+            "let's",
+            "india",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "1:40-1:45",
+      "voiceover": "NOW WHAT: Next move: brief your go-to-market team on how to position around Berkeley",
+      "shots": [
+        {
+          "visual": "modern city, what:",
+          "keywords": [
+            "berkeley",
+            "office environment",
+            "what:",
+            "technology workspace"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "berkeley",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "1:45-1:51",
+      "voiceover": "ANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they mov...",
+      "shots": [
+        {
+          "visual": "close-up technology, analogy:",
+          "keywords": [
+            "analogy:",
+            "server room",
+            "close-up technology"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "1:51-1:56",
+      "voiceover": "WOW FACTOR: Wow metric: 0% heat on this move",
+      "shots": [
+        {
+          "visual": "AI brain, factor:",
+          "keywords": [
+            "neural network",
+            "AI brain",
+            "factor:"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "1:56-2:01",
+      "voiceover": "TRANSITION: Let's keep the momentum\u2014\n\n\n### What Exactly Are A",
+      "shots": [
+        {
+          "visual": "innovation hub, transition:",
+          "keywords": [
+            "let's",
+            "transition:",
+            "research lab",
+            "scientists working",
+            "exactly"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "let's",
+            "exactly",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "2:01-2:06",
+      "voiceover": "I",
+      "shots": [
+        {
+          "visual": "establishing shot, technology",
+          "keywords": [
+            "technology",
+            "future",
+            "wide angle",
+            "innovation",
+            "establishing shot"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "2:06-2:11",
+      "voiceover": "Companies Trying to Build",
+      "shots": [
+        {
+          "visual": "particle effects, companies",
+          "keywords": [
+            "data visualization",
+            "trying",
+            "companies",
+            "build",
+            "particle effects"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "trying",
+            "build",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "2:11-2:16",
+      "voiceover": "Here\u2019s a Guide",
+      "shots": [
+        {
+          "visual": "modern city, here\u2019s",
+          "keywords": [
+            "here\u2019s",
+            "guide",
+            "office environment",
+            "technology workspace"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "guide",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "2:16-2:21",
+      "voiceover": "- The New York Times\nWHAT: What Exactly Are A",
+      "shots": [
+        {
+          "visual": "close-up technology, times",
+          "keywords": [
+            "close-up technology",
+            "server room",
+            "times",
+            "what:",
+            "exactly"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "what:",
+            "exactly",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "2:21-2:26",
+      "voiceover": "I",
+      "shots": [
+        {
+          "visual": "AI brain, technology",
+          "keywords": [
+            "AI brain",
+            "technology",
+            "future",
+            "neural network",
+            "innovation"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "2:26-2:31",
+      "voiceover": "Companies Trying to Build",
+      "shots": [
+        {
+          "visual": "innovation hub, companies",
+          "keywords": [
+            "research lab",
+            "trying",
+            "scientists working",
+            "companies",
+            "build"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "trying",
+            "build",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "2:31-2:36",
+      "voiceover": "Here\u2019s a Guide",
+      "shots": [
+        {
+          "visual": "establishing shot, here\u2019s",
+          "keywords": [
+            "here\u2019s",
+            "guide",
+            "wide angle",
+            "establishing shot"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "guide",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "2:36-2:41",
+      "voiceover": "- The New York Times\nSO WHAT: Why it matters: Times just graduated into the main revenue conversatio...",
+      "shots": [
+        {
+          "visual": "particle effects, AI",
+          "keywords": [
+            "data visualization",
+            "times",
+            "what:",
+            "AI",
+            "particle effects"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "times",
+            "what:",
+            "times",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "2:41-2:46",
+      "voiceover": "NOW WHAT: Next move: brief your go-to-market team on how to position around Times",
+      "shots": [
+        {
+          "visual": "modern city, what:",
+          "keywords": [
+            "office environment",
+            "what:",
+            "times",
+            "technology workspace"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "times",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "2:46-2:51",
+      "voiceover": "ANALOGY: Net out the jargon: this unlocks a new capability executives can operationalize if they mov...",
+      "shots": [
+        {
+          "visual": "close-up technology, analogy:",
+          "keywords": [
+            "analogy:",
+            "server room",
+            "close-up technology"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "2:51-2:56",
+      "voiceover": "WOW FACTOR: Wow metric: 0% heat on this move",
+      "shots": [
+        {
+          "visual": "AI brain, factor:",
+          "keywords": [
+            "neural network",
+            "AI brain",
+            "factor:"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "2:56-3:01",
+      "voiceover": "TRANSITION: One more move to lock in:\n\n\nACT III \u2014 MOMENTUM CHECK\nFinal pulse: That 13",
+      "shots": [
+        {
+          "visual": "innovation hub, transition:",
+          "keywords": [
+            "check",
+            "momentum",
+            "transition:",
+            "research lab",
+            "scientists working"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "momentum",
+            "check",
+            "final",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "3:01-3:06",
+      "voiceover": "77 stat drives the tell executives should brief on",
+      "shots": [
+        {
+          "visual": "establishing shot, technology",
+          "keywords": [
+            "technology",
+            "future",
+            "wide angle",
+            "innovation",
+            "establishing shot"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "3:06-3:11",
+      "voiceover": "CTA\nWho on your bench can translate deploy into deployment-ready advantage",
+      "shots": [
+        {
+          "visual": "particle effects, technology",
+          "keywords": [
+            "data visualization",
+            "technology",
+            "future",
+            "innovation",
+            "particle effects"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 5.046153846153846
+    },
+    {
+      "timestamp": "3:11-3:16",
+      "voiceover": "SIGN-OFF\nStay sharp \u2014 JunaidQ AI News",
+      "shots": [
+        {
+          "visual": "modern city, AI",
+          "keywords": [
+            "junaidq",
+            "office environment",
+            "sign-off",
+            "technology workspace",
+            "AI"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "sign-off",
+            "junaidq",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 5.046153846153846
+    }
+  ],
+  "total_segments": 39,
+  "total_shots": 78,
+  "duration": 196.79999999999998,
+  "generated_at": "20250916_200434"
+}

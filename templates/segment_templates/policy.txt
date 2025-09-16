@@ -1,0 +1,7 @@
+### {{headline}}
+WHAT (Move): {{what}}
+SO WHAT (Implication): {{so_what}}
+NOW WHAT (Action Signal): {{now_what}}
+ANALOGY: {{analogy}}
+WOW FACTOR: {{wow_factor}}
+TRANSITION: {{transition}}

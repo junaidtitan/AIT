@@ -94,12 +94,13 @@ Now, using this framework, process the following raw script into a complete shot
                     {"role": "system", "content": "You are a professional video producer specializing in fast-paced news content. Generate detailed shot lists with specific B-roll descriptions."},
                     {"role": "user", "content": prompt}
                 ],
-                max_completion_tokens=4000,  # GPT-5 uses max_completion_tokens parameter
-                temperature=0.7  # Add some creativity for diverse shots
+                max_completion_tokens=4000
             )
             
             # Parse the response
             shot_list = self._parse_markdown_table(response.choices[0].message.content)
+            if not shot_list:
+                raise ValueError("AI returned empty shot list")
             return shot_list
             
         except Exception as e:

@@ -1,0 +1,12 @@
+[
+  {"id": "risk_readiness", "pattern": "What is your team's play if {{topic}} hits production in 90 days?"},
+  {"id": "allocation_decision", "pattern": "Where would you redeploy budget to capitalize on {{topic}} before competitors do?"},
+  {"id": "talent_gap", "pattern": "Who on your bench can translate {{topic}} into deployment-ready advantage?"},
+  {"id": "customer_obligation", "pattern": "How will you explain {{topic}} to customers who expect trustworthy AI?"},
+  {"id": "policy_watch", "pattern": "Are you lobbying or waiting on {{topic}}—and can you afford the latter?"},
+  {"id": "data_strategy", "pattern": "Does your data strategy unlock or block progress on {{topic}}?"},
+  {"id": "experiment_velocity", "pattern": "What new experiment can you launch this week to test {{topic}}?"},
+  {"id": "competitive_response", "pattern": "If your rival shipped {{topic}} tomorrow, what is your move on day one?"},
+  {"id": "resilience", "pattern": "How resilient is your stack if {{topic}} becomes table stakes?"},
+  {"id": "ethics_signal", "pattern": "Who owns the red flag when {{topic}} collides with ethics or compliance?"}
+]

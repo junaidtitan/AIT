@@ -1,0 +1,19 @@
+{
+  "script": {
+    "vo_script": "Welcome to Today in AI. OpenAI just shipped GPT-5 with enterprise guardrails, DeepMind pushed Gemini into 400M seats, and regulators agreed on a safety standard. Assign owners now and brief your board.",
+    "lower_thirds": [
+      "GPT-5 enterprise launch",
+      "Gemini everywhere",
+      "AI safety standards"
+    ],
+    "broll_keywords": [
+      "ai",
+      "executive briefing"
+    ],
+    "chapters": [],
+    "metadata": {}
+  },
+  "word_count": 32,
+  "estimated_duration": 12.8,
+  "generated_at": "20250916_194547"
+}

@@ -1,0 +1,547 @@
+{
+  "segments": [
+    {
+      "timestamp": "0:00-0:07",
+      "voiceover": "ACT I \u2014 FLASH BRIEFING\nToday's AI pulse: DeepMind and Google fold Gemini into Workspace for 400M use...",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "tech company",
+            "artificial intelligence",
+            "enterprise",
+            "OpenAI",
+            "AI"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "enterprise",
+            "flash",
+            "briefing",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:07-0:14",
+      "voiceover": "HEADLINE BLITZ\n\u2022 DeepMind and Google fold Gemini into Workspace for 400M users\n\u2022 OpenAI ships enterp...",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "tech company",
+            "artificial intelligence",
+            "enterprise",
+            "OpenAI",
+            "AI"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "enterprise",
+            "headline",
+            "blitz",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:14-0:21",
+      "voiceover": "ACT II \u2014 FORWARD MOMENTUM\n### DeepMind and Google fold Gemini into Workspace for 400M users\nWHAT: Ge...",
+      "shots": [
+        {
+          "visual": "Google DeepMind research lab, quantum computing facility",
+          "keywords": [
+            "forward",
+            "Google",
+            "quantum computing",
+            "DeepMind",
+            "AI"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "forward",
+            "momentum",
+            "deepmind",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:21-0:28",
+      "voiceover": "SO WHAT: Why it matters: multimodal just graduated into the main revenue conversation",
+      "shots": [
+        {
+          "visual": "close-up technology, AI",
+          "keywords": [
+            "AI",
+            "what:",
+            "close-up technology",
+            "server room"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "what:",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:28-0:35",
+      "voiceover": "NOW WHAT: Next move: brief your go-to-market team on how to position around multimodal",
+      "shots": [
+        {
+          "visual": "AI brain, what:",
+          "keywords": [
+            "neural network",
+            "what:",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:35-0:42",
+      "voiceover": "ANALOGY: Think of it as hiring a polyglot analyst who can read slides, listen to calls, and parse sp...",
+      "shots": [
+        {
+          "visual": "innovation hub, analogy:",
+          "keywords": [
+            "research lab",
+            "analogy:",
+            "think",
+            "scientists working"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "think",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:42-0:49",
+      "voiceover": "WOW FACTOR: That 400 stat drives the tell executives should brief on",
+      "shots": [
+        {
+          "visual": "establishing shot, factor:",
+          "keywords": [
+            "factor:",
+            "wide angle",
+            "establishing shot"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:49-0:56",
+      "voiceover": "TRANSITION: Let's keep the momentum\u2014\n\n\n### OpenAI ships enterprise-ready GPT-5 with governance guard...",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "tech company",
+            "artificial intelligence",
+            "enterprise",
+            "OpenAI",
+            "AI"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "enterprise",
+            "transition:",
+            "let's",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:56-1:03",
+      "voiceover": "SO WHAT: Why it matters: OpenAI just graduated into the main revenue conversation",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "tech company",
+            "what:",
+            "artificial intelligence",
+            "OpenAI",
+            "AI"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "what:",
+            "openai",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:03-1:10",
+      "voiceover": "NOW WHAT: Next move: brief your go-to-market team on how to position around OpenAI",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "tech company",
+            "what:",
+            "artificial intelligence",
+            "OpenAI",
+            "AI"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "what:",
+            "openai",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:10-1:17",
+      "voiceover": "ANALOGY: It's like promoting a junior analyst to chief of staff\u2014the software now coordinates whole w...",
+      "shots": [
+        {
+          "visual": "AI brain, software",
+          "keywords": [
+            "neural network",
+            "software",
+            "analogy:",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "analogy:",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:17-1:24",
+      "voiceover": "WOW FACTOR: Wow metric: 60% heat on this move",
+      "shots": [
+        {
+          "visual": "innovation hub, factor:",
+          "keywords": [
+            "factor:",
+            "research lab",
+            "scientists working"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:24-1:31",
+      "voiceover": "TRANSITION: Let's keep the momentum\u2014\n\n\n### US-EU announce synchronized AI safety reporting standard\n...",
+      "shots": [
+        {
+          "visual": "establishing shot, AI",
+          "keywords": [
+            "transition:",
+            "establishing shot",
+            "wide angle",
+            "enterprise",
+            "AI"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "enterprise",
+            "transition:",
+            "let's",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:31-1:38",
+      "voiceover": "SO WHAT: Why it matters: align just graduated into the main revenue conversation",
+      "shots": [
+        {
+          "visual": "particle effects, AI",
+          "keywords": [
+            "AI",
+            "particle effects",
+            "what:",
+            "data visualization"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "what:",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:38-1:45",
+      "voiceover": "NOW WHAT: Next move: brief your go-to-market team on how to position around align",
+      "shots": [
+        {
+          "visual": "modern city, what:",
+          "keywords": [
+            "technology workspace",
+            "what:",
+            "office environment"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:45-1:52",
+      "voiceover": "ANALOGY: Alignment drives the AI version of Sarbanes-Oxley\u2014controls that keep powerful systems insid...",
+      "shots": [
+        {
+          "visual": "close-up technology, AI",
+          "keywords": [
+            "server room",
+            "system",
+            "close-up technology",
+            "AI",
+            "analogy:"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "system",
+            "analogy:",
+            "alignment",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:52-1:59",
+      "voiceover": "WOW FACTOR: Wow metric: 0% heat on this move",
+      "shots": [
+        {
+          "visual": "AI brain, factor:",
+          "keywords": [
+            "neural network",
+            "factor:",
+            "AI brain"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:59-2:06",
+      "voiceover": "TRANSITION: Let's keep the momentum\u2014\n\n\nACT III \u2014 MOMENTUM CHECK\nFinal pulse: That 400 stat drives th...",
+      "shots": [
+        {
+          "visual": "innovation hub, transition:",
+          "keywords": [
+            "scientists working",
+            "transition:",
+            "research lab",
+            "momentum",
+            "let's"
+          ],
+          "style": "Documentary/Stock"
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "let's",
+            "momentum",
+            "check",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "2:06-2:13",
+      "voiceover": "CTA\nWho on your bench can translate multimodal into deployment-ready advantage",
+      "shots": [
+        {
+          "visual": "establishing shot, technology",
+          "keywords": [
+            "innovation",
+            "future",
+            "establishing shot",
+            "wide angle",
+            "technology"
+          ],
+          "style": "Cinematic"
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic"
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "2:13-2:20",
+      "voiceover": "SIGN-OFF\nStay sharp \u2014 JunaidQ AI News",
+      "shots": [
+        {
+          "visual": "particle effects, AI",
+          "keywords": [
+            "particle effects",
+            "sign-off",
+            "data visualization",
+            "junaidq",
+            "AI"
+          ],
+          "style": "Abstract/Futuristic"
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "sign-off",
+            "junaidq",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic"
+        }
+      ],
+      "duration": 7
+    }
+  ],
+  "total_segments": 20,
+  "total_shots": 40,
+  "duration": 144.8,
+  "generated_at": "20250916_194157"
+}

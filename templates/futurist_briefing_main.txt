@@ -1,0 +1,20 @@
+ACT I — FLASH BRIEFING
+{{opening_hook}}
+
+HEADLINE BLITZ
+{{headline_blitz}}
+
+BRIDGE
+{{bridge_sentence}}
+
+ACT II — FORWARD MOMENTUM
+{{segment_blocks}}
+
+ACT III — MOMENTUM CHECK
+{{closing_reflection}}
+
+CTA
+{{cta_prompt}}
+
+SIGN-OFF
+{{sign_off}}
