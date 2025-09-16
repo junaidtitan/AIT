@@ -82,6 +82,30 @@ class AnalogyGenerator:
         "trust": {
             "keywords": {"governance", "policy", "auditing", "compliance"},
             "analogy": "Consider it the GDPR moment for AI—the compliance office now sits in every sprint review."
+        },
+        "weather": {
+            "keywords": {"weather", "climate", "forecast", "meteorology"},
+            "analogy": "Treat it like moving from paper charts to Doppler radar—the new signal lets operators act hours faster."
+        },
+        "agriculture": {
+            "keywords": {"farm", "agriculture", "crop", "soil", "precision"},
+            "analogy": "Picture agritech as high-frequency trading for fields—data lets you time every irrigation and input."
+        },
+        "policing": {
+            "keywords": {"police", "law enforcement", "surveillance", "crime"},
+            "analogy": "It's the command center going real-time—dashboards replace after-action reports so chiefs can steer in the moment."
+        },
+        "supercomputer": {
+            "keywords": {"supercomputer", "hpc", "exascale", "compute"},
+            "analogy": "Think of it as building an interstate for compute—every research team now gets multi-lane throughput on demand."
+        },
+        "biotech": {
+            "keywords": {"protein", "drug", "biotech", "genomics"},
+            "analogy": "It's like putting R&D on fast-forward—the lab gets a simulation twin that never sleeps."
+        },
+        "finance": {
+            "keywords": {"bank", "fintech", "trading", "portfolio"},
+            "analogy": "Treat it as an autonomous risk desk—models watch the books 24/7 and flag what used to take teams a quarter."
         }
     }
 
@@ -102,11 +126,15 @@ class WowFactorEngine:
     def compute(self, text: str) -> Dict[str, Any]:
         numbers = [m.group().strip() for m in _NUMBER_PATTERN.finditer(text)]
         wow_terms = [term for term in _SHOCK_TERMS if term in text.lower()]
-        wow_score = min(1.0, 0.2 * len(numbers) + 0.3 * len(wow_terms))
+        momentum_terms = [term for term in _FUTURE_TERMS if term in text.lower()]
+        wow_score = min(1.0, 0.18 * len(numbers) + 0.25 * len(wow_terms) + 0.15 * len(momentum_terms))
         highlight: Optional[str] = None
         if wow_score < 0.4 and numbers:
             highlight = f"That {numbers[0]} stat is the tell executives should brief on."
             wow_score = 0.45
+        elif wow_score < 0.4 and wow_terms:
+            highlight = f"Even without the numbers, the {wow_terms[0]} framing jolts operators awake."
+            wow_score = 0.42
         elif wow_score >= 0.4 and wow_terms:
             highlight = f"It's a {wow_terms[0]} move that will make board decks this quarter."
         return {"wow_score": wow_score, "wow_highlight": highlight}

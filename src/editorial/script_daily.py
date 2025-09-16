@@ -137,6 +137,8 @@ class ScriptGenerator:
                 "wow_factor": wow_factor,
                 "transition": transition_phrase,
             })
+            segment_words = len(rendered.split())
+            segment_duration = round(segment_words / 155 * 60, 1) if segment_words else 0.0
             segments.append({
                 "headline": story.get("title", ""),
                 "what": what_text,
@@ -147,11 +149,17 @@ class ScriptGenerator:
                 "transition": transition_phrase,
                 "keywords": keywords,
                 "segment_type": segment_type,
+                "estimated_duration": segment_duration,
+                "word_count": segment_words,
                 "rendered": rendered,
             })
 
         topic_for_cta = segments[0]["keywords"][0] if segments and segments[0]["keywords"] else "AI adoption"
         cta_payload = self.cta.generate(topic_for_cta)
+
+        total_words = sum(segment["word_count"] for segment in segments)
+        total_duration = round(sum(segment["estimated_duration"] for segment in segments), 1)
+        avg_segment_duration = round(total_duration / max(1, len(segments)), 1)
 
         acts = {
             "act1": {
@@ -161,6 +169,8 @@ class ScriptGenerator:
             "act2": {
                 "segments": segments,
                 "body": "",
+                "duration_estimate": total_duration,
+                "word_count": total_words,
             },
             "act3": {
                 "closing": self._compose_closing(analyzed),
@@ -175,6 +185,11 @@ class ScriptGenerator:
             "headline_blitz": headline_blitz,
             "bridge_sentence": bridge_sentence,
             "cta": cta_payload,
+            "pacing": {
+                "total_seconds": total_duration,
+                "average_segment_seconds": avg_segment_duration,
+                "segment_estimates": [segment["estimated_duration"] for segment in segments],
+            },
         }
 
     def _fallback_package(self, analyzed: List[Dict[str, Any]]) -> Dict[str, Any]:

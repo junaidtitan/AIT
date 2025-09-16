@@ -59,6 +59,22 @@ class StructureValidator:
             missing.append("bridge_sentence")
             score -= 0.05
 
+        pacing = payload.get("pacing")
+        if isinstance(pacing, dict):
+            total = pacing.get("total_seconds")
+            if isinstance(total, (int, float)):
+                if total < 90:
+                    missing.append("pacing:under_90s")
+                    score -= 0.05
+                elif total > 220:
+                    missing.append("pacing:over_220s")
+                    score -= 0.05
+            segment_estimates = pacing.get("segment_estimates") or []
+            for idx, seconds in enumerate(segment_estimates):
+                if isinstance(seconds, (int, float)) and seconds > 80:
+                    missing.append(f"segment_{idx}:duration_long")
+                    score -= 0.03
+
         score = max(0.0, min(1.0, score))
         return ValidationResult(not missing, score, missing)
 
