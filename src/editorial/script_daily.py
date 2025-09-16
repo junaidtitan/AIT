@@ -210,7 +210,12 @@ class ScriptGenerator:
             "word_count": 0,
         }
         template = SEGMENT_TEMPLATES["news"]
-        basic_segment["rendered"] = _render_template(template, basic_segment)
+        render_values = {}
+        for key, value in basic_segment.items():
+            if key in {"keywords", "segment_type", "estimated_duration", "word_count"}:
+                continue
+            render_values[key] = value
+        basic_segment["rendered"] = _render_template(template, render_values)
         basic_segment["word_count"] = len(basic_segment["rendered"].split())
         basic_segment["estimated_duration"] = round(basic_segment["word_count"] / 155 * 60, 1) if basic_segment["word_count"] else 0.0
         headline_blitz = [basic_segment["headline"]]
