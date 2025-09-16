@@ -40,6 +40,9 @@ class EditorialPipelineTest(unittest.TestCase):
         validator = package["metadata"]["validator"]
         self.assertIn("score", validator)
         self.assertGreaterEqual(validator["score"], 0.0)
+        pacing = package["metadata"].get("pacing")
+        self.assertIsInstance(pacing, dict)
+        self.assertGreater(pacing.get("total_seconds", 0), 0)
 
     def test_structure_validator(self) -> None:
         generator = ScriptGenerator()
@@ -51,6 +54,7 @@ class EditorialPipelineTest(unittest.TestCase):
             "cta": package["metadata"]["structure"]["cta"],
             "headline_blitz": package["metadata"]["structure"]["headline_blitz"],
             "bridge_sentence": package["metadata"]["structure"]["bridge_sentence"],
+            "pacing": package["metadata"].get("pacing"),
         }
         result = validator.validate(structure_payload)
         self.assertTrue(result.score >= 0)

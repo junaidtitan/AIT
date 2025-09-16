@@ -564,6 +564,8 @@ class UnifiedPipelineTest:
             'summary': {
                 'research_articles': self.artifacts.get('research', {}).get('total_articles', 0),
                 'script_words': self.artifacts.get('script', {}).get('word_count', 0),
+                'script_duration_seconds': round(self.artifacts.get('script', {}).get('pacing', {}).get('total_seconds', self.artifacts.get('script', {}).get('estimated_duration', 0)), 1) if self.artifacts.get('script') else 0,
+                'avg_segment_seconds': self.artifacts.get('script', {}).get('pacing', {}).get('average_segment_seconds'),
                 'shot_segments': self.artifacts.get('shot_list', {}).get('total_segments', 0),
                 'total_assets': self.artifacts.get('assets', {}).get('total_assets', 0),
                 'timeline_clips': self.artifacts.get('timeline', {}).get('statistics', {}).get('total_clips', 0),
