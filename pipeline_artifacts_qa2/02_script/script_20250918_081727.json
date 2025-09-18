@@ -1,0 +1,218 @@
+{
+  "script": {
+    "vo_script": "ACT I \u2014 FLASH BRIEFING\nToday's AI pulse: SoftBank, OpenAI Japan AI joint venture Delayed, source says - Reuters, Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org, 2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance, and AI\u2019s Great Jobs Debate Requires a History Lesson - PYMNTS.com. HEADLINE BLITZ\n\u2022 SoftBank, OpenAI Japan AI joint venture Delayed, source says - Reuters\n\u2022 Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org\n\u2022 2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance\n\u2022 AI\u2019s Great Jobs Debate Requires a History Lesson - PYMNTS.com\n\nBRIDGE\nBan, intelligence, and Dollar signal the same thing: operators need a plan before the next earnings call. ACT II \u2014 FORWARD MOMENTUM\nSoftBank, OpenAI Japan AI joint venture Delayed, source says - Reuters. Here's what happened: SoftBank, OpenAI Japan AI joint venture Delayed, source says - Reuters.. Why it matters: Strategic watch: the AI move for News drives fast becoming the boardroom talking point for News.. Next move: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.. Analogy: Treat it as an autonomous risk desk\u2014models watch the books 24/7 and flag what used to take teams a quarter.. Impact pulse: Even without the numbers, the ban framing jolts operators awake.. Let's keep the momentum\u2014\n\n\nReport: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org. Here's what happened: Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org.. Why it matters: Strategic watch: the intelligence for News drives fast becoming the boardroom talking point for News.. Next move: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.. Analogy: It's the early-warning radar ping smart operators act on before the market does.. Impact pulse: That 13% stat drives the tell executives should brief on.. Let's keep the momentum\u2014\n\n\n2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance. Here's what happened: 2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance.. Why it matters: Strategic watch: the Dollar for News drives fast becoming the boardroom talking point for News.. Next move: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.. Analogy: It's the brief from the war room telling you the map just changed.. Impact pulse: That 2 stat drives the tell executives should brief on.. One more move to lock in:\n\n\nACT III \u2014 MOMENTUM CHECK\nFinal pulse: Even without the numbers, the ban framing jolts operators awake That 13% stat drives the tell executives should brief on. CTA\nDoes your data strategy unlock or block progress on the AI move for News? SIGN-OFF\nStay sharp \u2014 JunaidQ AI News",
+    "lower_thirds": [
+      "SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters",
+      "Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org",
+      "2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance"
+    ],
+    "broll_keywords": [
+      "ban",
+      "intelligence",
+      "Could",
+      "Report",
+      "Dollar",
+      "Select",
+      "Yahoo"
+    ],
+    "chapters": [],
+    "metadata": {
+      "validator": {
+        "passed": true,
+        "score": 1.0,
+        "missing": []
+      },
+      "structure": {
+        "acts": {
+          "act1": {
+            "hook": "Today's AI pulse: SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters, Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org, 2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance, and AI\u2019s Great Jobs Debate Requires a History Lesson - PYMNTS.com.",
+            "bridge": "Ban, intelligence, and Dollar signal the same thing: operators need a plan before the next earnings call."
+          },
+          "act2": {
+            "segments": [
+              {
+                "headline": "SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters",
+                "what": "SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters.",
+                "so_what": "Strategic watch: the AI move for News is fast becoming the boardroom talking point for News.",
+                "now_what": "Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.",
+                "analogy": "Treat it as an autonomous risk desk\u2014models watch the books 24/7 and flag what used to take teams a quarter.",
+                "wow_factor": "Even without the numbers, the ban framing jolts operators awake.",
+                "transition": "Let's keep the momentum\u2014",
+                "keywords": [
+                  "ban"
+                ],
+                "segment_type": "news",
+                "topic_phrase": "the AI move for News",
+                "impact_profile": {
+                  "risk_level": "monitor",
+                  "tone": "signal"
+                },
+                "estimated_duration": 38.3,
+                "word_count": 99,
+                "rendered": "SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters. Here's what happened: SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters.. Why it matters: Strategic watch: the AI move for News is fast becoming the boardroom talking point for News.. Next move: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.. Analogy: Treat it as an autonomous risk desk\u2014models watch the books 24/7 and flag what used to take teams a quarter.. Impact pulse: Even without the numbers, the ban framing jolts operators awake.. Let's keep the momentum\u2014\n"
+              },
+              {
+                "headline": "Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org",
+                "what": "Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org.",
+                "so_what": "Strategic watch: the intelligence for News is fast becoming the boardroom talking point for News.",
+                "now_what": "Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.",
+                "analogy": "It's the early-warning radar ping smart operators act on before the market does.",
+                "wow_factor": "That 13% stat is the tell executives should brief on.",
+                "transition": "Let's keep the momentum\u2014",
+                "keywords": [
+                  "intelligence",
+                  "Could",
+                  "Report"
+                ],
+                "segment_type": "news",
+                "topic_phrase": "the intelligence for News",
+                "impact_profile": {
+                  "risk_level": "monitor",
+                  "tone": "signal"
+                },
+                "estimated_duration": 34.5,
+                "word_count": 89,
+                "rendered": "Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org. Here's what happened: Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org.. Why it matters: Strategic watch: the intelligence for News is fast becoming the boardroom talking point for News.. Next move: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.. Analogy: It's the early-warning radar ping smart operators act on before the market does.. Impact pulse: That 13% stat is the tell executives should brief on.. Let's keep the momentum\u2014\n"
+              },
+              {
+                "headline": "2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance",
+                "what": "2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance.",
+                "so_what": "Strategic watch: the Dollar for News is fast becoming the boardroom talking point for News.",
+                "now_what": "Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.",
+                "analogy": "It's the brief from the war room telling you the map just changed.",
+                "wow_factor": "That 2 stat is the tell executives should brief on.",
+                "transition": "One more move to lock in:",
+                "keywords": [
+                  "Dollar",
+                  "Select",
+                  "Yahoo"
+                ],
+                "segment_type": "news",
+                "topic_phrase": "the Dollar for News",
+                "impact_profile": {
+                  "risk_level": "monitor",
+                  "tone": "signal"
+                },
+                "estimated_duration": 43.0,
+                "word_count": 111,
+                "rendered": "2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance. Here's what happened: 2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance.. Why it matters: Strategic watch: the Dollar for News is fast becoming the boardroom talking point for News.. Next move: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.. Analogy: It's the brief from the war room telling you the map just changed.. Impact pulse: That 2 stat is the tell executives should brief on.. One more move to lock in:\n"
+              }
+            ],
+            "body": "ACT I \u2014 FLASH BRIEFING\nToday's AI pulse: SoftBank, OpenAI Japan AI joint venture Delayed, source says - Reuters, Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org, 2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance, and AI\u2019s Great Jobs Debate Requires a History Lesson - PYMNTS.com. HEADLINE BLITZ\n\u2022 SoftBank, OpenAI Japan AI joint venture Delayed, source says - Reuters\n\u2022 Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org\n\u2022 2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance\n\u2022 AI\u2019s Great Jobs Debate Requires a History Lesson - PYMNTS.com\n\nBRIDGE\nBan, intelligence, and Dollar signal the same thing: operators need a plan before the next earnings call. ACT II \u2014 FORWARD MOMENTUM\nSoftBank, OpenAI Japan AI joint venture Delayed, source says - Reuters. Here's what happened: SoftBank, OpenAI Japan AI joint venture Delayed, source says - Reuters.. Why it matters: Strategic watch: the AI move for News drives fast becoming the boardroom talking point for News.. Next move: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.. Analogy: Treat it as an autonomous risk desk\u2014models watch the books 24/7 and flag what used to take teams a quarter.. Impact pulse: Even without the numbers, the ban framing jolts operators awake.. Let's keep the momentum\u2014\n\n\nReport: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org. Here's what happened: Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org.. Why it matters: Strategic watch: the intelligence for News drives fast becoming the boardroom talking point for News.. Next move: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.. Analogy: It's the early-warning radar ping smart operators act on before the market does.. Impact pulse: That 13% stat drives the tell executives should brief on.. Let's keep the momentum\u2014\n\n\n2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance. Here's what happened: 2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance.. Why it matters: Strategic watch: the Dollar for News drives fast becoming the boardroom talking point for News.. Next move: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.. Analogy: It's the brief from the war room telling you the map just changed.. Impact pulse: That 2 stat drives the tell executives should brief on.. One more move to lock in:\n\n\nACT III \u2014 MOMENTUM CHECK\nFinal pulse: Even without the numbers, the ban framing jolts operators awake That 13% stat drives the tell executives should brief on. CTA\nDoes your data strategy unlock or block progress on the AI move for News? SIGN-OFF\nStay sharp \u2014 JunaidQ AI News",
+            "duration_estimate": 115.8,
+            "word_count": 299
+          },
+          "act3": {
+            "closing": "Final pulse: Even without the numbers, the ban framing jolts operators awake That 13% stat is the tell executives should brief on.",
+            "cta": {
+              "id": "data_strategy",
+              "question": "Does your data strategy unlock or block progress on the AI move for News?"
+            },
+            "sign_off": "Stay sharp \u2014 JunaidQ AI News"
+          }
+        },
+        "segments": [
+          {
+            "headline": "SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters",
+            "what": "SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters.",
+            "so_what": "Strategic watch: the AI move for News is fast becoming the boardroom talking point for News.",
+            "now_what": "Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.",
+            "analogy": "Treat it as an autonomous risk desk\u2014models watch the books 24/7 and flag what used to take teams a quarter.",
+            "wow_factor": "Even without the numbers, the ban framing jolts operators awake.",
+            "transition": "Let's keep the momentum\u2014",
+            "keywords": [
+              "ban"
+            ],
+            "segment_type": "news",
+            "topic_phrase": "the AI move for News",
+            "impact_profile": {
+              "risk_level": "monitor",
+              "tone": "signal"
+            },
+            "estimated_duration": 38.3,
+            "word_count": 99
+          },
+          {
+            "headline": "Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org",
+            "what": "Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org.",
+            "so_what": "Strategic watch: the intelligence for News is fast becoming the boardroom talking point for News.",
+            "now_what": "Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.",
+            "analogy": "It's the early-warning radar ping smart operators act on before the market does.",
+            "wow_factor": "That 13% stat is the tell executives should brief on.",
+            "transition": "Let's keep the momentum\u2014",
+            "keywords": [
+              "intelligence",
+              "Could",
+              "Report"
+            ],
+            "segment_type": "news",
+            "topic_phrase": "the intelligence for News",
+            "impact_profile": {
+              "risk_level": "monitor",
+              "tone": "signal"
+            },
+            "estimated_duration": 34.5,
+            "word_count": 89
+          },
+          {
+            "headline": "2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance",
+            "what": "2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance.",
+            "so_what": "Strategic watch: the Dollar for News is fast becoming the boardroom talking point for News.",
+            "now_what": "Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.",
+            "analogy": "It's the brief from the war room telling you the map just changed.",
+            "wow_factor": "That 2 stat is the tell executives should brief on.",
+            "transition": "One more move to lock in:",
+            "keywords": [
+              "Dollar",
+              "Select",
+              "Yahoo"
+            ],
+            "segment_type": "news",
+            "topic_phrase": "the Dollar for News",
+            "impact_profile": {
+              "risk_level": "monitor",
+              "tone": "signal"
+            },
+            "estimated_duration": 43.0,
+            "word_count": 111
+          }
+        ],
+        "headline_blitz": [
+          "SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters",
+          "Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org",
+          "2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance",
+          "AI\u2019s Great Jobs Debate Requires a History Lesson - PYMNTS.com"
+        ],
+        "bridge_sentence": "Ban, intelligence, and Dollar signal the same thing: operators need a plan before the next earnings call.",
+        "cta": {
+          "id": "data_strategy",
+          "question": "Does your data strategy unlock or block progress on the AI move for News?"
+        }
+      },
+      "pacing": {
+        "total_seconds": 115.8,
+        "average_segment_seconds": 38.6,
+        "segment_estimates": [
+          38.3,
+          34.5,
+          43.0
+        ]
+      },
+      "tone": {
+        "llm_used": false
+      }
+    }
+  },
+  "word_count": 490,
+  "estimated_duration": 196.0,
+  "generated_at": "20250918_081727",
+  "pacing": {
+    "total_seconds": 115.8,
+    "average_segment_seconds": 38.6,
+    "segment_estimates": [
+      38.3,
+      34.5,
+      43.0
+    ]
+  }
+}

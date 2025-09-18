@@ -1,1 +1,7 @@
-{{headline}}. Deal snapshot: {{what}}. Strategic impact: {{so_what}}. Next move: {{now_what}}. Analogy: {{analogy}}. Impact pulse: {{wow_factor}}. {{transition}}
+{{headline}}
+Deal snapshot: {{what}}
+Strategic impact: {{so_what}}
+Next move: {{now_what}}
+Analogy: {{analogy}}
+Impact pulse: {{wow_factor}}
+{{transition}}

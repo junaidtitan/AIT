@@ -1,12 +1,12 @@
 [
-  {"id": "risk_readiness", "pattern": "What is your team's play if {{topic}} hits production in 90 days?"},
-  {"id": "allocation_decision", "pattern": "Where would you redeploy budget to capitalize on {{topic}} before competitors do?"},
-  {"id": "talent_gap", "pattern": "Who on your bench can translate {{topic}} into deployment-ready advantage?"},
-  {"id": "customer_obligation", "pattern": "How will you explain {{topic}} to customers who expect trustworthy AI?"},
-  {"id": "policy_watch", "pattern": "Are you lobbying or waiting on {{topic}}—and can you afford the latter?"},
-  {"id": "data_strategy", "pattern": "Does your data strategy unlock or block progress on {{topic}}?"},
-  {"id": "experiment_velocity", "pattern": "What new experiment can you launch this week to test {{topic}}?"},
-  {"id": "competitive_response", "pattern": "If your rival shipped {{topic}} tomorrow, what is your move on day one?"},
-  {"id": "resilience", "pattern": "How resilient is your stack if {{topic}} becomes table stakes?"},
-  {"id": "ethics_signal", "pattern": "Who owns the red flag when {{topic}} collides with ethics or compliance?"}
+  {"id": "risk_readiness", "pattern": "If {{insight}} holds, who owns the contingency when {{topic}} hits production?"},
+  {"id": "allocation_decision", "pattern": "Which budget line are you willing to cut so {{topic}} ships before the quarter closes?"},
+  {"id": "talent_gap", "pattern": "Which leader builds the crew that can turn {{topic}} into execution instead of a deck?"},
+  {"id": "customer_obligation", "pattern": "Who briefs customers so {{topic}} creates trust rather than turbulence?"},
+  {"id": "policy_watch", "pattern": "Which flank are you covering while {{topic}} works through regulators?"},
+  {"id": "data_strategy", "pattern": "Does your data estate unblock or stall {{topic}}—and who can change that answer?"},
+  {"id": "experiment_velocity", "pattern": "What experiment do you greenlight this week to pressure-test {{topic}}?"},
+  {"id": "competitive_response", "pattern": "If a rival launches {{topic}} tomorrow, who calls the opening move?"},
+  {"id": "resilience", "pattern": "How resilient is the stack if {{topic}} becomes table stakes overnight?"},
+  {"id": "ethics_signal", "pattern": "Who pulls the risk cord if {{topic}} drifts into ethics or compliance trouble?"}
 ]

@@ -1,0 +1,206 @@
+{
+  "script": {
+    "vo_script": "**ACT I \u2014 FLASH BRIEFING**\n\nToday's AI pulse reveals that AI outperforms doctors in predicting deadly complications after surgery, according to Johns Hopkins University. VERSABANK rolls out new internally developed artificial intelligence capabilities within its core banking technology, as reported by PR Newswire. Nasdaq predicts that this AI stock, boasting a $455 billion revenue pipeline, will reach a staggering $3 trillion in five years. Additionally, Nvidia plans to acquire a $5 billion stake in Intel, as highlighted by The New York Times.\n\n**HEADLINE BLITZ**\n- AI outperforms doctors in predicting deadly complications after surgery - Johns Hopkins University\n- VERSABANK rolls out new internally developed artificial intelligence capabilities within core banking technology - PR Newswire\n- Nasdaq predicts this AI stock, with a $455 billion revenue pipeline, will hit $3 trillion in five years\n- Nvidia plans to acquire a $5 billion stake in Intel - The New York Times\n\n**BRIDGE**\nSurge, ban, and pipeline signal urgency: operators must devise a plan before the next earnings call.\n\n**ACT II \u2014 FORWARD MOMENTUM**\n\n**AI outperforms doctors in predicting deadly complications after surgery - Johns Hopkins University**\nWhat: AI outperforms doctors in predicting deadly complications after surgery. \nSo what: Strategic watch: Executive teams must prioritize the spending surge as the next boardroom topic. \nNow what: Action: Establish metrics and appoint an owner to monitor outcomes in the upcoming sprint. \nAnalogy: AI predicting surgical risks resembles a weather satellite detecting a hurricane long before seasoned sailors sense the storm. \nImpact pulse: The surge framing awakens operators, even without the numbers. \n\n**Ecosystem ripple effect next:**\n\n**VERSABANK rolls out new internally developed artificial intelligence capabilities within core banking technology - PR Newswire**\nWhat: VERSABANK rolls out new internally developed artificial intelligence capabilities within core banking technology. \nSo what: Strategic watch: VERSABANK's move positions AI as the next boardroom topic. \nNow what: Action: Establish metrics and appoint an owner to monitor outcomes in the upcoming sprint. \nAnalogy: Treat this as an autonomous risk desk\u2014models monitor the books 24/7 and flag issues that previously took teams a quarter to address. \nImpact pulse: The ban framing jolts operators awake, even without the numbers. \n\n**Here's the signal executives should note next:**\n\n**Prediction: This AI stock, with a $455 billion revenue pipeline, will reach $3 trillion in five years - Nasdaq**\nPolicy move: Nasdaq predicts this AI stock will soar to $3 trillion in five years. \nImplication: Strategic watch: This prediction drives the pipeline as the next boardroom topic. \nAction signal: Action: Establish metrics and appoint an owner to monitor outcomes in the upcoming sprint. \nAnalogy: Betting on this AI stock feels like backing a freight train of revenue that has already departed and accelerates toward a trillion-dollar destination. \nImpact pulse: This prediction serves as a board-level jolt regarding the pipeline. \n\n**Policy pressure rises\u2014**\n\n**ACT III \u2014 MOMENTUM CHECK**\nFinal pulse: The surge framing awakens operators, even without the numbers. The ban framing also jolts operators awake.\n\n**CTA**\nWho will brief customers to ensure the spending surge fosters trust rather than turbulence? Who will take ownership of the weekly check to ensure we establish metrics and appoint an owner to monitor outcomes in the upcoming sprint?\n\n**SIGN-OFF**\nStay sharp \u2014 JunaidQ AI News",
+    "lower_thirds": [
+      "AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University",
+      "VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire",
+      "Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq"
+    ],
+    "broll_keywords": [
+      "surge",
+      "ban",
+      "pipeline"
+    ],
+    "chapters": [],
+    "metadata": {
+      "validator": {
+        "passed": true,
+        "score": 1.0,
+        "missing": []
+      },
+      "structure": {
+        "acts": {
+          "act1": {
+            "hook": "Today's AI pulse: AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University, VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire, Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq, and Nvidia to Buy $5 Billion Stake in Intel - The New York Times.",
+            "bridge": "Surge, ban, and pipeline signal the same thing: operators need a plan before the next earnings call."
+          },
+          "act2": {
+            "segments": [
+              {
+                "headline": "AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University",
+                "what": "AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University.",
+                "so_what": "Strategic watch: Exec teams are watching Spending surge become the next boardroom talking point.",
+                "now_what": "Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.",
+                "analogy": "AI predicting surgical risks better than doctors is like a weather satellite spotting a hurricane long before seasoned sailors can smell the storm.",
+                "wow_factor": "Even without the numbers, the surge framing jolts operators awake.",
+                "transition": "Ecosystem ripple effect next:",
+                "keywords": [
+                  "surge"
+                ],
+                "segment_type": "news",
+                "topic_phrase": "Spending surge",
+                "impact_profile": {
+                  "risk_level": "monitor",
+                  "tone": "signal"
+                },
+                "estimated_duration": 39.9,
+                "word_count": 103,
+                "rendered": "AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University\nWhat: AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University.\nSo what: Strategic watch: Exec teams are watching Spending surge become the next boardroom talking point.\nNow what: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.\nAnalogy: AI predicting surgical risks better than doctors is like a weather satellite spotting a hurricane long before seasoned sailors can smell the storm.\nImpact pulse: Even without the numbers, the surge framing jolts operators awake.\nEcosystem ripple effect next:\n"
+              },
+              {
+                "headline": "VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire",
+                "what": "VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire.",
+                "so_what": "Strategic watch: VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY is watching AI move become the next boardroom talking point.",
+                "now_what": "Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.",
+                "analogy": "Treat it as an autonomous risk desk\u2014models watch the books 24/7 and flag what used to take teams a quarter.",
+                "wow_factor": "Even without the numbers, the ban framing jolts operators awake.",
+                "transition": "Here's the signal executives should note next:",
+                "keywords": [
+                  "ban"
+                ],
+                "segment_type": "news",
+                "topic_phrase": "AI move",
+                "impact_profile": {
+                  "risk_level": "monitor",
+                  "tone": "signal"
+                },
+                "estimated_duration": 43.7,
+                "word_count": 113,
+                "rendered": "VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire\nWhat: VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire.\nSo what: Strategic watch: VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY is watching AI move become the next boardroom talking point.\nNow what: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.\nAnalogy: Treat it as an autonomous risk desk\u2014models watch the books 24/7 and flag what used to take teams a quarter.\nImpact pulse: Even without the numbers, the ban framing jolts operators awake.\nHere's the signal executives should note next:\n"
+              },
+              {
+                "headline": "Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq",
+                "what": "Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq.",
+                "so_what": "Strategic watch: Prediction is watching Pipeline become the next boardroom talking point.",
+                "now_what": "Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.",
+                "analogy": "Betting on this AI stock is like backing a freight train of revenue that\u2019s already left the station and is accelerating toward a trillion\u2011dollar terminal.",
+                "wow_factor": "That prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq \u2014 that's the board-level jolt around pipeline.",
+                "transition": "Policy pressure is rising\u2014",
+                "keywords": [
+                  "pipeline"
+                ],
+                "segment_type": "policy",
+                "topic_phrase": "Pipeline",
+                "impact_profile": {
+                  "risk_level": "monitor",
+                  "tone": "signal"
+                },
+                "estimated_duration": 53.0,
+                "word_count": 137,
+                "rendered": "Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq\nPolicy move: Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq.\nImplication: Strategic watch: Prediction is watching Pipeline become the next boardroom talking point.\nAction signal: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.\nAnalogy: Betting on this AI stock is like backing a freight train of revenue that\u2019s already left the station and is accelerating toward a trillion\u2011dollar terminal.\nImpact pulse: That prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq \u2014 that's the board-level jolt around pipeline.\nPolicy pressure is rising\u2014\n"
+              }
+            ],
+            "body": "**ACT I \u2014 FLASH BRIEFING**\n\nToday's AI pulse reveals that AI outperforms doctors in predicting deadly complications after surgery, according to Johns Hopkins University. VERSABANK rolls out new internally developed artificial intelligence capabilities within its core banking technology, as reported by PR Newswire. Nasdaq predicts that this AI stock, boasting a $455 billion revenue pipeline, will reach a staggering $3 trillion in five years. Additionally, Nvidia plans to acquire a $5 billion stake in Intel, as highlighted by The New York Times.\n\n**HEADLINE BLITZ**\n- AI outperforms doctors in predicting deadly complications after surgery - Johns Hopkins University\n- VERSABANK rolls out new internally developed artificial intelligence capabilities within core banking technology - PR Newswire\n- Nasdaq predicts this AI stock, with a $455 billion revenue pipeline, will hit $3 trillion in five years\n- Nvidia plans to acquire a $5 billion stake in Intel - The New York Times\n\n**BRIDGE**\nSurge, ban, and pipeline signal urgency: operators must devise a plan before the next earnings call.\n\n**ACT II \u2014 FORWARD MOMENTUM**\n\n**AI outperforms doctors in predicting deadly complications after surgery - Johns Hopkins University**\nWhat: AI outperforms doctors in predicting deadly complications after surgery. \nSo what: Strategic watch: Executive teams must prioritize the spending surge as the next boardroom topic. \nNow what: Action: Establish metrics and appoint an owner to monitor outcomes in the upcoming sprint. \nAnalogy: AI predicting surgical risks resembles a weather satellite detecting a hurricane long before seasoned sailors sense the storm. \nImpact pulse: The surge framing awakens operators, even without the numbers. \n\n**Ecosystem ripple effect next:**\n\n**VERSABANK rolls out new internally developed artificial intelligence capabilities within core banking technology - PR Newswire**\nWhat: VERSABANK rolls out new internally developed artificial intelligence capabilities within core banking technology. \nSo what: Strategic watch: VERSABANK's move positions AI as the next boardroom topic. \nNow what: Action: Establish metrics and appoint an owner to monitor outcomes in the upcoming sprint. \nAnalogy: Treat this as an autonomous risk desk\u2014models monitor the books 24/7 and flag issues that previously took teams a quarter to address. \nImpact pulse: The ban framing jolts operators awake, even without the numbers. \n\n**Here's the signal executives should note next:**\n\n**Prediction: This AI stock, with a $455 billion revenue pipeline, will reach $3 trillion in five years - Nasdaq**\nPolicy move: Nasdaq predicts this AI stock will soar to $3 trillion in five years. \nImplication: Strategic watch: This prediction drives the pipeline as the next boardroom topic. \nAction signal: Action: Establish metrics and appoint an owner to monitor outcomes in the upcoming sprint. \nAnalogy: Betting on this AI stock feels like backing a freight train of revenue that has already departed and accelerates toward a trillion-dollar destination. \nImpact pulse: This prediction serves as a board-level jolt regarding the pipeline. \n\n**Policy pressure rises\u2014**\n\n**ACT III \u2014 MOMENTUM CHECK**\nFinal pulse: The surge framing awakens operators, even without the numbers. The ban framing also jolts operators awake.\n\n**CTA**\nWho will brief customers to ensure the spending surge fosters trust rather than turbulence? Who will take ownership of the weekly check to ensure we establish metrics and appoint an owner to monitor outcomes in the upcoming sprint?\n\n**SIGN-OFF**\nStay sharp \u2014 JunaidQ AI News",
+            "duration_estimate": 136.6,
+            "word_count": 353
+          },
+          "act3": {
+            "closing": "Final pulse: Even without the numbers, the surge framing jolts operators awake Even without the numbers, the ban framing jolts operators awake.",
+            "cta": {
+              "id": "customer_obligation",
+              "question": "Who briefs customers so Spending surge creates trust rather than turbulence? Who will own the weekly check that we instrument metrics and nominate an owner to monitor outcomes over the next sprint stays on track?"
+            },
+            "sign_off": "Stay sharp \u2014 JunaidQ AI News"
+          }
+        },
+        "segments": [
+          {
+            "headline": "AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University",
+            "what": "AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University.",
+            "so_what": "Strategic watch: Exec teams are watching Spending surge become the next boardroom talking point.",
+            "now_what": "Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.",
+            "analogy": "AI predicting surgical risks better than doctors is like a weather satellite spotting a hurricane long before seasoned sailors can smell the storm.",
+            "wow_factor": "Even without the numbers, the surge framing jolts operators awake.",
+            "transition": "Ecosystem ripple effect next:",
+            "keywords": [
+              "surge"
+            ],
+            "segment_type": "news",
+            "topic_phrase": "Spending surge",
+            "impact_profile": {
+              "risk_level": "monitor",
+              "tone": "signal"
+            },
+            "estimated_duration": 39.9,
+            "word_count": 103
+          },
+          {
+            "headline": "VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire",
+            "what": "VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire.",
+            "so_what": "Strategic watch: VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY is watching AI move become the next boardroom talking point.",
+            "now_what": "Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.",
+            "analogy": "Treat it as an autonomous risk desk\u2014models watch the books 24/7 and flag what used to take teams a quarter.",
+            "wow_factor": "Even without the numbers, the ban framing jolts operators awake.",
+            "transition": "Here's the signal executives should note next:",
+            "keywords": [
+              "ban"
+            ],
+            "segment_type": "news",
+            "topic_phrase": "AI move",
+            "impact_profile": {
+              "risk_level": "monitor",
+              "tone": "signal"
+            },
+            "estimated_duration": 43.7,
+            "word_count": 113
+          },
+          {
+            "headline": "Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq",
+            "what": "Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq.",
+            "so_what": "Strategic watch: Prediction is watching Pipeline become the next boardroom talking point.",
+            "now_what": "Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint.",
+            "analogy": "Betting on this AI stock is like backing a freight train of revenue that\u2019s already left the station and is accelerating toward a trillion\u2011dollar terminal.",
+            "wow_factor": "That prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq \u2014 that's the board-level jolt around pipeline.",
+            "transition": "Policy pressure is rising\u2014",
+            "keywords": [
+              "pipeline"
+            ],
+            "segment_type": "policy",
+            "topic_phrase": "Pipeline",
+            "impact_profile": {
+              "risk_level": "monitor",
+              "tone": "signal"
+            },
+            "estimated_duration": 53.0,
+            "word_count": 137
+          }
+        ],
+        "headline_blitz": [
+          "AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University",
+          "VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire",
+          "Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq",
+          "Nvidia to Buy $5 Billion Stake in Intel - The New York Times"
+        ],
+        "bridge_sentence": "Surge, ban, and pipeline signal the same thing: operators need a plan before the next earnings call.",
+        "cta": {
+          "id": "customer_obligation",
+          "question": "Who briefs customers so Spending surge creates trust rather than turbulence? Who will own the weekly check that we instrument metrics and nominate an owner to monitor outcomes over the next sprint stays on track?"
+        }
+      },
+      "pacing": {
+        "total_seconds": 136.6,
+        "average_segment_seconds": 45.5,
+        "segment_estimates": [
+          39.9,
+          43.7,
+          53.0
+        ]
+      },
+      "tone": {
+        "llm_used": true
+      }
+    }
+  },
+  "word_count": 533,
+  "estimated_duration": 213.2,
+  "generated_at": "20250918_120228",
+  "pacing": {
+    "total_seconds": 136.6,
+    "average_segment_seconds": 45.5,
+    "segment_estimates": [
+      39.9,
+      43.7,
+      53.0
+    ]
+  }
+}

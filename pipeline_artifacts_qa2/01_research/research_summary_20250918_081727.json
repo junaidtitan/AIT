@@ -1,0 +1,227 @@
+{
+  "timestamp": "20250918_081727",
+  "total_articles": 32,
+  "sources_searched": [
+    "https://news.google.com/rss/search?q=artificial+intelligence&hl=en-US&gl=US&ceid=US:en",
+    "https://www.artificialintelligence-news.com/feed/"
+  ],
+  "top_stories": [
+    {
+      "title": "SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters",
+      "summary": null,
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLU9xVDJxaTAwcHJGVzhGN2NSeFM1UGVmZzdETVZDNGJld2JrUGs1dWdXUHItRGlkTDNrRTBhTTByVjlpeGpOUXhpVDR5RmRMcDUyZDJBMkFna1VoQmRvMnZONEhuWTFwOHNWU3pmNUhmZ0FJekJnSkRKZ0dmXzZYNi1KQkRPRWo5OUt5RGlnakxDNjlmSzFiLTlRc1pyTjRLcVJWZTdpcHZ6ajllOVEzdjd6ODRQNU4takdlUA?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T06:17:00",
+      "full_text": ""
+    },
+    {
+      "title": "Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org",
+      "summary": null,
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbm1UUkIxNHFGbTlPUWx4YUdRVFhON1o1VGZ5T1JtSnZxamdHbDVLNXRDaVZ1dlE2WDZPWWw0Z3FaaDJwTHN0M09ROWhjODJfNG5VQURqTmx0VnFWOFlYWHFFRXU4aGx2U24wcGVyNDJYMGdVMjhUZGF3cFVyamM1MVZGZ2NkWXVBTzFCRw?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T08:04:53",
+      "full_text": null
+    },
+    {
+      "title": "2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance",
+      "summary": null,
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcXlGS2RGajlkZDJoTmtfYVZ0UkFETngwd3FheWtfeEg2eEhtVkZudG1oVjcxaGNHWV9VSjE2VVZaYzNuWmdYVjhHbnFKT3BKRHo0TkpuSnFseE9UQjQxbXk2M2FLN3k2MjhoTW9LV1daa0JNMGpIRmNzOVNlSzZOa0hreHh2SkZleVJPbzE3Nkk?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T07:06:00",
+      "full_text": ""
+    },
+    {
+      "title": "AI\u2019s Great Jobs Debate Requires a History Lesson - PYMNTS.com",
+      "summary": null,
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMl9aYThrTGc5bVBKWjJJbkowdUhGTWx6cWZoeERUazNnQ3RiNm1jY040aVBLQUYwUUFBN2xnLVJZZzZoODRtS3MyQWRLMjNsb0JKZUJtV29TWmhfYUlQRm9oRFd4SE9VdmNhZHpQZ0lnZkc3aDB1eGpOZmpnYkEyalQzV2U3cHhoVzhraHE1LW51ZVkxX19CWWZMLUxhOVZzSTJMcQ?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T02:48:45",
+      "full_text": null
+    }
+  ],
+  "analysis": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLU9xVDJxaTAwcHJGVzhGN2NSeFM1UGVmZzdETVZDNGJld2JrUGs1dWdXUHItRGlkTDNrRTBhTTByVjlpeGpOUXhpVDR5RmRMcDUyZDJBMkFna1VoQmRvMnZONEhuWTFwOHNWU3pmNUhmZ0FJekJnSkRKZ0dmXzZYNi1KQkRPRWo5OUt5RGlnakxDNjlmSzFiLTlRc1pyTjRLcVJWZTdpcHZ6ajllOVEzdjd6ODRQNU4takdlUA?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T06:17:00",
+      "title": "SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters",
+      "full_text": "",
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.2,
+          "future": 0.0,
+          "recency": 0.9916268413888889,
+          "authority": 0.5,
+          "wow": 0.11000000000000001,
+          "technical_complexity": 0.0,
+          "composite": 0.2687440262083333
+        },
+        "keywords": [
+          "ban"
+        ],
+        "analogy": "Treat it as an autonomous risk desk\u2014models watch the books 24/7 and flag what used to take teams a quarter.",
+        "wow_highlight": "Even without the numbers, the ban framing jolts operators awake.",
+        "wow_score": 0.42,
+        "technical_complexity": false,
+        "summary_highlight": "SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters.",
+        "summary_support": null
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbm1UUkIxNHFGbTlPUWx4YUdRVFhON1o1VGZ5T1JtSnZxamdHbDVLNXRDaVZ1dlE2WDZPWWw0Z3FaaDJwTHN0M09ROWhjODJfNG5VQURqTmx0VnFWOFlYWHFFRXU4aGx2U24wcGVyNDJYMGdVMjhUZGF3cFVyamM1MVZGZ2NkWXVBTzFCRw?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T08:04:53",
+      "title": "Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9991187399664352,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.19986781099496526
+        },
+        "keywords": [
+          "intelligence",
+          "Could",
+          "Report"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": "That 13% stat is the tell executives should brief on.",
+        "wow_score": 0.45,
+        "technical_complexity": false,
+        "summary_highlight": "Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org.",
+        "summary_support": null
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcXlGS2RGajlkZDJoTmtfYVZ0UkFETngwd3FheWtfeEg2eEhtVkZudG1oVjcxaGNHWV9VSjE2VVZaYzNuWmdYVjhHbnFKT3BKRHo0TkpuSnFseE9UQjQxbXk2M2FLN3k2MjhoTW9LV1daa0JNMGpIRmNzOVNlSzZOa0hreHh2SkZleVJPbzE3Nkk?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T07:06:00",
+      "title": "2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance",
+      "full_text": "",
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9950296192835648,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.19925444289253474
+        },
+        "keywords": [
+          "Dollar",
+          "Select",
+          "Yahoo"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": "That 2 stat is the tell executives should brief on.",
+        "wow_score": 0.45,
+        "technical_complexity": false,
+        "summary_highlight": "2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance.",
+        "summary_support": null
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMl9aYThrTGc5bVBKWjJJbkowdUhGTWx6cWZoeERUazNnQ3RiNm1jY040aVBLQUYwUUFBN2xnLVJZZzZoODRtS3MyQWRLMjNsb0JKZUJtV29TWmhfYUlQRm9oRFd4SE9VdmNhZHpQZ0lnZkc3aDB1eGpOZmpnYkEyalQzV2U3cHhoVzhraHE1LW51ZVkxX19CWWZMLUxhOVZzSTJMcQ?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T02:48:45",
+      "title": "AI\u2019s Great Jobs Debate Requires a History Lesson - PYMNTS.com",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9771650357523148,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.19657475536284724
+        },
+        "keywords": [
+          "Requires",
+          "Great",
+          "History"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": null,
+        "wow_score": 0.0,
+        "technical_complexity": false,
+        "summary_highlight": "AI\u2019s Great Jobs Debate Requires a History Lesson - PYMNTS.com.",
+        "summary_support": null
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZnNCZ3pMZUVvRDlKQlJ3S3VwR2pzNkQyVlhKcWIwVXZ4UE9lRmVRLWZhNDNGdGJhWmc2SkRHSzdOZnFBbWZMQmhBT3liaTZUb2NKV083bW5qSUljeXl1VWdHTUtsUlNrR3JHYWZHWjhaUHRxbmZ4WHk1MVhReTYzb1BtaDVLcE91NTNBZ2Zn?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T01:01:20",
+      "title": "Meta Unveils Smart Glasses With Apps and an Artificial Intelligence Assistant - The New York Times",
+      "full_text": "",
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9697055449178241,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.1954558317376736
+        },
+        "keywords": [
+          "Intelligence",
+          "Artificial",
+          "Assistant"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": null,
+        "wow_score": 0.0,
+        "technical_complexity": false,
+        "summary_highlight": "Meta Unveils Smart Glasses With Apps and an Artificial Intelligence Assistant - The New York Times.",
+        "summary_support": null
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ3d2ZGZqN18wNXY2SEhMWnBjdHhMRHZuUlRjdEpQd181QmxYYnBrMTV0Q3pkX0d4S2drM3VxbkJockdwazRDcG5xUG9zdW8zV2EtbVpzMXNRY1VZOGxPMG9IRTRLQTN4S1pqWXJndjJEbWtmenZIV2taZ0QtZmpoV1lGVkMxMGlwTjNSNkVkTG5KZkd4Vlc0dE1ySTRULWhDWHFyN0ZMbFRfbmRDRFJNXzgybi1vc2M?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-17T21:34:40",
+      "title": "How GE HealthCare is using artificial intelligence \u2014 and where it\u2019s headed - Medical Design & Outsourcing",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9553536929780092,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.1933030539467014
+        },
+        "keywords": [
+          "intelligence",
+          "Design",
+          "artificial"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": null,
+        "wow_score": 0.0,
+        "technical_complexity": false,
+        "summary_highlight": "How GE HealthCare is using artificial intelligence \u2014 and where it\u2019s headed - Medical Design & Outsourcing.",
+        "summary_support": null
+      }
+    }
+  ],
+  "key_themes": [
+    "SoftBank, OpenAI Japan AI joint venture is delayed, source says - Reuters",
+    "Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday.org",
+    "2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to Select Wall Street Analysts - Yahoo Finance"
+  ]
+}

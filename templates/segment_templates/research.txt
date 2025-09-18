@@ -1,1 +1,7 @@
-{{headline}}. Breakthrough: {{what}}. Why it matters: {{so_what}}. Path forward: {{now_what}}. Analogy: {{analogy}}. Impact pulse: {{wow_factor}}. {{transition}}
+{{headline}}
+Breakthrough: {{what}}
+Why it matters: {{so_what}}
+Path forward: {{now_what}}
+Analogy: {{analogy}}
+Impact pulse: {{wow_factor}}
+{{transition}}

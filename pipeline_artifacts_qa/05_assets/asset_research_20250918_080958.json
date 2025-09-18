@@ -1,0 +1,2834 @@
+{
+  "total_assets": 168,
+  "segments_with_assets": 28,
+  "asset_summary": [
+    {
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "artificial intelligence",
+        "tech company"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "artificial intelligence",
+        "flash",
+        "briefing",
+        "technology",
+        "future"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "AI",
+        "particle effects",
+        "data visualization",
+        "artificial intelligence",
+        "trillion-dollar"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "artificial intelligence",
+        "trillion-dollar",
+        "artificial",
+        "technology",
+        "future"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "artificial intelligence",
+        "tech company"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "artificial intelligence",
+        "headline",
+        "blitz",
+        "technology",
+        "future"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "AI",
+        "close-up technology",
+        "artificial intelligence",
+        "trillion-dollar",
+        "server room"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "artificial intelligence",
+        "trillion-dollar",
+        "artificial",
+        "technology",
+        "future"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "artificial intelligence",
+        "tech company",
+        "forward"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    },
+    {
+      "keywords": [
+        "forward",
+        "momentum",
+        "softbank,",
+        "technology",
+        "future"
+      ],
+      "asset_count": 3,
+      "sources": [
+        "pexels"
+      ]
+    }
+  ],
+  "enhanced_shot_list": [
+    {
+      "timestamp": "0:00-0:07",
+      "voiceover": "ACT I \u2014 FLASH BRIEFING\nToday's AI pulse: SoftBank, OpenAI Japan AI joint venture Delayed, source say...",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "AI",
+            "OpenAI",
+            "artificial intelligence",
+            "tech company"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI OpenAI artificial intelligence",
+              "id": "2792370",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8467253/8467253-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI OpenAI artificial intelligence",
+              "id": "8467253",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8084499/8084499-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI OpenAI artificial intelligence",
+              "id": "8084499",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "artificial intelligence",
+            "flash",
+            "briefing",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence flash briefing",
+              "id": "2792370",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8328095/8328095-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence flash briefing",
+              "id": "8328095",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8467253/8467253-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence flash briefing",
+              "id": "8467253",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:07-0:14",
+      "voiceover": "org, 2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to S...",
+      "shots": [
+        {
+          "visual": "particle effects, AI",
+          "keywords": [
+            "AI",
+            "particle effects",
+            "data visualization",
+            "artificial intelligence",
+            "trillion-dollar"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/18068806/18068806-uhd_2558_1440_24fps.mp4",
+              "type": "video",
+              "duration": 14,
+              "width": 2558,
+              "height": 1440,
+              "source": "pexels",
+              "query": "AI particle effects data visualization",
+              "id": "18068806",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3141208/3141208-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI abstract",
+              "id": "3141208",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3141210/3141210-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI abstract",
+              "id": "3141210",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "artificial intelligence",
+            "trillion-dollar",
+            "artificial",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence trillion-dollar artificial",
+              "id": "2792370",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7688609/7688609-hd_2048_1080_24fps.mp4",
+              "type": "video",
+              "duration": 14,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence trillion-dollar artificial",
+              "id": "7688609",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9244547/9244547-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 16,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence trillion-dollar artificial",
+              "id": "9244547",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:14-0:21",
+      "voiceover": "HEADLINE BLITZ\n\u2022 SoftBank, OpenAI Japan AI joint venture Delayed, source says - Reuters\n\u2022 Report: Ar...",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "AI",
+            "OpenAI",
+            "artificial intelligence",
+            "tech company"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/16629368/pexels-photo-16629368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6792,
+              "height": 4528,
+              "source": "pexels",
+              "query": "AI OpenAI artificial intelligence",
+              "id": "16629368",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/16125027/pexels-photo-16125027.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 3977,
+              "height": 2730,
+              "source": "pexels",
+              "query": "AI OpenAI artificial intelligence",
+              "id": "16125027",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/17887854/pexels-photo-17887854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6205,
+              "height": 3915,
+              "source": "pexels",
+              "query": "AI OpenAI artificial intelligence",
+              "id": "17887854",
+              "relevance_score": 65
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "artificial intelligence",
+            "headline",
+            "blitz",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence headline blitz",
+              "id": "2792370",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8467253/8467253-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence headline blitz",
+              "id": "8467253",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8084499/8084499-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence headline blitz",
+              "id": "8084499",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:21-0:28",
+      "voiceover": "org\n\u2022 2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95%, According to ...",
+      "shots": [
+        {
+          "visual": "close-up technology, AI",
+          "keywords": [
+            "AI",
+            "close-up technology",
+            "artificial intelligence",
+            "trillion-dollar",
+            "server room"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI close-up technology artificial intelligence",
+              "id": "2792370",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8467253/8467253-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI close-up technology artificial intelligence",
+              "id": "8467253",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8084499/8084499-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI close-up technology artificial intelligence",
+              "id": "8084499",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "artificial intelligence",
+            "trillion-dollar",
+            "artificial",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence trillion-dollar artificial",
+              "id": "2792370",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7688609/7688609-hd_2048_1080_24fps.mp4",
+              "type": "video",
+              "duration": 14,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence trillion-dollar artificial",
+              "id": "7688609",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9244547/9244547-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 16,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence trillion-dollar artificial",
+              "id": "9244547",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:28-0:35",
+      "voiceover": "ACT II \u2014 FORWARD MOMENTUM\nSoftBank, OpenAI Japan AI joint venture Delayed, source says - Reuters",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "AI",
+            "OpenAI",
+            "artificial intelligence",
+            "tech company",
+            "forward"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI OpenAI artificial intelligence",
+              "id": "2792370",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8467253/8467253-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI OpenAI artificial intelligence",
+              "id": "8467253",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8084499/8084499-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI OpenAI artificial intelligence",
+              "id": "8084499",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "forward",
+            "momentum",
+            "softbank,",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/19453544/19453544-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "forward momentum softbank,",
+              "id": "19453544",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/19453966/19453966-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 22,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "forward momentum softbank,",
+              "id": "19453966",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5607650/5607650-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 12,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "forward momentum softbank,",
+              "id": "5607650",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:35-0:42",
+      "voiceover": "Here's what happened: SoftBank, OpenAI Japan AI joint venture Delayed, source says - Reuters",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "AI",
+            "OpenAI",
+            "artificial intelligence",
+            "here's",
+            "tech company"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/16629368/pexels-photo-16629368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6792,
+              "height": 4528,
+              "source": "pexels",
+              "query": "AI OpenAI artificial intelligence",
+              "id": "16629368",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/16125027/pexels-photo-16125027.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 3977,
+              "height": 2730,
+              "source": "pexels",
+              "query": "AI OpenAI artificial intelligence",
+              "id": "16125027",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/17887854/pexels-photo-17887854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6205,
+              "height": 3915,
+              "source": "pexels",
+              "query": "AI OpenAI artificial intelligence",
+              "id": "17887854",
+              "relevance_score": 65
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "here's",
+            "softbank,",
+            "openai",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/15940565/15940565-hd_1920_1080_60fps.mp4",
+              "type": "video",
+              "duration": 50,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "here's softbank, openai",
+              "id": "15940565",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7540215/7540215-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 13,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "here's softbank, openai",
+              "id": "7540215",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7540214/7540214-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 13,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "here's softbank, openai",
+              "id": "7540214",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:42-0:49",
+      "voiceover": "Why it matters: Strategic watch: SoftBank, OpenAI Japan AI joint venture Delayed, source says delay ...",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "AI",
+            "strategic",
+            "OpenAI",
+            "artificial intelligence",
+            "tech company"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/15940565/15940565-hd_1920_1080_60fps.mp4",
+              "type": "video",
+              "duration": 50,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI strategic OpenAI",
+              "id": "15940565",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8327794/8327794-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 11,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI strategic OpenAI",
+              "id": "8327794",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8327788/8327788-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 29,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI strategic OpenAI",
+              "id": "8327788",
+              "relevance_score": 100
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "strategic",
+            "softbank,",
+            "openai",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/4630091/4630091-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 19,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "strategic softbank, openai",
+              "id": "4630091",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3191422/3191422-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 19,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "strategic softbank, openai",
+              "id": "3191422",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/15940565/15940565-hd_1920_1080_60fps.mp4",
+              "type": "video",
+              "duration": 50,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "strategic softbank, openai",
+              "id": "15940565",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:49-0:56",
+      "voiceover": "Next move: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint",
+      "shots": [
+        {
+          "visual": "particle effects, action:",
+          "keywords": [
+            "action:",
+            "particle effects",
+            "data visualization"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/10469564/10469564-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 15,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "action: particle effects data visualization",
+              "id": "10469564",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/2324293/2324293-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 39,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "action: abstract",
+              "id": "2324293",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5768174/5768174-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "action: abstract",
+              "id": "5768174",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "0:56-1:03",
+      "voiceover": "Analogy: Treat it as an autonomous risk desk\u2014models watch the books 24/7 and flag what used to take ...",
+      "shots": [
+        {
+          "visual": "modern city, model",
+          "keywords": [
+            "treat",
+            "technology workspace",
+            "analogy:",
+            "office environment",
+            "model"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/3846009/pexels-photo-3846009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 5770,
+              "height": 3847,
+              "source": "pexels",
+              "query": "treat technology workspace analogy:",
+              "id": "3846009",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/3845995/pexels-photo-3845995.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "treat technology workspace analogy:",
+              "id": "3845995",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/3631711/pexels-photo-3631711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 3376,
+              "source": "pexels",
+              "query": "treat technology workspace analogy:",
+              "id": "3631711",
+              "relevance_score": 65
+            }
+          ]
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "analogy:",
+            "treat",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088985/8088985-hd_2048_1080_24fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "analogy: treat technology",
+              "id": "8088985",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9757900/9757900-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 18,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "analogy: treat technology",
+              "id": "9757900",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6501934/6501934-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 13,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "analogy: treat technology",
+              "id": "6501934",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:03-1:10",
+      "voiceover": "Impact pulse: Even without the numbers, the ban framing jolts operators awake",
+      "shots": [
+        {
+          "visual": "close-up technology, impact",
+          "keywords": [
+            "server room",
+            "impact",
+            "close-up technology"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/7140928/7140928-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "server room impact close-up technology",
+              "id": "7140928",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7140931/7140931-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "server room impact close-up technology",
+              "id": "7140931",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/1085656/1085656-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 24,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "server room impact close-up technology",
+              "id": "1085656",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:10-1:17",
+      "voiceover": "Let's keep the momentum\u2014\n\n\nReport: Artificial intelligence Could Add 13% to Global GDP - politicstod...",
+      "shots": [
+        {
+          "visual": "AI brain, artificial intelligence",
+          "keywords": [
+            "report:",
+            "neural network",
+            "artificial intelligence",
+            "AI brain",
+            "let's"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/18333010/18333010-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 63,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "report: neural network artificial intelligence",
+              "id": "18333010",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "report: neural network artificial intelligence",
+              "id": "2792370",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7547021/7547021-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "report: neural network artificial intelligence",
+              "id": "7547021",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "let's",
+            "report:",
+            "artificial",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "let's report: artificial",
+              "id": "2792370",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3130284/3130284-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "let's report: artificial",
+              "id": "3130284",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "let's report: artificial",
+              "id": "6153453",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:17-1:24",
+      "voiceover": "org",
+      "shots": [
+        {
+          "visual": "innovation hub, technology",
+          "keywords": [
+            "technology",
+            "research lab",
+            "scientists working",
+            "future",
+            "innovation"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/4031322/pexels-photo-4031322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "technology research lab scientists working",
+              "id": "4031322",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/8442110/pexels-photo-8442110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 5192,
+              "height": 3466,
+              "source": "pexels",
+              "query": "technology research lab scientists working",
+              "id": "8442110",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/5726790/pexels-photo-5726790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6144,
+              "height": 3456,
+              "source": "pexels",
+              "query": "technology research lab scientists working",
+              "id": "5726790",
+              "relevance_score": 50
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "6153453",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783697/9783697-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783697",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783698/9783698-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783698",
+              "relevance_score": 115
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:24-1:31",
+      "voiceover": "Here's what happened: Report: Artificial intelligence Could Add 13% to Global GDP - politicstoday",
+      "shots": [
+        {
+          "visual": "establishing shot, artificial intelligence",
+          "keywords": [
+            "report:",
+            "establishing shot",
+            "wide angle",
+            "artificial intelligence",
+            "here's"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/5608241/5608241-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 46,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "report: establishing shot wide angle",
+              "id": "5608241",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5280134/5280134-hd_2048_1080_30fps.mp4",
+              "type": "video",
+              "duration": 11,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "report: establishing shot wide angle",
+              "id": "5280134",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/2951209/2951209-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 24,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "report: establishing shot wide angle",
+              "id": "2951209",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "here's",
+            "report:",
+            "artificial",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "here's report: artificial",
+              "id": "2792370",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3130284/3130284-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "here's report: artificial",
+              "id": "3130284",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "here's report: artificial",
+              "id": "6153453",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:31-1:38",
+      "voiceover": "org",
+      "shots": [
+        {
+          "visual": "particle effects, technology",
+          "keywords": [
+            "particle effects",
+            "technology",
+            "data visualization",
+            "future",
+            "innovation"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/10469564/10469564-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 15,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "particle effects technology data visualization",
+              "id": "10469564",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783698/9783698-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "futuristic technology",
+              "id": "9783698",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129785/3129785-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "futuristic technology",
+              "id": "3129785",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "6153453",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783697/9783697-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783697",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783698/9783698-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783698",
+              "relevance_score": 115
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:38-1:45",
+      "voiceover": "Why it matters: Strategic watch: Report: Artificial intelligence Could Add 13% to Global GDP - polit...",
+      "shots": [
+        {
+          "visual": "modern city, artificial intelligence",
+          "keywords": [
+            "report:",
+            "strategic",
+            "technology workspace",
+            "artificial intelligence",
+            "office environment"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/7433855/pexels-photo-7433855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6269,
+              "height": 4179,
+              "source": "pexels",
+              "query": "report: strategic technology workspace",
+              "id": "7433855",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/7108465/pexels-photo-7108465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 5260,
+              "height": 3507,
+              "source": "pexels",
+              "query": "report: strategic technology workspace",
+              "id": "7108465",
+              "relevance_score": 65
+            },
+            {
+              "url": "https://images.pexels.com/photos/3184438/pexels-photo-3184438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "report: strategic technology workspace",
+              "id": "3184438",
+              "relevance_score": 65
+            }
+          ]
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "strategic",
+            "report:",
+            "artificial",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/9413328/9413328-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 18,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "strategic report: artificial",
+              "id": "9413328",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7647683/7647683-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "strategic report: artificial",
+              "id": "7647683",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7947509/7947509-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 7,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "strategic report: artificial",
+              "id": "7947509",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:45-1:52",
+      "voiceover": "org drives fast becoming the boardroom talking point for News",
+      "shots": [
+        {
+          "visual": "close-up technology, technology",
+          "keywords": [
+            "technology",
+            "close-up technology",
+            "server room",
+            "future",
+            "innovation"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/7140928/7140928-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology close-up technology server room",
+              "id": "7140928",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7140931/7140931-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology close-up technology server room",
+              "id": "7140931",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/1085656/1085656-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 24,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology close-up technology server room",
+              "id": "1085656",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "innovation",
+            "future",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "6153453",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783697/9783697-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783697",
+              "relevance_score": 115
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/9783698/9783698-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "innovation future technology",
+              "id": "9783698",
+              "relevance_score": 115
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:52-1:59",
+      "voiceover": "Next move: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint",
+      "shots": [
+        {
+          "visual": "AI brain, action:",
+          "keywords": [
+            "action:",
+            "AI brain",
+            "neural network"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/3141210/3141210-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "action: AI brain neural network",
+              "id": "3141210",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129671/3129671-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "action: AI brain neural network",
+              "id": "3129671",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129576/3129576-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "action: AI brain neural network",
+              "id": "3129576",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "1:59-2:06",
+      "voiceover": "Analogy: It's the early-warning radar ping smart operators act on before the market does",
+      "shots": [
+        {
+          "visual": "innovation hub, analogy:",
+          "keywords": [
+            "research lab",
+            "analogy:",
+            "scientists working"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/3735757/pexels-photo-3735757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 3500,
+              "height": 2333,
+              "source": "pexels",
+              "query": "research lab analogy: scientists working",
+              "id": "3735757",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/8514588/pexels-photo-8514588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "research lab analogy: scientists working",
+              "id": "8514588",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/4031322/pexels-photo-4031322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "research lab analogy: scientists working",
+              "id": "4031322",
+              "relevance_score": 50
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "2:06-2:13",
+      "voiceover": "Impact pulse: That 13% stat drives the tell executives should brief on",
+      "shots": [
+        {
+          "visual": "establishing shot, impact",
+          "keywords": [
+            "establishing shot",
+            "wide angle",
+            "impact"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/4009789/4009789-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 29,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "establishing shot wide angle impact",
+              "id": "4009789",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6655840/6655840-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "establishing shot wide angle impact",
+              "id": "6655840",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5608241/5608241-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 46,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "establishing shot wide angle impact",
+              "id": "5608241",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "2:13-2:20",
+      "voiceover": "Let's keep the momentum\u2014\n\n\n2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up ...",
+      "shots": [
+        {
+          "visual": "particle effects, AI",
+          "keywords": [
+            "AI",
+            "particle effects",
+            "data visualization",
+            "artificial intelligence",
+            "let's"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/18068806/18068806-uhd_2558_1440_24fps.mp4",
+              "type": "video",
+              "duration": 14,
+              "width": 2558,
+              "height": 1440,
+              "source": "pexels",
+              "query": "AI particle effects data visualization",
+              "id": "18068806",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3141208/3141208-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI abstract",
+              "id": "3141208",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3141210/3141210-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI abstract",
+              "id": "3141210",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "artificial intelligence",
+            "let's",
+            "trillion-dollar",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence let's trillion-dollar",
+              "id": "2792370",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8467253/8467253-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence let's trillion-dollar",
+              "id": "8467253",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8084499/8084499-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence let's trillion-dollar",
+              "id": "8084499",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "2:20-2:27",
+      "voiceover": "Here's what happened: 2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plunge Up to 95...",
+      "shots": [
+        {
+          "visual": "modern city, AI",
+          "keywords": [
+            "AI",
+            "technology workspace",
+            "artificial intelligence",
+            "here's",
+            "office environment"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/8566445/pexels-photo-8566445.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 5184,
+              "height": 3888,
+              "source": "pexels",
+              "query": "AI technology workspace artificial intelligence",
+              "id": "8566445",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/17486100/pexels-photo-17486100.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 4000,
+              "height": 2250,
+              "source": "pexels",
+              "query": "AI technology workspace artificial intelligence",
+              "id": "17486100",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6720,
+              "height": 4480,
+              "source": "pexels",
+              "query": "AI technology workspace artificial intelligence",
+              "id": "8849295",
+              "relevance_score": 50
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "artificial intelligence",
+            "here's",
+            "trillion-dollar",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence here's trillion-dollar",
+              "id": "2792370",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8467253/8467253-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence here's trillion-dollar",
+              "id": "8467253",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8084499/8084499-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence here's trillion-dollar",
+              "id": "8084499",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "2:27-2:34",
+      "voiceover": "Why it matters: Strategic watch: 2 Trillion-Dollar Artificial Intelligence (AI) Stocks That Can Plun...",
+      "shots": [
+        {
+          "visual": "close-up technology, AI",
+          "keywords": [
+            "AI",
+            "strategic",
+            "close-up technology",
+            "artificial intelligence",
+            "server room"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8327786/8327786-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 14,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI strategic close-up technology",
+              "id": "8327786",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI strategic close-up technology",
+              "id": "2792370",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI strategic close-up technology",
+              "id": "6153453",
+              "relevance_score": 85
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "artificial intelligence",
+            "strategic",
+            "trillion-dollar",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence strategic trillion-dollar",
+              "id": "2792370",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6688641/6688641-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 26,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence strategic trillion-dollar",
+              "id": "6688641",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6058640/6058640-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "artificial intelligence strategic trillion-dollar",
+              "id": "6058640",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "2:34-2:41",
+      "voiceover": "Next move: Action: instrument metrics and nominate an owner to monitor outcomes over the next sprint",
+      "shots": [
+        {
+          "visual": "AI brain, action:",
+          "keywords": [
+            "action:",
+            "AI brain",
+            "neural network"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/3141210/3141210-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "action: AI brain neural network",
+              "id": "3141210",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129671/3129671-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 40,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "action: AI brain neural network",
+              "id": "3129671",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3129576/3129576-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 17,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "action: AI brain neural network",
+              "id": "3129576",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "2:41-2:48",
+      "voiceover": "Analogy: It's the brief from the war room telling you the map just changed",
+      "shots": [
+        {
+          "visual": "innovation hub, analogy:",
+          "keywords": [
+            "research lab",
+            "analogy:",
+            "scientists working"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/3735757/pexels-photo-3735757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 3500,
+              "height": 2333,
+              "source": "pexels",
+              "query": "research lab analogy: scientists working",
+              "id": "3735757",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/8514588/pexels-photo-8514588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "research lab analogy: scientists working",
+              "id": "8514588",
+              "relevance_score": 50
+            },
+            {
+              "url": "https://images.pexels.com/photos/4031322/pexels-photo-4031322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6000,
+              "height": 4000,
+              "source": "pexels",
+              "query": "research lab analogy: scientists working",
+              "id": "4031322",
+              "relevance_score": 50
+            }
+          ]
+        },
+        {
+          "visual": "Close-up of advanced processor chip",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "2:48-2:55",
+      "voiceover": "Impact pulse: That 2 stat drives the tell executives should brief on",
+      "shots": [
+        {
+          "visual": "establishing shot, impact",
+          "keywords": [
+            "establishing shot",
+            "wide angle",
+            "impact"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/4009789/4009789-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 29,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "establishing shot wide angle impact",
+              "id": "4009789",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6655840/6655840-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "establishing shot wide angle impact",
+              "id": "6655840",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5608241/5608241-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 46,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "establishing shot wide angle impact",
+              "id": "5608241",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Team collaboration in modern office",
+          "keywords": [
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8088611/8088611-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 42,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "8088611",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/6153453/6153453-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 8,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "6153453",
+              "relevance_score": 85
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/10915129/10915129-hd_2560_1440_30fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2560,
+              "height": 1440,
+              "source": "pexels",
+              "query": "technology future",
+              "id": "10915129",
+              "relevance_score": 85
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "2:55-3:02",
+      "voiceover": "One more move to lock in:\n\n\nACT III \u2014 MOMENTUM CHECK\nFinal pulse: Even without the numbers, the ban ...",
+      "shots": [
+        {
+          "visual": "particle effects, momentum",
+          "keywords": [
+            "particle effects",
+            "data visualization",
+            "check",
+            "final",
+            "momentum"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/10469564/10469564-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 15,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "particle effects data visualization check",
+              "id": "10469564",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3611029/3611029-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 5,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "particle effects abstract",
+              "id": "3611029",
+              "relevance_score": 55
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/5561385/5561385-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 13,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "particle effects abstract",
+              "id": "5561385",
+              "relevance_score": 55
+            }
+          ]
+        },
+        {
+          "visual": "Abstract data flow animation",
+          "keywords": [
+            "check",
+            "final",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/4686303/4686303-hd_2048_1080_30fps.mp4",
+              "type": "video",
+              "duration": 12,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "check final technology",
+              "id": "4686303",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7664818/7664818-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 26,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "check final technology",
+              "id": "7664818",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/29031537/12551080_640_360_25fps.mp4",
+              "type": "video",
+              "duration": 14,
+              "width": 640,
+              "height": 360,
+              "source": "pexels",
+              "query": "check final technology",
+              "id": "29031537",
+              "relevance_score": 80
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "3:02-3:09",
+      "voiceover": "CTA\nDoes your data strategy unlock or block progress on SoftBank, OpenAI Japan AI joint venture Dela...",
+      "shots": [
+        {
+          "visual": "OpenAI headquarters building, modern tech campus",
+          "keywords": [
+            "AI",
+            "OpenAI",
+            "data",
+            "artificial intelligence",
+            "tech company"
+          ],
+          "style": "Documentary/Stock",
+          "assets": [
+            {
+              "url": "https://images.pexels.com/photos/16629368/pexels-photo-16629368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6792,
+              "height": 4528,
+              "source": "pexels",
+              "query": "AI OpenAI data",
+              "id": "16629368",
+              "relevance_score": 80
+            },
+            {
+              "url": "https://images.pexels.com/photos/17887854/pexels-photo-17887854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6205,
+              "height": 3915,
+              "source": "pexels",
+              "query": "AI OpenAI data",
+              "id": "17887854",
+              "relevance_score": 80
+            },
+            {
+              "url": "https://images.pexels.com/photos/17153209/pexels-photo-17153209.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+              "type": "image",
+              "width": 6637,
+              "height": 4640,
+              "source": "pexels",
+              "query": "AI OpenAI data",
+              "id": "17153209",
+              "relevance_score": 80
+            }
+          ]
+        },
+        {
+          "visual": "Tech professional analyzing holographic display",
+          "keywords": [
+            "data",
+            "softbank,",
+            "openai",
+            "technology",
+            "future"
+          ],
+          "style": "Abstract/Futuristic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/3141208/3141208-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "data softbank, openai",
+              "id": "3141208",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/3141210/3141210-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "data softbank, openai",
+              "id": "3141210",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/2792370/2792370-hd_1920_1080_30fps.mp4",
+              "type": "video",
+              "duration": 10,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "data softbank, openai",
+              "id": "2792370",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    },
+    {
+      "timestamp": "3:09-3:16",
+      "voiceover": "SIGN-OFF\nStay sharp \u2014 JunaidQ AI News",
+      "shots": [
+        {
+          "visual": "close-up technology, AI",
+          "keywords": [
+            "AI",
+            "close-up technology",
+            "server room",
+            "sign-off",
+            "junaidq"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/8086698/8086698-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 20,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI close-up technology server room",
+              "id": "8086698",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7140928/7140928-hd_1920_1080_24fps.mp4",
+              "type": "video",
+              "duration": 9,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI close-up technology server room",
+              "id": "7140928",
+              "relevance_score": 70
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/8090411/8090411-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 59,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "AI close-up technology server room",
+              "id": "8090411",
+              "relevance_score": 70
+            }
+          ]
+        },
+        {
+          "visual": "Futuristic city skyline with digital overlay",
+          "keywords": [
+            "sign-off",
+            "junaidq",
+            "technology",
+            "future"
+          ],
+          "style": "Cinematic",
+          "assets": [
+            {
+              "url": "https://videos.pexels.com/video-files/6955102/6955102-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 13,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "sign-off junaidq technology",
+              "id": "6955102",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/853772/853772-hd_1920_1080_25fps.mp4",
+              "type": "video",
+              "duration": 13,
+              "width": 1920,
+              "height": 1080,
+              "source": "pexels",
+              "query": "sign-off junaidq technology",
+              "id": "853772",
+              "relevance_score": 100
+            },
+            {
+              "url": "https://videos.pexels.com/video-files/7578608/7578608-hd_2048_1080_25fps.mp4",
+              "type": "video",
+              "duration": 30,
+              "width": 2048,
+              "height": 1080,
+              "source": "pexels",
+              "query": "sign-off junaidq technology",
+              "id": "7578608",
+              "relevance_score": 100
+            }
+          ]
+        }
+      ],
+      "duration": 7
+    }
+  ],
+  "generated_at": "20250918_080958"
+}

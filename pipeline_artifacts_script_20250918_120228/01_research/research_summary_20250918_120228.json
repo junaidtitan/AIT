@@ -1,0 +1,223 @@
+{
+  "timestamp": "20250918_120228",
+  "total_articles": 32,
+  "sources_searched": [
+    "https://news.google.com/rss/search?q=artificial+intelligence&hl=en-US&gl=US&ceid=US:en",
+    "https://www.artificialintelligence-news.com/feed/"
+  ],
+  "top_stories": [
+    {
+      "title": "AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University",
+      "summary": null,
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSnBIVGQ4dDQzN0t6MDRBUnhoeno1aENZUWt3NFFJSk5xTzhjM2NmYmxjLXF3X3ZhMktER3JKOXVucnBGRWVTeTBNY0ZRYS0td0J4Q0U0OHQyNTQ2dmtseDM3N3NULXlCVWN3STc3UW84RmxLSk95NXRLci1MWUdPYjd1YXN1YkJ5VWhSNzJtbU0xUjRnSmc?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T11:45:10",
+      "full_text": null
+    },
+    {
+      "title": "VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire",
+      "summary": null,
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPbkhtM2xXRU05QnBNeFFnWU5ic1UwSzRldlRackVOcGN2RDdJaFBfSXRtaWlGUUJJbGNpamRKbjVzdGY2M1BjUTF3TU9WeDRGN0JwejFrVmNRVGFIX3RrdndoQXkwNFpidUFGTFJEczdZN2dLS2NYZEhuNURiYlZyLXpNRmRPa0VzX3BHUDc0WUlFVkI0ZDVVSVpvRk9QSFNBdXFfZW9oWEhEZWJRNTJ5MTdEQmdaUThLUmc0VWdpMWtKWHFWbU9STnhXLVJLYlVYVHpNY1hIcm00QzdsNHAtQi1nMHV3Y1FZd0dTcmY0dUtTMTZKamR0NC1fbmc?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T11:00:00",
+      "full_text": null
+    },
+    {
+      "title": "Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq",
+      "summary": null,
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNckpnekN2YkFoMWpMU1VaUVNmMDFtdm5JWTRxZ09Yd1Q1R3pOTUlqaFdpdjY3anJheWNhSENyUWtFU2x3Zm45bzRvRm02Mlc1RVhkcUdKVEtWMFk4MHV5bzFEdFhTVnJMbW5LVkRsdFR2VzBqa1lSUnBQUzBJVlRlTGJWUHlhYk91Rkk0Q1Zjb1ZBVm10SnpkcmJKX29ybkJaRG85LVRZV1VDRkFkQ2x6WDhSdU9TenI3ZXdJTQ?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T10:00:00",
+      "full_text": null
+    },
+    {
+      "title": "Nvidia to Buy $5 Billion Stake in Intel - The New York Times",
+      "summary": null,
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01ZW9HXzBPOXB5LUxjT2hSbHVtUnVkUkdidVdqNTlUS1BJaXJzVERVY0lTY0xUMXI2TVN0dFBnMm1iLVJUT1FxMVlhZ3pWeHA1WUJrYzdESVZuS0ZfV010SzQtSU55Qzh3aHJ3b29kdU5YTnJqdXc?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T11:40:38",
+      "full_text": ""
+    }
+  ],
+  "analysis": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSnBIVGQ4dDQzN0t6MDRBUnhoeno1aENZUWt3NFFJSk5xTzhjM2NmYmxjLXF3X3ZhMktER3JKOXVucnBGRWVTeTBNY0ZRYS0td0J4Q0U0OHQyNTQ2dmtseDM3N3NULXlCVWN3STc3UW84RmxLSk95NXRLci1MWUdPYjd1YXN1YkJ5VWhSNzJtbU0xUjRnSmc?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T11:45:10",
+      "title": "AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.2,
+          "future": 0.0,
+          "recency": 0.9987910389074074,
+          "authority": 0.5,
+          "wow": 0.11000000000000001,
+          "technical_complexity": 0.0,
+          "composite": 0.2698186558361111
+        },
+        "keywords": [
+          "surge"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": "Even without the numbers, the surge framing jolts operators awake.",
+        "wow_score": 0.42,
+        "technical_complexity": false,
+        "summary_highlight": "AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University.",
+        "summary_support": null
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPbkhtM2xXRU05QnBNeFFnWU5ic1UwSzRldlRackVOcGN2RDdJaFBfSXRtaWlGUUJJbGNpamRKbjVzdGY2M1BjUTF3TU9WeDRGN0JwejFrVmNRVGFIX3RrdndoQXkwNFpidUFGTFJEczdZN2dLS2NYZEhuNURiYlZyLXpNRmRPa0VzX3BHUDc0WUlFVkI0ZDVVSVpvRk9QSFNBdXFfZW9oWEhEZWJRNTJ5MTdEQmdaUThLUmc0VWdpMWtKWHFWbU9STnhXLVJLYlVYVHpNY1hIcm00QzdsNHAtQi1nMHV3Y1FZd0dTcmY0dUtTMTZKamR0NC1fbmc?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T11:00:00",
+      "title": "VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.2,
+          "future": 0.0,
+          "recency": 0.9956544643125,
+          "authority": 0.5,
+          "wow": 0.11000000000000001,
+          "technical_complexity": 0.0,
+          "composite": 0.26934816964687497
+        },
+        "keywords": [
+          "ban"
+        ],
+        "analogy": "Treat it as an autonomous risk desk\u2014models watch the books 24/7 and flag what used to take teams a quarter.",
+        "wow_highlight": "Even without the numbers, the ban framing jolts operators awake.",
+        "wow_score": 0.42,
+        "technical_complexity": false,
+        "summary_highlight": "VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire.",
+        "summary_support": null
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNckpnekN2YkFoMWpMU1VaUVNmMDFtdm5JWTRxZ09Yd1Q1R3pOTUlqaFdpdjY3anJheWNhSENyUWtFU2x3Zm45bzRvRm02Mlc1RVhkcUdKVEtWMFk4MHV5bzFEdFhTVnJMbW5LVkRsdFR2VzBqa1lSUnBQUzBJVlRlTGJWUHlhYk91Rkk0Q1Zjb1ZBVm10SnpkcmJKX29ybkJaRG85LVRZV1VDRkFkQ2x6WDhSdU9TenI3ZXdJTQ?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T10:00:00",
+      "title": "Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.2,
+          "recency": 0.9914877975497686,
+          "authority": 0.5,
+          "wow": 0.09,
+          "technical_complexity": 0.0,
+          "composite": 0.24872316963246527
+        },
+        "keywords": [
+          "pipeline"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": null,
+        "wow_score": 0.6900000000000001,
+        "technical_complexity": false,
+        "summary_highlight": "Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq.",
+        "summary_support": null
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01ZW9HXzBPOXB5LUxjT2hSbHVtUnVkUkdidVdqNTlUS1BJaXJzVERVY0lTY0xUMXI2TVN0dFBnMm1iLVJUT1FxMVlhZ3pWeHA1WUJrYzdESVZuS0ZfV010SzQtSU55Qzh3aHJ3b29kdU5YTnJqdXc?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T11:40:38",
+      "title": "Nvidia to Buy $5 Billion Stake in Intel - The New York Times",
+      "full_text": "",
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9984762238333333,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.199771433575
+        },
+        "keywords": [
+          "Nvidia",
+          "Billion",
+          "Intel"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": "That 5 Billion stat is the tell executives should brief on.",
+        "wow_score": 0.45,
+        "technical_complexity": false,
+        "summary_highlight": "Nvidia to Buy $5 Billion Stake in Intel - The New York Times.",
+        "summary_support": null
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTnhwUFV1MEhBeUQzaGtFOExXQ1djR0FiQlZIR24tbUMzdkVFQmM1S0liaGFUUm1aREdzS1V3bTNUeEVoWVNqTTd1aXlDVmJscmhmUnJKc3NYRWhDQUdxOEVJalJ6bnhxSFN6bVdaMDRyYXFEUV9oS0FiU3c3TG5JYm9Ddw?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T11:04:48",
+      "title": "Peer review in the age of artificial intelligence - Physics World",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9959877977534722,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.19939816966302082
+        },
+        "keywords": [
+          "World",
+          "review",
+          "artificial"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": null,
+        "wow_score": 0.0,
+        "technical_complexity": false,
+        "summary_highlight": "Peer review in the age of artificial intelligence - Physics World.",
+        "summary_support": null
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZnNCZ3pMZUVvRDlKQlJ3S3VwR2pzNkQyVlhKcWIwVXZ4UE9lRmVRLWZhNDNGdGJhWmc2SkRHSzdOZnFBbWZMQmhBT3liaTZUb2NKV083bW5qSUljeXl1VWdHTUtsUlNrR3JHYWZHWjhaUHRxbmZ4WHk1MVhReTYzb1BtaDVLcE91NTNBZ2Zn?oc=5",
+      "source_domain": "news.google.com",
+      "published_ts": "2025-09-18T01:01:20",
+      "title": "Meta Unveils Smart Glasses With Apps and an Artificial Intelligence Assistant - The New York Times",
+      "full_text": null,
+      "score": 0.0,
+      "analysis": {
+        "scores": {
+          "shock": 0.0,
+          "future": 0.0,
+          "recency": 0.9540803900462963,
+          "authority": 0.5,
+          "wow": 0.03,
+          "technical_complexity": 0.0,
+          "composite": 0.19311205850694446
+        },
+        "keywords": [
+          "Glasses",
+          "Unveils",
+          "Artificial"
+        ],
+        "analogy": "Net out the jargon: this unlocks a new capability executives can operationalize if they move fast.",
+        "wow_highlight": null,
+        "wow_score": 0.0,
+        "technical_complexity": false,
+        "summary_highlight": "Meta Unveils Smart Glasses With Apps and an Artificial Intelligence Assistant - The New York Times.",
+        "summary_support": null
+      }
+    }
+  ],
+  "key_themes": [
+    "AI fares better than doctors at predicting deadly complications after surgery - Johns Hopkins University",
+    "VERSABANK IMPLEMENTS NEW INTERNALLY DEVELOPED ARTIFICIAL INTELLIGENCE CAPABLITIES WITHIN CORE BANKING TECHNOLOGY - PR Newswire",
+    "Prediction: This Artificial Intelligence (AI) Stock With a $455 Billion Revenue Pipeline Will Be Worth $3 Trillion in 5 Years - Nasdaq"
+  ]
+}

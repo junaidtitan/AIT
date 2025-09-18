@@ -1,1 +1,7 @@
-{{headline}}. Policy move: {{what}}. Implication: {{so_what}}. Action signal: {{now_what}}. Analogy: {{analogy}}. Impact pulse: {{wow_factor}}. {{transition}}
+{{headline}}
+Policy move: {{what}}
+Implication: {{so_what}}
+Action signal: {{now_what}}
+Analogy: {{analogy}}
+Impact pulse: {{wow_factor}}
+{{transition}}

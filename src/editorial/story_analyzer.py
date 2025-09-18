@@ -4,7 +4,7 @@ import math
 import re
 from dataclasses import dataclass
 from datetime import datetime, timezone
-from typing import Any, Dict, Iterable, List, Optional
+from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 # Keywords tuned for executive-facing AI news
 _SHOCK_TERMS = {
@@ -150,13 +150,19 @@ class StoryAnalyzer:
     def analyze(self, stories: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         enriched: List[Dict[str, Any]] = []
         for story in stories:
-            text = " ".join(
-                str(story.get(field, ""))
-                for field in ("title", "summary", "full_text")
-            )
+            text_fields = [str(story.get(field, "")) for field in ("summary", "full_text") if story.get(field)]
+            joined_text = " ".join(text_fields).strip()
+            combined_text = joined_text or str(story.get("title", ""))
+            text = combined_text
             metrics = self._score_story(story)
             wow = self._wow.compute(text)
             keywords = self._extract_keywords(text)
+            summary_primary, summary_support = self._summarize_for_wow(
+                title=str(story.get("title", "")),
+                text=combined_text,
+                keywords=keywords,
+                wow_terms=wow
+            )
             analogy = self._analogy.suggest(text, keywords)
             enriched_story = {
                 **story,
@@ -167,6 +173,8 @@ class StoryAnalyzer:
                     "wow_highlight": wow["wow_highlight"],
                     "wow_score": wow["wow_score"],
                     "technical_complexity": metrics.technical_complexity >= 0.5,
+                    "summary_highlight": summary_primary,
+                    "summary_support": summary_support,
                 }
             }
             enriched.append(enriched_story)
@@ -246,6 +254,60 @@ class StoryAnalyzer:
             words = [w for w in re.findall(r"[a-zA-Z]+", text) if len(w) > 4]
             keywords = sorted(set(words), key=words.count, reverse=True)[:3]
         return keywords
+
+    # ------------------------------------------------------------------
+    # Summarisation helpers
+    # ------------------------------------------------------------------
+
+    def _split_sentences(self, text: str) -> List[str]:
+        if not text:
+            return []
+        candidates = re.split(r"(?<=[.!?])\s+", text)
+        sentences = [c.strip() for c in candidates if c and len(c.strip()) > 15]
+        return sentences[:40]
+
+    def _summarize_for_wow(
+        self,
+        *,
+        title: str,
+        text: str,
+        keywords: Sequence[str],
+        wow_terms: Dict[str, Any],
+    ) -> Tuple[str, Optional[str]]:
+        sentences = self._split_sentences(text)
+        if not sentences:
+            cleaned_title = title.strip()
+            return (cleaned_title, None)
+
+        def score_sentence(sentence: str) -> float:
+            lowered = sentence.lower()
+            score = 0.0
+            number_hits = len(list(_NUMBER_PATTERN.finditer(sentence)))
+            score += number_hits * 3.0
+            score += sum(1.5 for term in _SHOCK_TERMS if term in lowered)
+            score += sum(1.0 for term in _FUTURE_TERMS if term in lowered)
+            score += sum(0.75 for term in keywords if term and term.lower() in lowered)
+            score += wow_terms.get("wow_score", 0) * 2.0
+            length = len(sentence)
+            if 90 <= length <= 240:
+                score += 2.0
+            elif length > 240:
+                score -= 1.0
+            return score
+
+        ranked = sorted(((score_sentence(s), s) for s in sentences), reverse=True)
+        best_sentence = ranked[0][1].strip()
+        secondary_sentence = ranked[1][1].strip() if len(ranked) > 1 else None
+
+        if best_sentence.endswith(tuple("!?")):
+            best_sentence = best_sentence
+        elif not best_sentence.endswith('.'):  # ensure closed sentence
+            best_sentence = best_sentence + '.'
+
+        if secondary_sentence and not secondary_sentence.endswith(tuple('.!?')):
+            secondary_sentence = secondary_sentence + '.'
+
+        return best_sentence, secondary_sentence
 
 
 __all__ = ["StoryAnalyzer", "AnalogyGenerator"]
