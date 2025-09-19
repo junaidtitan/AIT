@@ -42,3 +42,4 @@ oauth_*.json
 # Temporary
 tmp/
 temp/
+.langgraph/

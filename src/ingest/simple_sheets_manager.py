@@ -1,470 +1,427 @@
-#!/usr/bin/env python3
-"""
-Simplified Google Sheets Manager for News Sources
-Works with existing GCP service account
-"""
+"""Typed Google Sheets source manager used by Stage 1 LangGraph."""
 
-import os
-import hashlib
-from typing import Dict, List, Any, Optional
-from datetime import datetime, timedelta
-import feedparser
+from __future__ import annotations
+
 import asyncio
-import aiohttp
+import logging
+import os
+from dataclasses import dataclass
+from datetime import datetime, timedelta, timezone
+from enum import Enum
+from typing import Dict, Iterable, List, Optional, Tuple
 
-# For environments without Google API libraries, use fallback
-try:
-    from google.auth import default
-    from google.oauth2 import service_account
-    from googleapiclient.discovery import build
-    SHEETS_AVAILABLE = True
-except ImportError:
-    SHEETS_AVAILABLE = False
-    print("Warning: Google Sheets API not available, using fallback sources")
+from src.ingest.rss_arxiv import fetch_rss_async
+from src.models import ScoredStory, StoryInput, StorySource
+from src.utils import canonical_url, content_fingerprint, merge_keywords, to_thread
+from src.utils.errors import StageFailure
+
+logger = logging.getLogger(__name__)
+
+SERVICE_ACCOUNT_PATH = "/home/junaidqureshi/AIT/sheets_service_account.json"
+
+
+class ManagerStatus(str, Enum):
+    CONNECTED = "connected"
+    FALLBACK = "fallback"
+    ERROR = "error"
+
+
+@dataclass
+class SheetFetchResult:
+    status: ManagerStatus
+    details: str
+
 
 class SimpleSheetsManager:
-    """Simple manager for Google Sheets news sources"""
+    """Load sources, company patterns, and scoring knobs from Google Sheets."""
 
-    def __init__(self, sheet_id: str = None):
-        self.sheet_id = sheet_id or os.environ.get('NEWS_SHEET_ID', '1J4d4S0mnBeWn5hfHhnc97SPusn9ejz4jWE9oQtK0mgU')
+    def __init__(self, sheet_id: Optional[str] = None) -> None:
+        self.sheet_id = sheet_id or os.environ.get(
+            "NEWS_SHEET_ID", "1J4d4S0mnBeWn5hfHhnc97SPusn9ejz4jWE9oQtK0mgU"
+        )
         self.service = None
-        self.fallback_sources = self._get_fallback_sources()
+        self.status = SheetFetchResult(status=ManagerStatus.FALLBACK, details="Service not initialised")
+        self._connect()
 
-        if SHEETS_AVAILABLE:
-            # First try service account key file if it exists
-            service_account_file = '/home/junaidqureshi/AIT/sheets_service_account.json'
-            if os.path.exists(service_account_file):
-                try:
-                    credentials = service_account.Credentials.from_service_account_file(
-                        service_account_file,
-                        scopes=['https://www.googleapis.com/auth/spreadsheets']
-                    )
-                    self.service = build('sheets', 'v4', credentials=credentials)
-                    print(f"✓ Connected to Google Sheets using service account key")
-                except Exception as e:
-                    print(f"⚠️ Could not connect with service account key: {e}")
-                    print("   Trying default credentials...")
+    # ------------------------------------------------------------------
+    # Connection helpers
+    # ------------------------------------------------------------------
 
-            # Fall back to default credentials if service account didn't work
-            if not self.service:
-                try:
-                    credentials, project = default()
-                    self.service = build('sheets', 'v4', credentials=credentials)
-                    print(f"✓ Connected to Google Sheets in project: {project}")
-                except Exception as e:
-                    print(f"⚠️ Could not connect to sheets: {e}")
-                    print("   Using fallback sources")
+    def _connect(self) -> None:
+        try:
+            from google.oauth2 import service_account
+            from googleapiclient.discovery import build
 
-    def _get_fallback_sources(self) -> List[Dict]:
-        """Fallback sources if sheets not available"""
+            if os.path.exists(SERVICE_ACCOUNT_PATH):
+                credentials = service_account.Credentials.from_service_account_file(
+                    SERVICE_ACCOUNT_PATH,
+                    scopes=["https://www.googleapis.com/auth/spreadsheets"],
+                )
+                self.service = build("sheets", "v4", credentials=credentials)
+                self.status = SheetFetchResult(ManagerStatus.CONNECTED, "service account")
+                logger.info("Connected to Google Sheets via service account")
+                return
+
+            # Try default credentials as fallback (runs on GCP)
+            from google.auth import default
+
+            credentials, project = default()
+            self.service = build("sheets", "v4", credentials=credentials)
+            self.status = SheetFetchResult(ManagerStatus.CONNECTED, f"application default ({project})")
+            logger.info("Connected to Google Sheets using default credentials: %s", project)
+        except Exception as exc:  # pragma: no cover - environment dependent
+            logger.warning("Falling back to static sources: %s", exc)
+            self.service = None
+            self.status = SheetFetchResult(ManagerStatus.FALLBACK, str(exc))
+
+    async def _read_sheet(self, range_name: str) -> List[List[str]]:
+        if not self.service:
+            raise StageFailure("Sheets API unavailable", payload={"range": range_name})
+
+        def _exec() -> List[List[str]]:
+            request = (
+                self.service.spreadsheets()
+                .values()
+                .get(spreadsheetId=self.sheet_id, range=range_name)
+            )
+            try:
+                response = request.execute()
+            except Exception as exc:  # pragma: no cover - external dependency
+                raise StageFailure(
+                    "Sheets API request failed",
+                    payload={"range": range_name, "error": str(exc)}
+                ) from exc
+            return response.get("values", [])
+
+        return await to_thread(_exec)
+
+    # ------------------------------------------------------------------
+    # Source/metadata loaders
+    # ------------------------------------------------------------------
+
+    def _fallback_sources(self) -> List[StorySource]:
         return [
-            {
-                'name': 'OpenAI Blog',
-                'url': 'https://openai.com/blog/rss.xml',
-                'category': 'company',
-                'priority': 10
-            },
-            {
-                'name': 'Google AI Blog',
-                'url': 'https://blog.research.google/feeds/posts/default?alt=rss',
-                'category': 'company',
-                'priority': 10
-            },
-            {
-                'name': 'Anthropic News',
-                'url': 'https://www.anthropic.com/rss.xml',
-                'category': 'company',
-                'priority': 10
-            },
-            {
-                'name': 'ArXiv AI',
-                'url': 'http://arxiv.org/rss/cs.AI',
-                'category': 'research',
-                'priority': 8
-            },
-            {
-                'name': 'TechCrunch AI',
-                'url': 'https://techcrunch.com/category/artificial-intelligence/feed/',
-                'category': 'news',
-                'priority': 5
-            }
+            StorySource(name="OpenAI Blog", url="https://openai.com/blog/rss.xml", category="company", priority=10),
+            StorySource(
+                name="Google AI Blog",
+                url="https://blog.research.google/feeds/posts/default?alt=rss",
+                category="company",
+                priority=10,
+            ),
+            StorySource(name="Anthropic News", url="https://www.anthropic.com/rss.xml", category="company", priority=10),
+            StorySource(name="ArXiv AI", url="http://arxiv.org/rss/cs.AI", category="research", priority=8),
+            StorySource(
+                name="TechCrunch AI", url="https://techcrunch.com/category/artificial-intelligence/feed/", category="news", priority=5
+            ),
         ]
 
-    def get_sources(self) -> List[Dict]:
-        """Get news sources from sheet or fallback"""
+    async def aget_sources(self) -> List[StorySource]:
         if not self.service:
-            return self.fallback_sources
+            return self._fallback_sources()
 
         try:
-            # Try to read Sources tab
-            range_name = 'Sources!A2:H100'  # Up to 100 sources
-            result = self.service.spreadsheets().values().get(
-                spreadsheetId=self.sheet_id,
-                range=range_name
-            ).execute()
+            values = await self._read_sheet("Sources!A2:H200")
+        except StageFailure:
+            return self._fallback_sources()
 
-            values = result.get('values', [])
-            sources = []
+        sources: List[StorySource] = []
+        for row in values:
+            if len(row) < 2:
+                continue
+            enabled = True
+            if len(row) > 6 and row[6]:
+                enabled = row[6].lower() in {"yes", "true", "1", "enabled"}
+            if not enabled:
+                continue
+            try:
+                sources.append(
+                    StorySource(
+                        name=row[0] or row[1],
+                        url=row[1],
+                        category=row[3] if len(row) > 3 and row[3] else "news",
+                        priority=int(row[5]) if len(row) > 5 and row[5] else 5,
+                        metadata={"sheet_row": row},
+                    )
+                )
+            except Exception as exc:
+                logger.debug("Skipping source row %s (%s)", row, exc)
+        return sources or self._fallback_sources()
 
-            for row in values:
-                if len(row) >= 2 and row[1]:  # Must have name and URL
-                    # Only process enabled sources
-                    enabled = True
-                    if len(row) > 6:
-                        enabled = row[6].lower() in ['yes', 'true', '1', 'enabled']
+    def get_sources(self) -> List[StorySource]:
+        return asyncio.run(self.aget_sources())
 
-                    if enabled:
-                        sources.append({
-                            'name': row[0] if row[0] else 'Unknown',
-                            'url': row[1],
-                            'category': row[3] if len(row) > 3 else 'news',
-                            'priority': int(row[5]) if len(row) > 5 and row[5] else 5
-                        })
+    async def aget_companies(self) -> Dict[str, List[str]]:
+        if not self.service:
+            return self._default_companies()
+        try:
+            values = await self._read_sheet("Companies!A2:D200")
+        except StageFailure:
+            return self._default_companies()
 
-            print(f"✓ Loaded {len(sources)} sources from Google Sheets")
-            return sources if sources else self.fallback_sources
-
-        except Exception as e:
-            print(f"⚠️ Could not read sheet: {e}")
-            return self.fallback_sources
+        companies: Dict[str, List[str]] = {}
+        for row in values:
+            if not row or not row[0]:
+                continue
+            patterns: List[str] = [row[0].lower()]
+            if len(row) > 1 and row[1]:
+                patterns.extend([p.strip().lower() for p in row[1].split(",") if p.strip()])
+            if len(row) > 2 and row[2]:
+                patterns.extend([p.strip().lower() for p in row[2].split(",") if p.strip()])
+            companies[row[0].lower()] = patterns
+        return companies or self._default_companies()
 
     def get_companies(self) -> Dict[str, List[str]]:
-        """Get company patterns from sheet or defaults"""
-        default_companies = {
-            'openai': ['openai', 'gpt', 'chatgpt', 'dall-e', 'sora'],
-            'google': ['google', 'deepmind', 'gemini', 'bard', 'palm'],
-            'anthropic': ['anthropic', 'claude'],
-            'meta': ['meta', 'facebook', 'llama'],
-            'microsoft': ['microsoft', 'copilot', 'azure'],
-            'bytedance': ['bytedance', 'tiktok', 'doubao'],
-            'alibaba': ['alibaba', 'qwen', 'tongyi']
-        }
+        return asyncio.run(self.aget_companies())
 
+    async def aget_scoring_weights(self) -> Dict[str, float]:
         if not self.service:
-            return default_companies
-
+            return self._default_weights()
         try:
-            range_name = 'Companies!A2:D100'
-            result = self.service.spreadsheets().values().get(
-                spreadsheetId=self.sheet_id,
-                range=range_name
-            ).execute()
-
-            values = result.get('values', [])
-            companies = {}
-
-            for row in values:
-                if row and row[0]:
-                    company_name = row[0].lower().replace(' ', '_')
-                    patterns = []
-
-                    # Add company name itself
-                    patterns.append(row[0].lower())
-
-                    # Add aliases
-                    if len(row) > 1 and row[1]:
-                        patterns.extend([a.strip().lower() for a in row[1].split(',')])
-
-                    # Add products
-                    if len(row) > 2 and row[2]:
-                        patterns.extend([p.strip().lower() for p in row[2].split(',')])
-
-                    companies[company_name] = patterns
-
-            return companies if companies else default_companies
-
-        except:
-            return default_companies
+            values = await self._read_sheet("Scoring!A2:B100")
+        except StageFailure:
+            return self._default_weights()
+        weights: Dict[str, float] = {}
+        for key, value in values:
+            try:
+                weights[key] = float(value)
+            except Exception:
+                continue
+        return weights or self._default_weights()
 
     def get_scoring_weights(self) -> Dict[str, float]:
-        """Get scoring weights from sheet or defaults"""
-        defaults = {
-            'freshness_6h': 20,
-            'freshness_24h': 10,
-            'company_mention': 10,
-            'model_release': 15,
-            'breakthrough': 12,
-            'open_source': 10
-        }
+        return asyncio.run(self.aget_scoring_weights())
 
-        if not self.service:
-            return defaults
+    # ------------------------------------------------------------------
+    # Fetch + score pipeline
+    # ------------------------------------------------------------------
 
-        try:
-            range_name = 'Scoring!A2:B20'
-            result = self.service.spreadsheets().values().get(
-                spreadsheetId=self.sheet_id,
-                range=range_name
-            ).execute()
+    async def fetch_ranked_articles(
+        self,
+        *,
+        max_per_source: int = 10,
+        hours_filter: Optional[int] = None,
+        use_youtube_trends: Optional[bool] = None,
+    ) -> List[ScoredStory]:
+        sources = await self.aget_sources()
+        companies = await self.aget_companies()
+        weights = await self.aget_scoring_weights()
 
-            values = result.get('values', [])
-            weights = {}
+        articles = await fetch_rss_async(sources, max_items=max_per_source)
+        filtered = self._apply_time_filter(articles, hours_filter)
+        scored = [self._score_article(item, companies, weights) for item in filtered]
 
-            for row in values:
-                if len(row) >= 2 and row[0] and row[1]:
-                    try:
-                        weights[row[0]] = float(row[1])
-                    except ValueError:
-                        pass
-
-            return weights if weights else defaults
-
-        except:
-            return defaults
-
-    async def fetch_all_sources(self, hours_filter: int = None, use_youtube_trends: bool = None) -> List[Dict]:
-        """Fetch articles from all sources
-
-        Args:
-            hours_filter: Only include articles from last N hours (e.g., 24 for last day)
-        """
-        sources = self.get_sources()
-        companies = self.get_companies()
-        weights = self.get_scoring_weights()
-
-        # Get filter from environment if not specified
-        if hours_filter is None:
-            hours_filter = int(os.environ.get('NEWS_HOURS_FILTER', '0'))
-
-        all_articles = []
-
-        async with aiohttp.ClientSession() as session:
-            tasks = []
-            for source in sources:
-                tasks.append(self._fetch_source(session, source))
-
-            results = await asyncio.gather(*tasks, return_exceptions=True)
-
-            for result in results:
-                if isinstance(result, list):
-                    all_articles.extend(result)
-
-        # Apply time filter if specified
-        if hours_filter > 0:
-            cutoff_time = datetime.now() - timedelta(hours=hours_filter)
-            before_filter = len(all_articles)
-
-            filtered_articles = []
-            for article in all_articles:
-                # Handle different date formats
-                pub_date = article.get('published_date')
-                if isinstance(pub_date, str):
-                    try:
-                        pub_date = datetime.fromisoformat(pub_date.replace('Z', '+00:00'))
-                    except:
-                        pub_date = datetime.now()  # Default to now if parsing fails
-
-                if pub_date and pub_date > cutoff_time:
-                    filtered_articles.append(article)
-
-            all_articles = filtered_articles
-            print(f"  ⏰ Time filter: {before_filter} → {len(all_articles)} articles (last {hours_filter}h)")
-
-        # Score articles
-        for article in all_articles:
-            article['score'] = self._score_article(article, companies, weights)
-
-        # Sort by score
-        all_articles.sort(key=lambda x: x['score'], reverse=True)
-
-        # Apply YouTube trending boosts if enabled (default: true)
         if use_youtube_trends is None:
-            use_youtube_trends = os.environ.get('USE_YOUTUBE_TRENDS', 'true').lower() == 'true'
+            use_youtube_trends = os.environ.get("USE_YOUTUBE_TRENDS", "true").lower() == "true"
+        if use_youtube_trends and scored:
+            self._apply_trending_boosts(scored)
 
-        if use_youtube_trends and all_articles:
-            try:
-                # Try simple trending first (no API needed)
-                from src.ingest.youtube_trending_simple import boost_with_simple_trends
-                print("\n📺 Applying trending boosts...")
-                all_articles = boost_with_simple_trends(all_articles)
-            except ImportError:
-                # Fall back to API version if available
-                try:
-                    from src.ingest.youtube_trending import boost_articles_with_trends
-                    all_articles = boost_articles_with_trends(all_articles)
-                except Exception as e:
-                    print(f"  ⚠️ Could not apply trending boosts: {e}")
+        scored.sort(key=lambda story: story.score, reverse=True)
+        for idx, story in enumerate(scored, start=1):
+            story.rank = idx
+        if self.service and scored:
+            await self._log_articles(scored[:10])
+        return scored
 
-        # Log top articles back to sheet if possible
-        if self.service and all_articles:
-            self._log_articles(all_articles[:10])
+    async def fetch_all_sources(
+        self,
+        hours_filter: Optional[int] = None,
+        use_youtube_trends: Optional[bool] = None,
+    ) -> List[Dict]:
+        ranked = await self.fetch_ranked_articles(hours_filter=hours_filter, use_youtube_trends=use_youtube_trends)
+        return [story.model_dump() for story in ranked]
 
-        return all_articles
+    # ------------------------------------------------------------------
+    # Helpers
+    # ------------------------------------------------------------------
 
-    async def _fetch_source(self, session: aiohttp.ClientSession, source: Dict) -> List[Dict]:
-        """Fetch articles from a single source"""
-        try:
-            async with session.get(source['url'], timeout=10) as response:
-                content = await response.text()
-                feed = feedparser.parse(content)
+    def _apply_time_filter(
+        self, stories: Iterable[StoryInput], hours_filter: Optional[int]
+    ) -> List[StoryInput]:
+        if not hours_filter or hours_filter <= 0:
+            return list(stories)
+        cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_filter)
+        filtered = [story for story in stories if story.published_at and story.published_at.replace(tzinfo=timezone.utc) >= cutoff]
+        return filtered
 
-                articles = []
-                for entry in feed.entries[:10]:  # Max 10 per source
-                    published = datetime.now()
-                    if hasattr(entry, 'published_parsed') and entry.published_parsed:
-                        published = datetime(*entry.published_parsed[:6])
+    def _score_article(
+        self,
+        story: StoryInput,
+        companies: Dict[str, List[str]],
+        weights: Dict[str, float],
+    ) -> ScoredStory:
+        text = " ".join(filter(None, [story.title, story.summary or ""])).lower()
+        is_research = story.source.category == "research" or "arxiv" in (story.source_domain or "")
+        published = story.published_at or datetime.now(timezone.utc)
+        age = datetime.now(timezone.utc) - published.replace(tzinfo=timezone.utc)
 
-                    articles.append({
-                        'title': entry.get('title', ''),
-                        'url': entry.get('link', ''),
-                        'summary': entry.get('summary', ''),
-                        'source_name': source['name'],
-                        'source_category': source['category'],
-                        'published_date': published,
-                        'source_priority': source['priority']
-                    })
-
-                return articles
-
-        except Exception as e:
-            print(f"  Failed to fetch {source['name']}: {e}")
-            return []
-
-    def _score_article(self, article: Dict, companies: Dict, weights: Dict) -> float:
-        """Score an article based on various factors"""
         score = 0.0
-        text = f"{article['title']} {article['summary']}".lower()
+        boosts: Dict[str, float] = {}
 
-        # Determine source type
-        source_name = article.get('source_name', '').lower()
-        source_category = article.get('source_category', '').lower()
-
-        # Check if it's a research/paper source
-        is_research = (
-            'arxiv' in source_name or
-            'papers' in source_name or
-            source_category == 'research' or
-            'arxiv:' in text[:100] or  # Only check beginning
-            'abstract:' in text[:100] or
-            'announce type:' in text[:100]  # ArXiv marker
-        )
-
-        # Enhanced freshness scoring (different for papers vs news)
-        pub_date = article.get('published_date', datetime.now())
-        if isinstance(pub_date, str):
-            try:
-                pub_date = datetime.fromisoformat(pub_date.replace('Z', '+00:00'))
-            except:
-                pub_date = datetime.now()
-
-        age = datetime.now() - pub_date
-
-        # Differential freshness scoring
+        # Freshness
         if is_research:
-            # ArXiv papers: Much lower freshness bonus (they're always "fresh")
             if age < timedelta(hours=24):
-                score += weights.get('paper_freshness_24h', 3)  # Small bonus for today's papers
+                inc = weights.get("paper_freshness_24h", 3)
+                score += inc
+                boosts["freshness:24h"] = inc
             elif age < timedelta(hours=48):
-                score += weights.get('paper_freshness_48h', 2)  # Tiny bonus for recent papers
-            # Papers older than 48h get no freshness bonus
+                inc = weights.get("paper_freshness_48h", 2)
+                score += inc
+                boosts["freshness:48h"] = inc
         else:
-            # Real news/releases: Higher freshness bonus
-            if age < timedelta(hours=1):
-                score += weights.get('news_freshness_1h', 40)  # BREAKING news
-            elif age < timedelta(hours=3):
-                score += weights.get('news_freshness_3h', 35)  # Very fresh news
-            elif age < timedelta(hours=6):
-                score += weights.get('news_freshness_6h', 30)  # Fresh news
-            elif age < timedelta(hours=12):
-                score += weights.get('news_freshness_12h', 20)  # Today's news
-            elif age < timedelta(hours=24):
-                score += weights.get('news_freshness_24h', 15)  # Recent news
-            elif age < timedelta(hours=48):
-                score += weights.get('news_freshness_48h', 8)   # Yesterday's news
-            # Older than 48h gets no freshness bonus
-
-        # Company mentions
-        for company, patterns in companies.items():
-            for pattern in patterns:
-                if pattern in text:
-                    score += weights.get('company_mention', 10)
-                    article['companies_mentioned'] = article.get('companies_mentioned', [])
-                    article['companies_mentioned'].append(company)
+            boundaries: List[Tuple[timedelta, str, str]] = [
+                (timedelta(hours=1), "news_freshness_1h", "freshness:1h"),
+                (timedelta(hours=3), "news_freshness_3h", "freshness:3h"),
+                (timedelta(hours=6), "news_freshness_6h", "freshness:6h"),
+                (timedelta(hours=12), "news_freshness_12h", "freshness:12h"),
+                (timedelta(hours=24), "news_freshness_24h", "freshness:24h"),
+                (timedelta(hours=48), "news_freshness_48h", "freshness:48h"),
+            ]
+            for boundary, weight_key, label in boundaries:
+                if age < boundary:
+                    inc = weights.get(weight_key, 5)
+                    score += inc
+                    boosts[label] = inc
                     break
 
-        # Keywords (boost more for non-research sources)
-        boost_multiplier = 1.0 if is_research else 1.5  # 50% boost for real news
+        companies_mentioned: List[str] = []
+        for company, patterns in companies.items():
+            if any(pattern in text for pattern in patterns):
+                inc = weights.get("company_mention", 10)
+                score += inc
+                boosts[f"company:{company}"] = inc
+                companies_mentioned.append(company)
 
-        if any(word in text for word in ['release', 'launch', 'announce', 'unveil', 'ship', 'rolls out']):
-            score += weights.get('model_release', 15) * boost_multiplier
-        if any(word in text for word in ['breakthrough', 'surpass', 'beats', 'record', 'state-of-the-art']):
-            score += weights.get('breakthrough', 12) * boost_multiplier
-        if 'open source' in text or 'open-source' in text or 'github' in text:
-            score += weights.get('open_source', 10) * boost_multiplier
+        keyword_hits = {
+            "model_release": ["release", "launch", "unveil", "ship", "rolls out"],
+            "breakthrough": ["breakthrough", "surpass", "beats", "record", "state-of-the-art"],
+            "open_source": ["open source", "open-source", "github"],
+            "breaking_news": ["breaking:", "just in:", "exclusive:", "confirmed:"],
+            "business_news": ["acqui", "funding", "raises", "series", "valuation", "ipo"],
+            "partnership": ["partner", "collaboration", "integration", "teams up"],
+        }
+        multiplier = 1.0 if is_research else 1.5
+        for key, phrases in keyword_hits.items():
+            if any(phrase in text for phrase in phrases):
+                inc = weights.get(key, 10) * multiplier
+                score += inc
+                boosts[f"keyword:{key}"] = inc
 
-        # Additional news-specific bonuses
-        if not is_research:
-            if any(word in text for word in ['breaking:', 'just in:', 'exclusive:', 'confirmed:']):
-                score += weights.get('breaking_news', 20)
-            if any(word in text for word in ['acqui', 'funding', 'raises', 'series', 'valuation', 'ipo']):
-                score += weights.get('business_news', 15)
-            if any(word in text for word in ['partner', 'collaboration', 'integration', 'teams up']):
-                score += weights.get('partnership', 12)
+        score += float(story.source.priority)
+        boosts["source_priority"] = float(story.source.priority)
 
-        # Source priority
-        score += article['source_priority']
+        analysis = {
+            "scores": {
+                "freshness": boosts.get("freshness:1h", 0)
+                + boosts.get("freshness:3h", 0)
+                + boosts.get("freshness:6h", 0),
+                "company": len(companies_mentioned),
+            },
+            "keywords": merge_keywords(companies_mentioned),
+        }
 
-        return score
+        return ScoredStory(
+            source=story.source,
+            title=story.title,
+            url=canonical_url(story.url) or story.url,
+            summary=story.summary,
+            full_text=story.full_text,
+            published_at=story.published_at,
+            source_domain=story.source_domain,
+            extras={
+                **story.extras,
+                "fingerprint": story.extras.get("fingerprint")
+                or content_fingerprint(story.url, story.title),
+            },
+            analysis=analysis,
+            diagnostics={},
+            score=score,
+            boosts=boosts,
+            companies_mentioned=companies_mentioned,
+        )
 
-    def _log_articles(self, articles: List[Dict]):
-        """Log articles back to sheet"""
+    def _apply_trending_boosts(self, stories: List[ScoredStory]) -> None:
         try:
-            values = []
-            for article in articles:
-                values.append([
-                    datetime.now().isoformat(),
-                    article['title'][:100],
-                    article['url'],
-                    article['source_name'],
-                    str(article['score']),
-                    ', '.join(article.get('companies_mentioned', [])),
-                    article['published_date'].isoformat() if hasattr(article['published_date'], 'isoformat') else str(article['published_date'])
-                ])
+            from src.ingest.youtube_trending import YouTubeTrendingTracker
 
-            body = {'values': values}
+            tracker = YouTubeTrendingTracker()
+            trending = tracker.get_trending_boost_scores()
+        except Exception:
+            from src.ingest.youtube_trending_simple import get_trending_keywords_simple
+
+            trending = get_trending_keywords_simple()
+
+        for story in stories:
+            text = f"{story.title} {story.summary or ''}".lower()
+            for keyword, bonus in trending.items():
+                if keyword.lower() in text:
+                    story.score += bonus
+                    story.boosts[f"trend:{keyword}"] = bonus
+
+    async def _log_articles(self, stories: List[ScoredStory]) -> None:
+        if not self.service:
+            return
+
+        def _append() -> None:
+            body = {
+                "values": [
+                    [
+                        datetime.now(timezone.utc).isoformat(),
+                        story.title[:100],
+                        story.url,
+                        story.source.name,
+                        f"{story.score:.2f}",
+                        ", ".join(story.companies_mentioned),
+                        (story.published_at or datetime.now(timezone.utc)).isoformat(),
+                    ]
+                    for story in stories
+                ]
+            }
             self.service.spreadsheets().values().append(
                 spreadsheetId=self.sheet_id,
-                range='Article Log!A2:G',
-                valueInputOption='RAW',
-                insertDataOption='INSERT_ROWS',
-                body=body
+                range="Article Log!A2:G",
+                valueInputOption="RAW",
+                insertDataOption="INSERT_ROWS",
+                body=body,
             ).execute()
 
-        except:
-            pass  # Don't fail on logging
+        try:
+            await to_thread(_append)
+        except Exception as exc:  # pragma: no cover - depends on environment
+            logger.debug("Failed logging articles: %s", exc)
 
-# Test function
-async def test():
-    """Test the sheet manager"""
-    print("\n🧪 Testing Simple Sheets Manager...")
-    print("=" * 50)
+    # ------------------------------------------------------------------
+    # Defaults
+    # ------------------------------------------------------------------
 
-    manager = SimpleSheetsManager()
+    def _default_companies(self) -> Dict[str, List[str]]:
+        return {
+            "openai": ["openai", "gpt", "chatgpt", "dall-e", "sora"],
+            "google": ["google", "deepmind", "gemini", "bard", "palm"],
+            "anthropic": ["anthropic", "claude"],
+            "meta": ["meta", "facebook", "llama"],
+            "microsoft": ["microsoft", "copilot", "azure"],
+            "bytedance": ["bytedance", "tiktok", "doubao"],
+            "alibaba": ["alibaba", "qwen", "tongyi"],
+        }
 
-    # Get sources
-    sources = manager.get_sources()
-    print(f"\n📰 Found {len(sources)} sources:")
-    for source in sources[:3]:
-        print(f"  - {source['name']}: Priority {source['priority']}")
+    def _default_weights(self) -> Dict[str, float]:
+        return {
+            "paper_freshness_24h": 3,
+            "paper_freshness_48h": 2,
+            "news_freshness_1h": 40,
+            "news_freshness_3h": 35,
+            "news_freshness_6h": 30,
+            "news_freshness_12h": 20,
+            "news_freshness_24h": 15,
+            "news_freshness_48h": 8,
+            "company_mention": 10,
+            "model_release": 15,
+            "breakthrough": 12,
+            "open_source": 10,
+            "breaking_news": 20,
+            "business_news": 15,
+            "partnership": 12,
+        }
 
-    # Get companies
-    companies = manager.get_companies()
-    print(f"\n🏢 Tracking {len(companies)} companies")
 
-    # Fetch articles
-    print("\n🔍 Fetching articles...")
-    articles = await manager.fetch_all_sources()
-
-    print(f"\n📊 Top articles (by score):")
-    for i, article in enumerate(articles[:5], 1):
-        print(f"\n{i}. Score: {article['score']:.1f}")
-        print(f"   Title: {article['title'][:80]}...")
-        print(f"   Source: {article['source_name']}")
-        if 'companies_mentioned' in article:
-            print(f"   Companies: {', '.join(article['companies_mentioned'])}")
-
-    return articles
-
-if __name__ == "__main__":
-    # Run test
-    articles = asyncio.run(test())
+__all__ = ["SimpleSheetsManager", "ManagerStatus", "SheetFetchResult"]

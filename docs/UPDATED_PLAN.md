@@ -31,3 +31,8 @@
 - **No evergreen content.**
 - **Focus on YouTube only** in v1 (LinkedIn, email, community come later).
 - **Approvals mandatory**: topic, script, QC.
+
+- ✅ Stage 1 research graph in `src/graphs/research_graph.py` orchestrates source loading, async RSS fetch, dedupe, enrichment, and ranking with persistent checkpoints.
+- ✅ Stage 2 script graph in `src/graphs/script_graph.py` assembles futurist scripts via typed adapters, adds regeneration loops, and flags manual review when validation never passes.
+- ✅ Shared models (`src/models/`) and utilities (`src/utils/`) provide canonical story/script structures, async helpers, structured errors, and local checkpoint storage (`src/graphs/checkpoints.py`).
+- ✅ CLI entrypoint `src/unified_langgraph_pipeline.py` runs the two-stage LangGraph pipeline end-to-end with optional filters and maximum-attempt controls.

@@ -1,5 +1,9 @@
 import unittest
 from datetime import datetime, timedelta
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from src.editorial.script_daily import ScriptGenerator
 from src.editorial.story_analyzer import StoryAnalyzer

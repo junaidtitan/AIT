@@ -25,6 +25,8 @@ This repository contains **all code, documents, and strategies** for building th
 1. Install dependencies from `projects/` or `starter/`.
 2. Copy `.env.example` to `.env` and add keys.
 3. Run `python3 unified_pipeline_test.py --sample-script` to exercise the unified pipeline locally.
+4. Run `scripts/bootstrap_langgraph.sh` to install LangGraph-specific dependencies and create `.env.langgraph`.
+5. Execute `python3 -m src.unified_langgraph_pipeline --max-attempts 2` to try the LangGraph research+script pipeline with controlled regeneration and manual-review fallbacks.
 
 ## Git Setup
 ```bash

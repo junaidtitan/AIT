@@ -1,0 +1,11 @@
+{
+  "dockerfile_path": "./Dockerfile",
+  "graphs": {
+    "research": "./src/graphs/research_graph.py:build_research_graph",
+    "script": "./src/graphs/script_graph.py:build_script_graph",
+    "unified": "./src/unified_langgraph_pipeline.py:create_unified_graph"
+  },
+  "dependencies": ["."],
+  "pip": ["requirements/langgraph.lock"],
+  "env": ".env"
+}

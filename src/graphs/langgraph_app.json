@@ -1,0 +1,10 @@
+{
+  "workflows": {
+    "research": {
+      "entrypoint": "src.graphs.research_graph:build_research_graph"
+    },
+    "script": {
+      "entrypoint": "src.graphs.script_graph:build_script_graph"
+    }
+  }
+}

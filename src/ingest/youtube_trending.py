@@ -13,6 +13,8 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import subprocess
 
+from src.utils import to_thread
+
 class YouTubeTrendingTracker:
     """Track trending AI topics on YouTube"""
 
@@ -142,6 +144,10 @@ class YouTubeTrendingTracker:
         print(f"🔥 Top trending keywords: {', '.join(list(trending_keywords.keys())[:10])}")
 
         return trending_keywords
+
+    async def aget_trending_boost_scores(self) -> Dict[str, float]:
+        """Async wrapper for use inside LangGraph nodes."""
+        return await to_thread(self.get_trending_boost_scores)
 
     def save_trending_to_sheet(self, trending_keywords: Dict[str, float]):
         """Save trending keywords to Google Sheet for manual review"""

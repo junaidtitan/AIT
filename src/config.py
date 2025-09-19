@@ -23,6 +23,15 @@ class Settings:
     DB_URL: str | None = os.getenv("DB_URL")
     PUBLISH_HOUR_PT: int = int(os.getenv("PUBLISH_HOUR_PT", "18"))
     TIMEZONE: str = os.getenv("TIMEZONE", "America/Los_Angeles")
+    USE_LANGGRAPH: bool = os.getenv("USE_LANGGRAPH", "false").lower() == "true"
+    LANGGRAPH_CHECKPOINT_DIR: str = os.getenv(
+        "LANGGRAPH_CHECKPOINT_DIR", "./.langgraph/checkpoints"
+    )
+    LANGGRAPH_MAX_CONCURRENCY: int = int(os.getenv("LANGGRAPH_MAX_CONCURRENCY", "4"))
+    LANGGRAPH_NODE_TIMEOUT: float = float(os.getenv("LANGGRAPH_NODE_TIMEOUT", "30"))
+    LANGGRAPH_RETRY_BACKOFF: float = float(os.getenv("LANGGRAPH_RETRY_BACKOFF", "1.5"))
+    LANGGRAPH_PROJECT: str | None = os.getenv("LANGGRAPH_PROJECT")
+    LANGGRAPH_STUDIO_TOKEN: str | None = os.getenv("LANGGRAPH_STUDIO_TOKEN")
 
 
 settings = Settings()

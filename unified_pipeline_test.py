@@ -10,6 +10,7 @@ import json
 import time
 import subprocess
 import argparse
+import asyncio
 from datetime import datetime
 from pathlib import Path
 
@@ -655,11 +656,29 @@ class UnifiedPipelineTest:
 def main():
     parser = argparse.ArgumentParser(description='Unified Pipeline Test')
     parser.add_argument('--output-dir', help='Output directory for artifacts')
-    parser.add_argument('--sample-script', action='store_true', 
+    parser.add_argument('--sample-script', action='store_true',
                        help='Use sample script instead of research')
-    
+    parser.add_argument('--use-langgraph', action='store_true',
+                       help='Run the LangGraph research and script pipeline')
+
     args = parser.parse_args()
-    
+
+    if args.use_langgraph:
+        from src.unified_langgraph_pipeline import run_pipeline
+
+        research_state, script_state = asyncio.run(run_pipeline())
+        print("\n🔍 LangGraph research diagnostics:")
+        for event in research_state.diagnostics.events:
+            print(f"  - {event}")
+        if script_state.final_script and script_state.final_script.final_text:
+            print("\n📝 Generated script (first 400 chars):")
+            print(script_state.final_script.final_text[:400])
+        if script_state.manual_review:
+            print("\n⚠️ LangGraph output requires manual review before publish.")
+        return 0
+        print("\n❌ LangGraph pipeline failed", script_state.errors)
+        return 1
+
     # Create pipeline tester
     tester = UnifiedPipelineTest(output_dir=args.output_dir)
     

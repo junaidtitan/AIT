@@ -8,6 +8,8 @@ import os
 from typing import Dict, List
 from datetime import datetime
 
+from src.utils import to_thread
+
 def get_trending_keywords_simple() -> Dict[str, float]:
     """
     Get trending AI keywords based on current patterns
@@ -75,6 +77,11 @@ def get_trending_keywords_simple() -> Dict[str, float]:
     trending.update(current_events)
 
     return trending
+
+
+async def aget_trending_keywords_simple() -> Dict[str, float]:
+    """Async helper for use within LangGraph nodes."""
+    return await to_thread(get_trending_keywords_simple)
 
 
 def boost_with_simple_trends(articles: List[Dict]) -> List[Dict]:
