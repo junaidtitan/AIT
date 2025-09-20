@@ -1,97 +1,128 @@
-"""Unified visual pipeline showing all stages connected."""
+"""Unified visual pipeline showing Research feeding into Script generation."""
 
-from langgraph.graph import END, StateGraph
-from typing import TypedDict, List, Dict, Any, Optional
+from __future__ import annotations
 
-# Import all node functions from both graphs
-from src.graphs.nodes.metadata import load_metadata
-from src.graphs.nodes.feed_fetcher import fetch_feeds
-from src.graphs.nodes.merge import merge_sources
-from src.graphs.nodes.enrichment import enrich_stories
-from src.graphs.nodes.scoring import score_stories
-from src.graphs.nodes.selection import select_stories
+from typing import Any, Dict, List, Optional
+from langgraph.graph import StateGraph, END
+from pydantic import BaseModel, Field
+import uuid
+
+from src.graphs.checkpoints import get_default_checkpointer
+from src.models import (
+    PipelineDiagnostics,
+    ScoredStory,
+    ScriptDraft,
+    StoryEnriched,
+    StoryInput,
+    StorySource,
+)
+
+# Import nodes from existing graphs
+from src.graphs.nodes.fetchers import fetch_story_feeds, load_sheet_metadata
+from src.graphs.nodes.enrichers import enrich_stories
+from src.graphs.nodes.mergers import merge_and_dedupe
+from src.graphs.nodes.rankers import score_stories, select_top_stories
 from src.graphs.nodes.script_generation import (
     prepare_story_payload,
     generate_script,
-    assess_script,
     mark_manual_review,
     finalize_script,
+    assess_script,
 )
-from src.graphs.checkpoints import get_default_checkpointer
 
-class UnifiedState(TypedDict):
-    """Unified state for all pipeline stages."""
-    # Stage 1: Research
-    request_id: str
-    sources: Optional[List[Dict]]
-    raw_stories: Optional[List[Dict]]
-    enriched_stories: Optional[List[Dict]]
-    scored_stories: Optional[List[Dict]]
-    selected_stories: Optional[List[Dict]]
-    companies: Optional[List[str]]
-    scoring_weights: Optional[Dict]
-    trending_keywords: Optional[List[str]]
-    hours_filter: Optional[int]
-    diagnostics: Optional[Dict]
-    errors: Optional[List[str]]
-    checkpoints: Optional[Dict]
-    metadata: Optional[Dict]
+
+class UnifiedPipelineState(BaseModel):
+    """Combined state for Research -> Script pipeline."""
+
+    # Common
+    request_id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+
+    # Stage 1 – Research
+    sources: List[StorySource] = Field(default_factory=list)
+    raw_stories: List[StoryInput] = Field(default_factory=list)
+    enriched_stories: List[StoryEnriched] = Field(default_factory=list)
+    scored_stories: List[ScoredStory] = Field(default_factory=list)
+    selected_stories: List[ScoredStory] = Field(default_factory=list)
+    companies: Dict[str, List[str]] = Field(default_factory=dict)
+    scoring_weights: Dict[str, float] = Field(default_factory=dict)
+    trending_keywords: Dict[str, float] = Field(default_factory=dict)
+    hours_filter: Optional[int] = None
+
+    # Stage 2 – Script
+    analysis: Dict[str, Any] = Field(default_factory=dict)
+    segments: List[Dict[str, Any]] = Field(default_factory=list)
+    draft: Optional[ScriptDraft] = None
+    validation: Optional[Dict[str, Any]] = None
+    final_script: Optional[ScriptDraft] = None
+    attempts: int = 0
+    manual_review: bool = False
+
+    # Shared metadata / diagnostics
+    errors: List[str] = Field(default_factory=list)
+    diagnostics: PipelineDiagnostics = Field(default_factory=PipelineDiagnostics)
+    checkpoints: Dict[str, Any] = Field(default_factory=dict)
+    metadata: Dict[str, Any] = Field(default_factory=dict)
+
+
+def build_unified_visual_graph() -> StateGraph:
+    """Build the unified graph showing Research -> Script flow."""
     
-    # Stage 2: Script
-    story_payload: Optional[Dict]
-    script_draft: Optional[Dict]
-    validation: Optional[Dict]
-    manual_review: Optional[bool]
-    final_script: Optional[Dict]
-
-def create_unified_visual_graph():
-    """Create a visual graph showing all stages connected."""
-    graph = StateGraph(UnifiedState)
+    graph = StateGraph(UnifiedPipelineState)
     
     # Stage 1: Research nodes
-    graph.add_node("load_metadata", load_metadata)
-    graph.add_node("fetch_feeds", fetch_feeds)
-    graph.add_node("merge", merge_sources)
-    graph.add_node("enrich", enrich_stories)
-    graph.add_node("score", score_stories)
-    graph.add_node("select", select_stories)
+    graph.add_node("📊 Load Metadata", load_sheet_metadata)
+    graph.add_node("📰 Fetch Feeds", fetch_story_feeds)
+    graph.add_node("🔀 Merge Stories", merge_and_dedupe)
+    graph.add_node("💎 Enrich Stories", enrich_stories)
+    graph.add_node("⭐ Score Stories", score_stories)
+    graph.add_node("🎯 Select Top Stories", select_top_stories)
     
-    # Stage 2: Script nodes
-    graph.add_node("prepare_script", prepare_story_payload)
-    graph.add_node("generate_script", generate_script)
-    graph.add_node("manual_review", mark_manual_review)
-    graph.add_node("finalize_script", finalize_script)
+    # Bridge node to connect Research to Script
+    def bridge_research_to_script(state: UnifiedPipelineState) -> UnifiedPipelineState:
+        """Bridge function to pass research output to script generation."""
+        print(f"✅ Research complete. Selected {len(state.selected_stories)} stories for script generation.")
+        return state
+    
+    graph.add_node("🔗 Bridge to Script", bridge_research_to_script)
+    
+    # Stage 2: Script nodes  
+    graph.add_node("📝 Prepare Script", prepare_story_payload)
+    graph.add_node("✍️ Generate Script", generate_script)
+    graph.add_node("👁️ Manual Review", mark_manual_review)
+    graph.add_node("✅ Finalize Script", finalize_script)
     
     # Set entry point
-    graph.set_entry_point("load_metadata")
+    graph.set_entry_point("📊 Load Metadata")
     
-    # Stage 1 flow
-    graph.add_edge("load_metadata", "fetch_feeds")
-    graph.add_edge("fetch_feeds", "merge")
-    graph.add_edge("merge", "enrich")
-    graph.add_edge("enrich", "score")
-    graph.add_edge("score", "select")
+    # Stage 1 edges (Research flow)
+    graph.add_edge("📊 Load Metadata", "📰 Fetch Feeds")
+    graph.add_edge("📰 Fetch Feeds", "🔀 Merge Stories")
+    graph.add_edge("🔀 Merge Stories", "💎 Enrich Stories")
+    graph.add_edge("💎 Enrich Stories", "⭐ Score Stories")
+    graph.add_edge("⭐ Score Stories", "🎯 Select Top Stories")
     
-    # Connect Stage 1 to Stage 2
-    graph.add_edge("select", "prepare_script")
+    # Connect Research to Script through bridge
+    graph.add_edge("🎯 Select Top Stories", "🔗 Bridge to Script")
+    graph.add_edge("🔗 Bridge to Script", "📝 Prepare Script")
     
-    # Stage 2 flow
-    graph.add_edge("prepare_script", "generate_script")
+    # Stage 2 edges (Script flow)
+    graph.add_edge("📝 Prepare Script", "✍️ Generate Script")
     graph.add_conditional_edges(
-        "generate_script",
+        "✍️ Generate Script",
         assess_script,
         {
-            "accept": "finalize_script",
-            "retry": "generate_script",
-            "manual": "manual_review",
+            "accept": "✅ Finalize Script",
+            "retry": "✍️ Generate Script",
+            "manual": "👁️ Manual Review",
         },
     )
-    graph.add_edge("manual_review", "finalize_script")
-    graph.add_edge("finalize_script", END)
+    graph.add_edge("👁️ Manual Review", "✅ Finalize Script")
+    graph.add_edge("✅ Finalize Script", END)
     
-    # Add checkpointer
-    checkpointer = get_default_checkpointer("unified_visual")
-    return graph.compile(checkpointer=checkpointer)
+    # Compile with checkpointer
+    # Checkpointer removed for LangGraph API
+    return graph.compile()
 
-# Export for LangGraph
-build_unified_visual_graph = create_unified_visual_graph
+
+# Entry point for LangGraph
+graph = build_unified_visual_graph()
