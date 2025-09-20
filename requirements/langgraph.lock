@@ -11,3 +11,5 @@ aiofiles==23.2.1
 anyio==4.4.0
 python-dotenv==1.0.1
 xxhash==3.5.0
+
+youtube-transcript-api==0.6.3

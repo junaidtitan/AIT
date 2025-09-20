@@ -28,7 +28,6 @@ This repository contains **all code, documents, and strategies** for building th
 4. Run `scripts/bootstrap_langgraph.sh` to install LangGraph-specific dependencies and create `.env.langgraph`.
 5. Execute `python3 -m src.unified_langgraph_pipeline --max-attempts 2` to try the LangGraph research+script pipeline with controlled regeneration and manual-review fallbacks.
 
-TODO: add `youtube_transcript_api` to the pinned requirements so transcript-based boosts work in every environment.
 
 ## Git Setup
 ```bash
