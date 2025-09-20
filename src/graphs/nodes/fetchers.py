@@ -36,8 +36,23 @@ async def load_sheet_metadata(state: ResearchState) -> ResearchState:
     try:
         tracker = YouTubeTrendingTracker()
         trending = await tracker.aget_trending_boost_scores()
+        tracker.save_trending_to_sheet()
+        state.metadata["trending_signals"] = [
+            {
+                "keyword": boost.keyword,
+                "boost": boost.boost,
+                "confidence": boost.confidence,
+                "companies": boost.companies,
+                "rationale": boost.rationale,
+            }
+            for boost in tracker.latest_boosts.values()
+        ]
     except Exception:
         trending = get_trending_keywords_simple()
+        state.metadata["trending_signals"] = [
+            {"keyword": key, "boost": value, "confidence": "low"}
+            for key, value in trending.items()
+        ]
     state.trending_keywords = trending
     state.diagnostics.record(
         "info",

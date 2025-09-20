@@ -1,4 +1,0 @@
-{
-  "public_url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-  "error": "HTTPSConnectionPool(host='api.elevenlabs.io', port=443): Max retries exceeded with url: /v1/text-to-speech/21m00Tcm4TlvDq8ikWAM (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x70f27617e230>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
-}
