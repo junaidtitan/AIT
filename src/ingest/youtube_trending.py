@@ -344,6 +344,14 @@ class YouTubeTrendingTracker:
             )
             service = build("sheets", "v4", credentials=credentials)
 
+            spreadsheet = service.spreadsheets().get(spreadsheetId=SHEET_ID).execute()
+            titles = {sheet["properties"]["title"] for sheet in spreadsheet.get("sheets", [])}
+            if "Trending" not in titles:
+                service.spreadsheets().batchUpdate(
+                    spreadsheetId=SHEET_ID,
+                    body={"requests": [{"addSheet": {"properties": {"title": "Trending"}}}]},
+                ).execute()
+
             rows = [["Keyword", "Boost Score", "Confidence", "Companies", "Rationale", "Last Updated"]]
             timestamp = datetime.now().isoformat()
             boosts = self._latest_boosts or self._fallback_boosts()

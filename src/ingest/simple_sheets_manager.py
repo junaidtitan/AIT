@@ -345,6 +345,7 @@ class SimpleSheetsManager:
 
             tracker = YouTubeTrendingTracker()
             trending = tracker.get_trending_boost_scores()
+            tracker.save_trending_to_sheet()
         except Exception:
             from src.ingest.youtube_trending_simple import get_trending_keywords_simple
 
