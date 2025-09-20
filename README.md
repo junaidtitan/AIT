@@ -27,6 +27,7 @@ This repository contains **all code, documents, and strategies** for building th
 3. Run `python3 unified_pipeline_test.py --sample-script` to exercise the unified pipeline locally.
 4. Run `scripts/bootstrap_langgraph.sh` to install LangGraph-specific dependencies and create `.env.langgraph`.
 5. Execute `python3 -m src.unified_langgraph_pipeline --max-attempts 2` to try the LangGraph research+script pipeline with controlled regeneration and manual-review fallbacks.
+6. Use `python sync_langflow_changes.py` after editing the Langflow UI to publish the visual pipeline changes.
 
 
 ## Git Setup

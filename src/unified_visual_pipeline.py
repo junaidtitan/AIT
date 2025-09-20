@@ -1,13 +1,15 @@
-"""Unified visual pipeline showing Research feeding into Script generation."""
+"""Unified visual pipeline configured via Langflow."""
 
 from __future__ import annotations
 
-from typing import Any, Dict, List, Optional
-from langgraph.graph import StateGraph, END
-from pydantic import BaseModel, Field
 import uuid
+from pathlib import Path
+from typing import Any, Dict, List, Optional
 
-from src.graphs.checkpoints import get_default_checkpointer
+from langgraph.graph import StateGraph
+from pydantic import BaseModel, Field
+
+
 from src.models import (
     PipelineDiagnostics,
     ScoredStory,
@@ -15,19 +17,6 @@ from src.models import (
     StoryEnriched,
     StoryInput,
     StorySource,
-)
-
-# Import nodes from existing graphs
-from src.graphs.nodes.fetchers import fetch_story_feeds, load_sheet_metadata
-from src.graphs.nodes.enrichers import enrich_stories
-from src.graphs.nodes.mergers import merge_and_dedupe
-from src.graphs.nodes.rankers import score_stories, select_top_stories
-from src.graphs.nodes.script_generation import (
-    prepare_story_payload,
-    generate_script,
-    mark_manual_review,
-    finalize_script,
-    assess_script,
 )
 
 
@@ -64,64 +53,15 @@ class UnifiedPipelineState(BaseModel):
     metadata: Dict[str, Any] = Field(default_factory=dict)
 
 
+CONFIG_PATH = Path(__file__).resolve().parents[1] / "langflow" / "pipeline_config.json"
+
+
 def build_unified_visual_graph() -> StateGraph:
-    """Build the unified graph showing Research -> Script flow."""
-    
-    graph = StateGraph(UnifiedPipelineState)
-    
-    # Stage 1: Research nodes
-    graph.add_node("📊 Load Metadata", load_sheet_metadata)
-    graph.add_node("📰 Fetch Feeds", fetch_story_feeds)
-    graph.add_node("🔀 Merge Stories", merge_and_dedupe)
-    graph.add_node("💎 Enrich Stories", enrich_stories)
-    graph.add_node("⭐ Score Stories", score_stories)
-    graph.add_node("🎯 Select Top Stories", select_top_stories)
-    
-    # Bridge node to connect Research to Script
-    def bridge_research_to_script(state: UnifiedPipelineState) -> UnifiedPipelineState:
-        """Bridge function to pass research output to script generation."""
-        print(f"✅ Research complete. Selected {len(state.selected_stories)} stories for script generation.")
-        return state
-    
-    graph.add_node("🔗 Bridge to Script", bridge_research_to_script)
-    
-    # Stage 2: Script nodes  
-    graph.add_node("📝 Prepare Script", prepare_story_payload)
-    graph.add_node("✍️ Generate Script", generate_script)
-    graph.add_node("👁️ Manual Review", mark_manual_review)
-    graph.add_node("✅ Finalize Script", finalize_script)
-    
-    # Set entry point
-    graph.set_entry_point("📊 Load Metadata")
-    
-    # Stage 1 edges (Research flow)
-    graph.add_edge("📊 Load Metadata", "📰 Fetch Feeds")
-    graph.add_edge("📰 Fetch Feeds", "🔀 Merge Stories")
-    graph.add_edge("🔀 Merge Stories", "💎 Enrich Stories")
-    graph.add_edge("💎 Enrich Stories", "⭐ Score Stories")
-    graph.add_edge("⭐ Score Stories", "🎯 Select Top Stories")
-    
-    # Connect Research to Script through bridge
-    graph.add_edge("🎯 Select Top Stories", "🔗 Bridge to Script")
-    graph.add_edge("🔗 Bridge to Script", "📝 Prepare Script")
-    
-    # Stage 2 edges (Script flow)
-    graph.add_edge("📝 Prepare Script", "✍️ Generate Script")
-    graph.add_conditional_edges(
-        "✍️ Generate Script",
-        assess_script,
-        {
-            "accept": "✅ Finalize Script",
-            "retry": "✍️ Generate Script",
-            "manual": "👁️ Manual Review",
-        },
-    )
-    graph.add_edge("👁️ Manual Review", "✅ Finalize Script")
-    graph.add_edge("✅ Finalize Script", END)
-    
-    # Compile with checkpointer
-    # Checkpointer removed for LangGraph API
-    return graph.compile()
+    """Build the unified graph based on the Langflow-authored config."""
+
+    from langflow_support import build_graph_from_file
+
+    return build_graph_from_file(CONFIG_PATH)
 
 
 # Entry point for LangGraph

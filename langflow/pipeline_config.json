@@ -1,0 +1,42 @@
+{
+  "pipeline": {
+    "name": "unified_pipeline",
+    "state": "UnifiedPipelineState",
+    "entry_point": "load_metadata",
+    "checkpointer_id": "unified_pipeline"
+  },
+  "nodes": [
+    {"id": "load_metadata", "component": "load_metadata", "params": {}},
+    {"id": "fetch_feeds", "component": "fetch_feeds", "params": {}},
+    {"id": "merge", "component": "merge_stories", "params": {}},
+    {"id": "enrich", "component": "enrich_stories", "params": {}},
+    {"id": "score", "component": "score_stories", "params": {}},
+    {"id": "select", "component": "select_stories", "params": {}},
+    {"id": "prepare", "component": "prepare_script", "params": {}},
+    {"id": "generate", "component": "generate_script", "params": {}},
+    {"id": "manual_review", "component": "manual_review", "params": {}},
+    {"id": "finalize", "component": "finalize_script", "params": {}}
+  ],
+  "edges": [
+    {"source": "load_metadata", "target": "fetch_feeds"},
+    {"source": "fetch_feeds", "target": "merge"},
+    {"source": "merge", "target": "enrich"},
+    {"source": "enrich", "target": "score"},
+    {"source": "score", "target": "select"},
+    {"source": "select", "target": "prepare"},
+    {"source": "prepare", "target": "generate"},
+    {"source": "manual_review", "target": "finalize"}
+  ],
+  "conditional_edges": [
+    {
+      "source": "generate",
+      "router": "assess_script",
+      "routes": {
+        "accept": "finalize",
+        "retry": "generate",
+        "manual": "manual_review"
+      }
+    }
+  ],
+  "end_nodes": ["finalize"]
+}

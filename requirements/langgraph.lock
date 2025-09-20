@@ -13,3 +13,4 @@ python-dotenv==1.0.1
 xxhash==3.5.0
 
 youtube-transcript-api==0.6.3
+requests==2.32.3

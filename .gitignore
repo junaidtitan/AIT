@@ -43,3 +43,10 @@ oauth_*.json
 tmp/
 temp/
 .langgraph/
+
+# Langflow artifacts
+langflow_flows/
+langflow/.edit.lock
+LANGFLOW_CAPABILITIES.md
+LANGFLOW_CHANGES_GUIDE.md
+import_flow.py
